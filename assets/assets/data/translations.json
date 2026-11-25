@@ -1,0 +1,5930 @@
+[
+  {
+    "id": "tr_ch4_en_01",
+    "chapterId": "ch4",
+    "direction": "en_vi",
+    "title": "Introduction to Actuators",
+    "sourceText": "An actuator is an electromechanical device that converts energy into mechanical work or motion. There are three different types of robot actuators: pneumatic actuators, hydraulic actuators, and electric actuators.",
+    "sampleTranslation": "Cơ cấu chấp hành là một thiết bị cơ điện có chức năng chuyển đổi năng lượng thành công cơ học hoặc chuyển động. Có ba loại cơ cấu chấp hành cho robot khác nhau: cơ cấu chấp hành khí nén, cơ cấu chấp hành thủy lực và cơ cấu chấp hành điện.",
+    "keyTerms": [
+      {
+        "en": "actuator",
+        "vi": "cơ cấu chấp hành"
+      },
+      {
+        "en": "electromechanical device",
+        "vi": "thiết bị cơ điện"
+      },
+      {
+        "en": "mechanical work or motion",
+        "vi": "công cơ học hoặc chuyển động"
+      },
+      {
+        "en": "pneumatic actuators",
+        "vi": "cơ cấu chấp hành khí nén"
+      },
+      {
+        "en": "hydraulic actuators",
+        "vi": "cơ cấu chấp hành thủy lực"
+      },
+      {
+        "en": "electric actuators",
+        "vi": "cơ cấu chấp hành điện"
+      }
+    ],
+    "keyPhrases": [
+      "converts energy into",
+      "three different types"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "cơ cấu chấp hành",
+        "alternatives": [
+          "bộ truyền động",
+          "thiết bị chấp hành"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "thiết bị cơ điện",
+        "alternatives": [
+          "cơ điện"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "chuyển đổi năng lượng",
+        "alternatives": [
+          "biến đổi năng lượng"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "công cơ học",
+        "alternatives": [
+          "chuyển động cơ học",
+          "chuyển động"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "khí nén",
+        "alternatives": [],
+        "weight": 1.0
+      },
+      {
+        "term": "thủy lực",
+        "alternatives": [],
+        "weight": 1.0
+      },
+      {
+        "term": "điện",
+        "alternatives": [],
+        "weight": 1.0
+      }
+    ],
+    "grammarOrTranslationHints": "Cụm 'converts A into B' dịch là 'chuyển đổi A thành B'. Giữ đúng tên 3 loại cơ cấu chấp hành.",
+    "importantNotes": "Đây là định nghĩa nền tảng trong Chapter 4 Reading (Page 7)."
+  },
+  {
+    "id": "tr_ch4_en_02",
+    "chapterId": "ch4",
+    "direction": "en_vi",
+    "title": "Pneumatic Actuators Principle",
+    "sourceText": "Pneumatic actuators generate mechanical motion using compressed air, a principle widely applied in industrial automation for its simplicity and reliability. These actuators operate by creating a pressure differential across a diaphragm or piston.",
+    "sampleTranslation": "Cơ cấu chấp hành khí nén tạo ra chuyển động cơ học bằng cách sử dụng khí nén, một nguyên lý được ứng dụng rộng rãi trong tự động hóa công nghiệp nhờ tính đơn giản và độ tin cậy của nó. Các cơ cấu chấp hành này hoạt động bằng cách tạo ra sự chênh lệch áp suất qua màng ngăn hoặc pít-tông.",
+    "keyTerms": [
+      {
+        "en": "compressed air",
+        "vi": "khí nén"
+      },
+      {
+        "en": "industrial automation",
+        "vi": "tự động hóa công nghiệp"
+      },
+      {
+        "en": "simplicity and reliability",
+        "vi": "tính đơn giản và độ tin cậy"
+      },
+      {
+        "en": "pressure differential",
+        "vi": "chênh lệch áp suất"
+      },
+      {
+        "en": "diaphragm or piston",
+        "vi": "màng ngăn hoặc pít-tông"
+      }
+    ],
+    "keyPhrases": [
+      "widely applied in",
+      "operate by creating"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "khí nén",
+        "alternatives": [
+          "cơ cấu chấp hành khí nén"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "chuyển động cơ học",
+        "alternatives": [
+          "chuyển động"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "tự động hóa công nghiệp",
+        "alternatives": [
+          "công nghiệp"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "đơn giản",
+        "alternatives": [
+          "tin cậy",
+          "độ tin cậy"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "chênh lệch áp suất",
+        "alternatives": [
+          "áp suất"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "màng ngăn",
+        "alternatives": [
+          "pít-tông",
+          "piston"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Mệnh đề 'for its simplicity and reliability' dịch là 'nhờ/vì tính đơn giản và độ tin cậy của nó'.",
+    "importantNotes": "Trích từ CN159E-4 Reading (Page 8)."
+  },
+  {
+    "id": "tr_ch4_en_03",
+    "chapterId": "ch4",
+    "direction": "en_vi",
+    "title": "Controlling Pneumatic Actuators",
+    "sourceText": "When compressed air is supplied to the actuator chamber, it moves the piston, converting air pressure into linear motion. The speed and force of this motion can be finely controlled by adjusting the air pressure and flow rate using regulators, valves, and flow control devices, with solenoid valves commonly employed to direct and control airflow.",
+    "sampleTranslation": "Khi khí nén được cấp vào buồng chấp hành, nó làm dịch chuyển pít-tông, chuyển đổi áp suất khí thành chuyển động thẳng. Tốc độ và lực của chuyển động này có thể được điều khiển chính xác bằng cách điều chỉnh áp suất khí và lưu lượng thông qua bộ điều áp, van và các thiết bị điều khiển lưu lượng, trong đó van điện từ thường được sử dụng để định hướng và điều khiển dòng khí.",
+    "keyTerms": [
+      {
+        "en": "actuator chamber",
+        "vi": "buồng chấp hành"
+      },
+      {
+        "en": "linear motion",
+        "vi": "chuyển động thẳng"
+      },
+      {
+        "en": "flow rate",
+        "vi": "lưu lượng"
+      },
+      {
+        "en": "regulators",
+        "vi": "bộ điều áp / bộ điều chỉnh"
+      },
+      {
+        "en": "solenoid valves",
+        "vi": "van điện từ"
+      },
+      {
+        "en": "airflow",
+        "vi": "dòng khí"
+      }
+    ],
+    "keyPhrases": [
+      "finely controlled by",
+      "commonly employed to"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "buồng",
+        "alternatives": [
+          "buồng chấp hành"
+        ],
+        "weight": 1.0
+      },
+      {
+        "term": "pít-tông",
+        "alternatives": [
+          "piston"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "chuyển động thẳng",
+        "alternatives": [
+          "tuyến tính"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "tốc độ và lực",
+        "alternatives": [
+          "tốc độ",
+          "lực"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "lưu lượng",
+        "alternatives": [
+          "áp suất khí"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "van điện từ",
+        "alternatives": [
+          "van"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "dòng khí",
+        "alternatives": [
+          "luồng khí"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "grammarOrTranslationHints": "'finely controlled' là 'điều khiển tinh vi / chính xác'. 'with solenoid valves commonly employed' là cấu trúc bổ sung: 'với van điện từ thường được dùng để...'.",
+    "importantNotes": "Trích từ CN159E-4 Reading (Page 8)."
+  },
+  {
+    "id": "tr_ch4_en_04",
+    "chapterId": "ch4",
+    "direction": "en_vi",
+    "title": "Hydraulic Actuators & Pascal's Law",
+    "sourceText": "Hydraulic actuators utilize pressurized fluid to create mechanical motion, based on Pascal's law, which states that pressure applied to a confined fluid is transmitted undiminished in all directions. This ability to produce high force makes hydraulic actuators suitable for heavy-duty applications where precise control of speed and position is crucial.",
+    "sampleTranslation": "Cơ cấu chấp hành thủy lực sử dụng chất lỏng có áp suất để tạo ra chuyển động cơ học, dựa trên định luật Pascal, định luật phát biểu rằng áp suất tác dụng lên chất lỏng trong không gian kín được truyền đi nguyên vẹn theo mọi hướng. Khả năng tạo ra lực lớn này giúp cơ cấu chấp hành thủy lực phù hợp với các ứng dụng tải trọng nặng, nơi việc điều khiển chính xác tốc độ và vị trí là rất quan trọng.",
+    "keyTerms": [
+      {
+        "en": "pressurized fluid",
+        "vi": "chất lỏng có áp suất"
+      },
+      {
+        "en": "Pascal's law",
+        "vi": "định luật Pascal"
+      },
+      {
+        "en": "confined fluid",
+        "vi": "chất lỏng trong không gian kín"
+      },
+      {
+        "en": "transmitted undiminished",
+        "vi": "truyền đi nguyên vẹn / không suy giảm"
+      },
+      {
+        "en": "heavy-duty applications",
+        "vi": "ứng dụng tải trọng nặng"
+      }
+    ],
+    "keyPhrases": [
+      "transmitted undiminished in all directions",
+      "precise control of speed and position"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "thủy lực",
+        "alternatives": [
+          "cơ cấu chấp hành thủy lực"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "chất lỏng có áp suất",
+        "alternatives": [
+          "chất lỏng"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "pascal",
+        "alternatives": [
+          "định luật pascal"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "mọi hướng",
+        "alternatives": [
+          "nguyên vẹn",
+          "không giảm"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "lực lớn",
+        "alternatives": [
+          "lực cao"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "tải trọng nặng",
+        "alternatives": [
+          "hạng nặng"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "tốc độ và vị trí",
+        "alternatives": [
+          "chính xác"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "grammarOrTranslationHints": "'transmitted undiminished' nghĩa là 'được truyền đi nguyên vẹn (không bị suy giảm)'.",
+    "importantNotes": "Trích từ CN159E-4 Reading (Page 10)."
+  },
+  {
+    "id": "tr_ch4_en_05",
+    "chapterId": "ch4",
+    "direction": "en_vi",
+    "title": "Electric Actuators & Feedback",
+    "sourceText": "Electric actuators operate on electromagnetic principles, using electric motors to convert electrical energy into mechanical motion. The core components include a rotor, stator, and a commutation system. Control systems, often incorporating feedback loops with sensors like encoders, regulate the current to achieve precise movement and positioning, making electric actuators suitable for robotics and CNC machinery.",
+    "sampleTranslation": "Cơ cấu chấp hành điện hoạt động dựa trên nguyên lý điện từ, sử dụng động cơ điện để chuyển đổi điện năng thành chuyển động cơ học. Các thành phần cốt lõi bao gồm rô-to, sta-to và hệ thống cổ góp. Các hệ thống điều khiển, thường tích hợp vòng hồi tiếp với các cảm biến như bộ mã hóa, sẽ điều chỉnh dòng điện để đạt được chuyển động và định vị chính xác, giúp cơ cấu chấp hành điện phù hợp với robot và máy móc CNC.",
+    "keyTerms": [
+      {
+        "en": "electromagnetic principles",
+        "vi": "nguyên lý điện từ"
+      },
+      {
+        "en": "electrical energy",
+        "vi": "điện năng"
+      },
+      {
+        "en": "rotor, stator, and commutation system",
+        "vi": "rô-to, sta-to và hệ thống cổ góp"
+      },
+      {
+        "en": "feedback loops",
+        "vi": "vòng hồi tiếp"
+      },
+      {
+        "en": "encoders",
+        "vi": "bộ mã hóa"
+      },
+      {
+        "en": "CNC machinery",
+        "vi": "máy móc CNC"
+      }
+    ],
+    "keyPhrases": [
+      "incorporating feedback loops",
+      "precise movement and positioning"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "nguyên lý điện từ",
+        "alternatives": [
+          "điện từ"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "động cơ điện",
+        "alternatives": [
+          "điện năng"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "rô-to",
+        "alternatives": [
+          "rotor",
+          "stator",
+          "sta-to"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "hồi tiếp",
+        "alternatives": [
+          "vòng hồi tiếp",
+          "phản hồi"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "bộ mã hóa",
+        "alternatives": [
+          "encoder"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "dòng điện",
+        "alternatives": [
+          "định vị"
+        ],
+        "weight": 1.0
+      },
+      {
+        "term": "robot",
+        "alternatives": [
+          "cnc"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Giữ nguyên thuật ngữ 'CNC' và 'encoder' (hoặc dịch là bộ mã hóa).",
+    "importantNotes": "Trích từ CN159E-4 Reading (Page 11)."
+  },
+  {
+    "id": "tr_ch4_vi_01",
+    "chapterId": "ch4",
+    "direction": "vi_en",
+    "title": "Định nghĩa và phân loại cơ cấu chấp hành",
+    "sourceText": "Cơ cấu chấp hành là một thiết bị cơ điện chuyển đổi năng lượng thành công cơ học hoặc chuyển động. Dựa trên nguồn năng lượng, có ba loại chính là cơ cấu chấp hành khí nén, cơ cấu chấp hành thủy lực và cơ cấu chấp hành điện.",
+    "sampleTranslation": "An actuator is an electromechanical device that converts energy into mechanical work or motion. Based on the energy source, there are three main types: pneumatic actuators, hydraulic actuators, and electric actuators.",
+    "keyTerms": [
+      {
+        "en": "actuator",
+        "vi": "cơ cấu chấp hành"
+      },
+      {
+        "en": "electromechanical device",
+        "vi": "thiết bị cơ điện"
+      },
+      {
+        "en": "mechanical work or motion",
+        "vi": "công cơ học hoặc chuyển động"
+      },
+      {
+        "en": "pneumatic actuators",
+        "vi": "cơ cấu chấp hành khí nén"
+      },
+      {
+        "en": "hydraulic actuators",
+        "vi": "cơ cấu chấp hành thủy lực"
+      },
+      {
+        "en": "electric actuators",
+        "vi": "cơ cấu chấp hành điện"
+      }
+    ],
+    "keyPhrases": [
+      "converts energy into",
+      "based on the energy source"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "actuator",
+        "alternatives": [
+          "actuators"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "electromechanical",
+        "alternatives": [
+          "device"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "converts",
+        "alternatives": [
+          "convert",
+          "energy"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "mechanical",
+        "alternatives": [
+          "motion",
+          "work"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "pneumatic",
+        "alternatives": [],
+        "weight": 1.0
+      },
+      {
+        "term": "hydraulic",
+        "alternatives": [],
+        "weight": 1.0
+      },
+      {
+        "term": "electric",
+        "alternatives": [],
+        "weight": 1.0
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng thì hiện tại đơn (Present Simple) để nêu định nghĩa khoa học.",
+    "importantNotes": "Bám sát CN159E-4 Reading (Pages 3, 7)."
+  },
+  {
+    "id": "tr_ch4_vi_02",
+    "chapterId": "ch4",
+    "direction": "vi_en",
+    "title": "Cơ cấu chấp hành khí nén trong công nghiệp",
+    "sourceText": "Cơ cấu chấp hành khí nén tạo ra chuyển động thẳng bằng cách cấp khí nén vào buồng chấp hành để đẩy pít-tông. Van điện từ thường được sử dụng để định hướng và điều khiển dòng khí.",
+    "sampleTranslation": "Pneumatic actuators generate linear motion by supplying compressed air to the actuator chamber to move the piston. Solenoid valves are commonly used to direct and control airflow.",
+    "keyTerms": [
+      {
+        "en": "pneumatic actuators",
+        "vi": "cơ cấu chấp hành khí nén"
+      },
+      {
+        "en": "linear motion",
+        "vi": "chuyển động thẳng"
+      },
+      {
+        "en": "compressed air",
+        "vi": "khí nén"
+      },
+      {
+        "en": "actuator chamber",
+        "vi": "buồng chấp hành"
+      },
+      {
+        "en": "solenoid valves",
+        "vi": "van điện từ"
+      },
+      {
+        "en": "airflow",
+        "vi": "dòng khí"
+      }
+    ],
+    "keyPhrases": [
+      "by supplying compressed air",
+      "commonly used to"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "pneumatic",
+        "alternatives": [
+          "actuator",
+          "actuators"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "linear motion",
+        "alternatives": [
+          "linear"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "compressed air",
+        "alternatives": [
+          "air"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "chamber",
+        "alternatives": [
+          "piston"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "solenoid",
+        "alternatives": [
+          "valve",
+          "valves"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "airflow",
+        "alternatives": [
+          "air flow",
+          "control"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng 'by + V-ing' để diễn tả phương thức, và câu bị động 'are commonly used to...'.",
+    "importantNotes": "Bám sát CN159E-4 Reading (Page 8)."
+  },
+  {
+    "id": "tr_ch4_vi_03",
+    "chapterId": "ch4",
+    "direction": "vi_en",
+    "title": "Nguyên lý cơ cấu chấp hành thủy lực",
+    "sourceText": "Cơ cấu chấp hành thủy lực sử dụng chất lỏng có áp suất để di chuyển pít-tông hoặc cánh gạt quay. Hệ thống thủy lực được điều khiển bằng cách điều tiết dòng chất lỏng nhờ van và bơm.",
+    "sampleTranslation": "Hydraulic actuators utilize pressurized fluid to move a piston or rotary vane. Hydraulic systems are controlled by regulating the flow of fluid using valves and pumps.",
+    "keyTerms": [
+      {
+        "en": "hydraulic actuators",
+        "vi": "cơ cấu chấp hành thủy lực"
+      },
+      {
+        "en": "pressurized fluid",
+        "vi": "chất lỏng có áp suất"
+      },
+      {
+        "en": "piston or rotary vane",
+        "vi": "pít-tông hoặc cánh gạt quay"
+      },
+      {
+        "en": "regulating the flow of fluid",
+        "vi": "điều tiết dòng chất lỏng"
+      },
+      {
+        "en": "valves and pumps",
+        "vi": "van và bơm"
+      }
+    ],
+    "keyPhrases": [
+      "utilize pressurized fluid",
+      "are controlled by regulating"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "hydraulic",
+        "alternatives": [
+          "actuator",
+          "actuators"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "pressurized fluid",
+        "alternatives": [
+          "fluid",
+          "pressure"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "piston",
+        "alternatives": [
+          "rotary vane",
+          "vane"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "regulating",
+        "alternatives": [
+          "control",
+          "flow"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "valves",
+        "alternatives": [
+          "valve"
+        ],
+        "weight": 1.0
+      },
+      {
+        "term": "pumps",
+        "alternatives": [
+          "pump"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "grammarOrTranslationHints": "Sử dụng thể bị động 'are controlled by V-ing'.",
+    "importantNotes": "Bám sát CN159E-4 Reading (Page 10)."
+  },
+  {
+    "id": "tr_ch4_vi_04",
+    "chapterId": "ch4",
+    "direction": "vi_en",
+    "title": "Ứng dụng tải trọng nặng của thủy lực",
+    "sourceText": "Nhờ khả năng tạo ra lực lớn, cơ cấu chấp hành thủy lực rất phù hợp cho các ứng dụng tải trọng nặng như máy xúc và máy ép, nơi cần điều khiển chính xác tốc độ và vị trí.",
+    "sampleTranslation": "Because of their ability to produce high force, hydraulic actuators are very suitable for heavy-duty applications such as excavators and presses, where precise control of speed and position is required.",
+    "keyTerms": [
+      {
+        "en": "high force",
+        "vi": "lực lớn"
+      },
+      {
+        "en": "heavy-duty applications",
+        "vi": "ứng dụng tải trọng nặng"
+      },
+      {
+        "en": "excavators and presses",
+        "vi": "máy xúc và máy ép"
+      },
+      {
+        "en": "precise control",
+        "vi": "điều khiển chính xác"
+      }
+    ],
+    "keyPhrases": [
+      "suitable for",
+      "precise control of speed and position"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "force",
+        "alternatives": [
+          "high force"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "hydraulic",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "heavy-duty",
+        "alternatives": [
+          "heavy duty",
+          "heavy"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "excavators",
+        "alternatives": [
+          "excavator",
+          "presses"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "precise",
+        "alternatives": [
+          "control"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "speed",
+        "alternatives": [
+          "position"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng mệnh đề quan hệ 'where...' để bổ nghĩa cho 'heavy-duty applications'.",
+    "importantNotes": "Bám sát CN159E-4 Reading (Pages 10, 15)."
+  },
+  {
+    "id": "tr_ch4_vi_05",
+    "chapterId": "ch4",
+    "direction": "vi_en",
+    "title": "Động cơ điện và vòng hồi tiếp",
+    "sourceText": "Khi dòng điện chạy qua các cuộn dây động cơ, nó tạo ra từ trường tương tác với từ trường của sta-to, sinh ra mô-men xoắn làm quay rô-to. Hệ thống điều khiển sử dụng cảm biến như bộ mã hóa để đạt độ chính xác cao trong robot và máy CNC.",
+    "sampleTranslation": "When electric current flows through the motor windings, it creates a magnetic field that interacts with the magnetic field of the stator, producing a torque that turns the rotor. Control systems use sensors like encoders to achieve high precision in robotics and CNC machinery.",
+    "keyTerms": [
+      {
+        "en": "electric current",
+        "vi": "dòng điện"
+      },
+      {
+        "en": "motor windings",
+        "vi": "cuộn dây động cơ"
+      },
+      {
+        "en": "magnetic field",
+        "vi": "từ trường"
+      },
+      {
+        "en": "torque",
+        "vi": "mô-men xoắn"
+      },
+      {
+        "en": "encoders",
+        "vi": "bộ mã hóa"
+      },
+      {
+        "en": "robotics and CNC machinery",
+        "vi": "robot và máy CNC"
+      }
+    ],
+    "keyPhrases": [
+      "flows through",
+      "interacts with",
+      "achieve high precision"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "current",
+        "alternatives": [
+          "electric current"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "windings",
+        "alternatives": [
+          "winding",
+          "coils"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "magnetic field",
+        "alternatives": [
+          "magnetic"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "stator",
+        "alternatives": [
+          "rotor"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "torque",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "encoders",
+        "alternatives": [
+          "encoder",
+          "sensors"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "robotics",
+        "alternatives": [
+          "cnc"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "grammarOrTranslationHints": "Cụm phân từ 'producing a torque...' diễn tả kết quả của sự tương tác từ trường.",
+    "importantNotes": "Bám sát CN159E-4 Reading (Page 11)."
+  },
+  {
+    "id": "tr_ch51_en_01",
+    "chapterId": "ch5_1",
+    "direction": "en_vi",
+    "title": "Dynamic Behavior & Step Response",
+    "sourceText": "In control engineering, a controlled system is primarily characterized by its dynamic behavior, which also determines the scope and quality required to solve a control task. The step response reveals how the controlled variable reacts to a change in the manipulated variable.",
+    "sampleTranslation": "Trong kỹ thuật điều khiển, một hệ thống được điều khiển chủ yếu được đặc trưng bởi đặc tính động của nó, yếu tố cũng quyết định phạm vi và chất lượng cần thiết để giải quyết một nhiệm vụ điều khiển. Đáp ứng bậc thang cho thấy biến được điều khiển phản ứng như thế nào trước sự thay đổi của biến tác động.",
+    "keyTerms": [
+      {
+        "en": "control engineering",
+        "vi": "kỹ thuật điều khiển"
+      },
+      {
+        "en": "controlled system",
+        "vi": "hệ thống được điều khiển"
+      },
+      {
+        "en": "dynamic behavior",
+        "vi": "đặc tính động / hành vi động học"
+      },
+      {
+        "en": "step response",
+        "vi": "đáp ứng bậc thang"
+      },
+      {
+        "en": "controlled variable",
+        "vi": "biến được điều khiển"
+      },
+      {
+        "en": "manipulated variable",
+        "vi": "biến tác động"
+      }
+    ],
+    "keyPhrases": [
+      "primarily characterized by",
+      "solve a control task"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "kỹ thuật điều khiển",
+        "alternatives": [
+          "điều khiển"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "hệ thống được điều khiển",
+        "alternatives": [
+          "đối tượng điều khiển"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "đặc tính động",
+        "alternatives": [
+          "hành vi động",
+          "động học"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "đáp ứng bậc thang",
+        "alternatives": [
+          "phản ứng bậc thang"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "biến được điều khiển",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "biến tác động",
+        "alternatives": [
+          "biến điều chỉnh"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Mệnh đề quan hệ không xác định ', which also determines...' dịch là ', yếu tố này cũng quyết định...'.",
+    "importantNotes": "Trích từ CN159E-5 Reading (Page 6)."
+  },
+  {
+    "id": "tr_ch51_en_02",
+    "chapterId": "ch5_1",
+    "direction": "en_vi",
+    "title": "Self-Regulation vs Without Self-Regulation",
+    "sourceText": "It must be differentiated between controlled systems in which a new equilibrium is established after a disturbance and systems with a continuously changing controlled variable. Systems with self-regulation only change until a new stable output value is reached, whereas systems without self-regulation do not reach a new state of equilibrium.",
+    "sampleTranslation": "Cần phân biệt giữa các hệ thống được điều khiển mà trong đó một trạng thái cân bằng mới được thiết lập sau một nhiễu loạn với các hệ thống có biến được điều khiển thay đổi liên tục. Các hệ thống có tự điều chỉnh chỉ thay đổi cho đến khi đạt được giá trị đầu ra ổn định mới, trong khi các hệ thống không có tự điều chỉnh không đạt được trạng thái cân bằng mới.",
+    "keyTerms": [
+      {
+        "en": "equilibrium",
+        "vi": "trạng thái cân bằng"
+      },
+      {
+        "en": "disturbance",
+        "vi": "nhiễu loạn / nhiễu"
+      },
+      {
+        "en": "self-regulation",
+        "vi": "tự điều chỉnh"
+      },
+      {
+        "en": "stable output value",
+        "vi": "giá trị đầu ra ổn định"
+      }
+    ],
+    "keyPhrases": [
+      "differentiated between",
+      "state of equilibrium"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "phân biệt",
+        "alternatives": [
+          "khác nhau"
+        ],
+        "weight": 1.0
+      },
+      {
+        "term": "cân bằng",
+        "alternatives": [
+          "trạng thái cân bằng"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "nhiễu",
+        "alternatives": [
+          "nhiễu loạn"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "thay đổi liên tục",
+        "alternatives": [
+          "liên tục"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "tự điều chỉnh",
+        "alternatives": [],
+        "weight": 2.0
+      },
+      {
+        "term": "đầu ra ổn định",
+        "alternatives": [
+          "ổn định"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "'It must be differentiated between A and B' dịch là 'Cần phải phân biệt giữa A và B'.",
+    "importantNotes": "Trích từ CN159E-5 Reading (Page 8)."
+  },
+  {
+    "id": "tr_ch51_en_03",
+    "chapterId": "ch5_1",
+    "direction": "en_vi",
+    "title": "Closed-Loop Feedback Control",
+    "sourceText": "Systems without self-regulation require closed-loop control, because the manipulated variable must become zero as soon as the controlled variable reaches the required equilibrium. Systems with self-regulation are often much easier to control because systems without self-regulation have a tendency to oscillate and be more unstable.",
+    "sampleTranslation": "Các hệ thống không có tự điều chỉnh đòi hỏi điều khiển vòng kín, bởi vì biến tác động phải trở về bằng không ngay khi biến được điều khiển đạt đến trạng thái cân bằng yêu cầu. Các hệ thống có tự điều chỉnh thường dễ điều khiển hơn nhiều vì các hệ thống không có tự điều chỉnh có xu hướng dao động và kém ổn định hơn.",
+    "keyTerms": [
+      {
+        "en": "closed-loop control",
+        "vi": "điều khiển vòng kín"
+      },
+      {
+        "en": "manipulated variable",
+        "vi": "biến tác động"
+      },
+      {
+        "en": "oscillate",
+        "vi": "dao động"
+      },
+      {
+        "en": "unstable",
+        "vi": "kém ổn định / không ổn định"
+      }
+    ],
+    "keyPhrases": [
+      "as soon as",
+      "have a tendency to oscillate"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "không có tự điều chỉnh",
+        "alternatives": [
+          "tự điều chỉnh"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "vòng kín",
+        "alternatives": [
+          "điều khiển vòng kín"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "bằng không",
+        "alternatives": [
+          "về 0",
+          "bằng 0"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "cân bằng",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "dễ điều khiển",
+        "alternatives": [],
+        "weight": 1.0
+      },
+      {
+        "term": "dao động",
+        "alternatives": [
+          "không ổn định",
+          "kém ổn định"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "'have a tendency to V' dịch là 'có xu hướng...'.",
+    "importantNotes": "Trích từ CN159E-5 Reading (Page 9)."
+  },
+  {
+    "id": "tr_ch51_en_04",
+    "chapterId": "ch5_1",
+    "direction": "en_vi",
+    "title": "P Controlled System & Time Lag",
+    "sourceText": "In controlled systems with proportional action, the controlled variable x changes proportional to the manipulated variable y. Since any energy transfer requires a finite amount of time, P control action without any lag does not occur in practice.",
+    "sampleTranslation": "Trong các hệ thống được điều khiển có tác động tỷ lệ, biến được điều khiển x thay đổi tỷ lệ thuận với biến tác động y. Vì mọi quá trình truyền năng lượng đều cần một khoảng thời gian hữu hạn, tác động điều khiển P mà không có bất kỳ độ trễ nào sẽ không xảy ra trong thực tế.",
+    "keyTerms": [
+      {
+        "en": "proportional action",
+        "vi": "tác động tỷ lệ"
+      },
+      {
+        "en": "energy transfer",
+        "vi": "truyền năng lượng"
+      },
+      {
+        "en": "finite amount of time",
+        "vi": "khoảng thời gian hữu hạn"
+      },
+      {
+        "en": "lag",
+        "vi": "độ trễ"
+      }
+    ],
+    "keyPhrases": [
+      "proportional to",
+      "in practice"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "tác động tỷ lệ",
+        "alternatives": [
+          "tỷ lệ"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "biến được điều khiển",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "biến tác động",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "truyền năng lượng",
+        "alternatives": [
+          "năng lượng"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "hữu hạn",
+        "alternatives": [
+          "thời gian"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "độ trễ",
+        "alternatives": [
+          "trễ"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "'Since' ở đầu câu mang nghĩa 'Bởi vì'.",
+    "importantNotes": "Trích từ CN159E-5 Reading (Page 10)."
+  },
+  {
+    "id": "tr_ch51_en_05",
+    "chapterId": "ch5_1",
+    "direction": "en_vi",
+    "title": "Dead Time & Energy Storing Components",
+    "sourceText": "In systems with dead time there is no dynamic response until a certain amount of time has elapsed, and the time constant TL serves as a measure for the lag. Furthermore, controlled systems usually consist of components that can store energy, so energy consumption or discharge occurs time delayed.",
+    "sampleTranslation": "Trong các hệ thống có thời gian trễ, không có đáp ứng động nào cho đến khi một khoảng thời gian nhất định trôi qua, và hằng số thời gian TL đóng vai trò là thước đo cho độ trễ đó. Hơn nữa, các hệ thống được điều khiển thường bao gồm các thành phần có thể tích trữ năng lượng, do đó việc tiêu thụ hoặc giải phóng năng lượng diễn ra bị trễ theo thời gian.",
+    "keyTerms": [
+      {
+        "en": "dead time",
+        "vi": "thời gian trễ / thời gian chết"
+      },
+      {
+        "en": "dynamic response",
+        "vi": "đáp ứng động"
+      },
+      {
+        "en": "time constant",
+        "vi": "hằng số thời gian"
+      },
+      {
+        "en": "energy consumption or discharge",
+        "vi": "tiêu thụ hoặc giải phóng năng lượng"
+      }
+    ],
+    "keyPhrases": [
+      "has elapsed",
+      "serves as a measure for",
+      "occurs time delayed"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "thời gian trễ",
+        "alternatives": [
+          "thời gian chết",
+          "độ trễ"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "đáp ứng động",
+        "alternatives": [
+          "phản ứng động"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "hằng số thời gian",
+        "alternatives": [
+          "tl"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "tích trữ năng lượng",
+        "alternatives": [
+          "lưu trữ năng lượng"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "tiêu thụ",
+        "alternatives": [
+          "giải phóng",
+          "xả"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "trễ theo thời gian",
+        "alternatives": [
+          "bị trễ"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "grammarOrTranslationHints": "'until a certain amount of time has elapsed' dịch là 'cho đến khi một khoảng thời gian nhất định trôi qua'.",
+    "importantNotes": "Tổng hợp từ CN159E-5 Reading (Pages 12-13)."
+  },
+  {
+    "id": "tr_ch51_vi_01",
+    "chapterId": "ch5_1",
+    "direction": "vi_en",
+    "title": "Hệ thống vòng hở và vòng kín",
+    "sourceText": "Hệ thống điều khiển vòng hở gồm bộ điều khiển và đối tượng điều khiển mà không có tín hiệu hồi tiếp. Ngược lại, hệ thống điều khiển vòng kín sử dụng các phần tử hồi tiếp và bộ phát hiện sai lệch để tạo ra tín hiệu sai lệch.",
+    "sampleTranslation": "An open-loop control system consists of a controller and a plant without a feedback signal. In contrast, a closed-loop control system uses feedback elements and an error detector to generate an error signal.",
+    "keyTerms": [
+      {
+        "en": "open-loop control system",
+        "vi": "hệ thống điều khiển vòng hở"
+      },
+      {
+        "en": "controller and plant",
+        "vi": "bộ điều khiển và đối tượng điều khiển"
+      },
+      {
+        "en": "closed-loop control system",
+        "vi": "hệ thống điều khiển vòng kín"
+      },
+      {
+        "en": "feedback elements",
+        "vi": "phần tử hồi tiếp"
+      },
+      {
+        "en": "error detector",
+        "vi": "bộ phát hiện sai lệch"
+      },
+      {
+        "en": "error signal",
+        "vi": "tín hiệu sai lệch"
+      }
+    ],
+    "keyPhrases": [
+      "consists of",
+      "in contrast"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "open-loop",
+        "alternatives": [
+          "open loop"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "controller",
+        "alternatives": [
+          "plant"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "closed-loop",
+        "alternatives": [
+          "closed loop"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "feedback",
+        "alternatives": [
+          "feedback elements"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "error detector",
+        "alternatives": [
+          "detector"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "error signal",
+        "alternatives": [
+          "signal"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng 'consists of' cho 'bao gồm' và 'In contrast' cho 'Ngược lại'.",
+    "importantNotes": "Dựa trên sơ đồ CN159E-5 (Pages 3, 4)."
+  },
+  {
+    "id": "tr_ch51_vi_02",
+    "chapterId": "ch5_1",
+    "direction": "vi_en",
+    "title": "Đáp ứng bậc thang",
+    "sourceText": "Đặc tính động của một hệ thống được điều khiển thường được phản ánh thông qua đáp ứng bậc thang. Đáp ứng bậc thang được xác định bằng cách đo biến được điều khiển sau một sự thay đổi bậc thang ở biến tác động.",
+    "sampleTranslation": "The dynamic behavior of a controlled system is frequently reflected by its step response. The step response is determined by measuring the controlled variable after a step change in the manipulated variable.",
+    "keyTerms": [
+      {
+        "en": "dynamic behavior",
+        "vi": "đặc tính động"
+      },
+      {
+        "en": "controlled system",
+        "vi": "hệ thống được điều khiển"
+      },
+      {
+        "en": "step response",
+        "vi": "đáp ứng bậc thang"
+      },
+      {
+        "en": "controlled variable",
+        "vi": "biến được điều khiển"
+      },
+      {
+        "en": "step change",
+        "vi": "thay đổi bậc thang"
+      },
+      {
+        "en": "manipulated variable",
+        "vi": "biến tác động"
+      }
+    ],
+    "keyPhrases": [
+      "is reflected by",
+      "is determined by measuring"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "dynamic behavior",
+        "alternatives": [
+          "dynamic"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "controlled system",
+        "alternatives": [
+          "system"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "step response",
+        "alternatives": [
+          "response"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "controlled variable",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "step change",
+        "alternatives": [
+          "change"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "manipulated variable",
+        "alternatives": [],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Sử dụng câu bị động: 'is reflected by...' và 'is determined by measuring...'.",
+    "importantNotes": "Dựa trên CN159E-5 Reading (Page 6)."
+  },
+  {
+    "id": "tr_ch51_vi_03",
+    "chapterId": "ch5_1",
+    "direction": "vi_en",
+    "title": "Hệ thống có và không có tự điều chỉnh",
+    "sourceText": "Hệ thống có tự điều chỉnh chỉ thay đổi cho đến khi đạt được giá trị đầu ra ổn định mới, nên chúng dễ điều khiển hơn. Ngược lại, hệ thống không có tự điều chỉnh có xu hướng dao động và kém ổn định hơn.",
+    "sampleTranslation": "Systems with self-regulation only change until a new stable output value is reached, so they are easier to control. On the contrary, systems without self-regulation have a tendency to oscillate and be more unstable.",
+    "keyTerms": [
+      {
+        "en": "self-regulation",
+        "vi": "tự điều chỉnh"
+      },
+      {
+        "en": "stable output value",
+        "vi": "giá trị đầu ra ổn định"
+      },
+      {
+        "en": "oscillate",
+        "vi": "dao động"
+      },
+      {
+        "en": "unstable",
+        "vi": "kém ổn định / không ổn định"
+      }
+    ],
+    "keyPhrases": [
+      "until a new stable output value is reached",
+      "have a tendency to"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "self-regulation",
+        "alternatives": [
+          "self regulation"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "stable",
+        "alternatives": [
+          "output"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "easier to control",
+        "alternatives": [
+          "easier",
+          "control"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "oscillate",
+        "alternatives": [
+          "tendency"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "unstable",
+        "alternatives": [
+          "not stable"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng 'until ... is reached' ở dạng bị động.",
+    "importantNotes": "Dựa trên CN159E-5 Reading (Pages 8-9)."
+  },
+  {
+    "id": "tr_ch51_vi_04",
+    "chapterId": "ch5_1",
+    "direction": "vi_en",
+    "title": "Hệ thống điều khiển tích phân (I)",
+    "sourceText": "Hệ thống điều khiển tích phân là hệ thống không có tự điều chỉnh. Nếu biến tác động khác không, hệ thống phản ứng bằng sự tăng hoặc giảm liên tục của biến được điều khiển và không đạt được trạng thái cân bằng mới.",
+    "sampleTranslation": "Integral controlled systems are systems without self-regulation. If the manipulated variable does not equal zero, the system responds with a continuous increase or decrease of the controlled variable, and a new equilibrium is not reached.",
+    "keyTerms": [
+      {
+        "en": "integral controlled systems",
+        "vi": "hệ thống điều khiển tích phân"
+      },
+      {
+        "en": "without self-regulation",
+        "vi": "không có tự điều chỉnh"
+      },
+      {
+        "en": "manipulated variable",
+        "vi": "biến tác động"
+      },
+      {
+        "en": "continuous increase or decrease",
+        "vi": "sự tăng hoặc giảm liên tục"
+      },
+      {
+        "en": "equilibrium",
+        "vi": "trạng thái cân bằng"
+      }
+    ],
+    "keyPhrases": [
+      "does not equal zero",
+      "responds with"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "integral",
+        "alternatives": [
+          "i controlled"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "self-regulation",
+        "alternatives": [
+          "without self-regulation"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "manipulated variable",
+        "alternatives": [
+          "zero"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "continuous",
+        "alternatives": [
+          "increase",
+          "decrease"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "controlled variable",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "equilibrium",
+        "alternatives": [],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng câu điều kiện loại 0: 'If the manipulated variable does not equal zero, ...'.",
+    "importantNotes": "Dựa trên CN159E-5 Reading (Page 11)."
+  },
+  {
+    "id": "tr_ch51_vi_05",
+    "chapterId": "ch5_1",
+    "direction": "vi_en",
+    "title": "Phần tử tích trữ năng lượng",
+    "sourceText": "Độ trễ giữa sự thay đổi của biến tác động và biến được điều khiển không chỉ do thời gian chết gây ra. Nhiều hệ thống có các thành phần tích trữ năng lượng có trạng thái năng lượng chỉ thay đổi dần dần.",
+    "sampleTranslation": "Delays between changes in the manipulated and controlled variable are not only created due to dead times. Many systems have energy storing components whose energetic state changes only gradually.",
+    "keyTerms": [
+      {
+        "en": "delays",
+        "vi": "độ trễ"
+      },
+      {
+        "en": "dead times",
+        "vi": "thời gian chết"
+      },
+      {
+        "en": "energy storing components",
+        "vi": "thành phần tích trữ năng lượng"
+      },
+      {
+        "en": "energetic state",
+        "vi": "trạng thái năng lượng"
+      },
+      {
+        "en": "gradually",
+        "vi": "dần dần"
+      }
+    ],
+    "keyPhrases": [
+      "not only created due to",
+      "changes only gradually"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "delays",
+        "alternatives": [
+          "delay"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "manipulated",
+        "alternatives": [
+          "controlled"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "dead time",
+        "alternatives": [
+          "dead times"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "energy storing",
+        "alternatives": [
+          "store energy"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "energetic state",
+        "alternatives": [
+          "state"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "gradually",
+        "alternatives": [],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng đại từ quan hệ sở hữu 'whose energetic state...' để nối câu tự nhiên.",
+    "importantNotes": "Dựa trên CN159E-5 Reading (Page 13)."
+  },
+  {
+    "id": "tr_ch52_en_01",
+    "chapterId": "ch5_2",
+    "direction": "en_vi",
+    "title": "What is a Microcontroller?",
+    "sourceText": "A microcontroller is a compact integrated circuit designed to govern a specific operation in an embedded system. A typical microcontroller includes a processor, memory and input/output (I/O) peripherals on a single chip.",
+    "sampleTranslation": "Vi điều khiển là một mạch tích hợp nhỏ gọn được thiết kế để điều khiển một hoạt động cụ thể trong một hệ thống nhúng. Một vi điều khiển điển hình bao gồm bộ xử lý, bộ nhớ và các thiết bị ngoại vi vào/ra (I/O) trên một con chip đơn.",
+    "keyTerms": [
+      {
+        "en": "microcontroller",
+        "vi": "vi điều khiển"
+      },
+      {
+        "en": "compact integrated circuit",
+        "vi": "mạch tích hợp nhỏ gọn"
+      },
+      {
+        "en": "embedded system",
+        "vi": "hệ thống nhúng"
+      },
+      {
+        "en": "processor, memory",
+        "vi": "bộ xử lý, bộ nhớ"
+      },
+      {
+        "en": "input/output peripherals",
+        "vi": "thiết bị ngoại vi vào/ra"
+      },
+      {
+        "en": "single chip",
+        "vi": "một con chip đơn"
+      }
+    ],
+    "keyPhrases": [
+      "designed to govern",
+      "on a single chip"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "vi điều khiển",
+        "alternatives": [
+          "bộ vi điều khiển"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "mạch tích hợp",
+        "alternatives": [
+          "vi mạch"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "hệ thống nhúng",
+        "alternatives": [],
+        "weight": 2.0
+      },
+      {
+        "term": "bộ xử lý",
+        "alternatives": [
+          "cpu"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "bộ nhớ",
+        "alternatives": [],
+        "weight": 1.0
+      },
+      {
+        "term": "ngoại vi",
+        "alternatives": [
+          "vào/ra",
+          "i/o"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "chip đơn",
+        "alternatives": [
+          "một chip"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "grammarOrTranslationHints": "'designed to govern' dịch là 'được thiết kế để điều khiển / chi phối'.",
+    "importantNotes": "Trích từ CN159E-5.2 Reading (Page 6)."
+  },
+  {
+    "id": "tr_ch52_en_02",
+    "chapterId": "ch5_2",
+    "direction": "en_vi",
+    "title": "How Microcontrollers Work",
+    "sourceText": "A microcontroller uses its central processor to interpret the data it receives from its I/O peripherals. The information is temporarily stored in its data memory, where the processor accesses it and uses instructions stored in its program memory to decipher and apply the incoming data.",
+    "sampleTranslation": "Vi điều khiển sử dụng bộ xử lý trung tâm để giải mã dữ liệu mà nó nhận được từ các thiết bị ngoại vi vào/ra. Thông tin được lưu trữ tạm thời trong bộ nhớ dữ liệu, nơi bộ xử lý truy cập nó và sử dụng các lệnh lưu trong bộ nhớ chương trình để giải mã và áp dụng dữ liệu đầu vào.",
+    "keyTerms": [
+      {
+        "en": "central processor",
+        "vi": "bộ xử lý trung tâm"
+      },
+      {
+        "en": "interpret",
+        "vi": "giải mã / thông dịch"
+      },
+      {
+        "en": "data memory",
+        "vi": "bộ nhớ dữ liệu"
+      },
+      {
+        "en": "program memory",
+        "vi": "bộ nhớ chương trình"
+      },
+      {
+        "en": "incoming data",
+        "vi": "dữ liệu đầu vào"
+      }
+    ],
+    "keyPhrases": [
+      "temporarily stored in",
+      "decipher and apply"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "bộ xử lý",
+        "alternatives": [
+          "cpu"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "ngoại vi",
+        "alternatives": [
+          "i/o"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "lưu trữ tạm thời",
+        "alternatives": [
+          "tạm thời"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "bộ nhớ dữ liệu",
+        "alternatives": [],
+        "weight": 2.0
+      },
+      {
+        "term": "bộ nhớ chương trình",
+        "alternatives": [
+          "lệnh"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "giải mã",
+        "alternatives": [
+          "dữ liệu"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Phân biệt rõ 'data memory' (bộ nhớ dữ liệu) và 'program memory' (bộ nhớ chương trình).",
+    "importantNotes": "Trích từ CN159E-5.2 Reading (Page 7)."
+  },
+  {
+    "id": "tr_ch52_en_03",
+    "chapterId": "ch5_2",
+    "direction": "en_vi",
+    "title": "Microcontrollers in Automobiles",
+    "sourceText": "Devices often use multiple microcontrollers that work together to handle their respective tasks. For example, a car has many microcontrollers that control various individual systems, such as the antilock braking system, traction control, fuel injection and suspension control.",
+    "sampleTranslation": "Các thiết bị thường sử dụng nhiều vi điều khiển phối hợp với nhau để xử lý các nhiệm vụ tương ứng của chúng. Ví dụ, một chiếc ô tô có nhiều vi điều khiển điều khiển các hệ thống riêng lẻ khác nhau, chẳng hạn như hệ thống chống bó cứng phanh, kiểm soát lực kéo, phun nhiên liệu và điều khiển hệ thống treo.",
+    "keyTerms": [
+      {
+        "en": "respective tasks",
+        "vi": "nhiệm vụ tương ứng"
+      },
+      {
+        "en": "antilock braking system",
+        "vi": "hệ thống chống bó cứng phanh"
+      },
+      {
+        "en": "traction control",
+        "vi": "kiểm soát lực kéo"
+      },
+      {
+        "en": "fuel injection",
+        "vi": "phun nhiên liệu"
+      },
+      {
+        "en": "suspension control",
+        "vi": "điều khiển hệ thống treo"
+      }
+    ],
+    "keyPhrases": [
+      "work together to handle",
+      "individual systems"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "nhiều vi điều khiển",
+        "alternatives": [
+          "vi điều khiển"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "nhiệm vụ",
+        "alternatives": [
+          "tương ứng"
+        ],
+        "weight": 1.0
+      },
+      {
+        "term": "chống bó cứng phanh",
+        "alternatives": [
+          "phanh abs"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "lực kéo",
+        "alternatives": [
+          "kiểm soát lực kéo"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "phun nhiên liệu",
+        "alternatives": [],
+        "weight": 2.0
+      },
+      {
+        "term": "hệ thống treo",
+        "alternatives": [],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Cụm 'such as' dùng để liệt kê các hệ thống chuyên ngành trên ô tô.",
+    "importantNotes": "Trích từ CN159E-5.2 Reading (Page 8)."
+  },
+  {
+    "id": "tr_ch52_en_04",
+    "chapterId": "ch5_2",
+    "direction": "en_vi",
+    "title": "Core Elements of a Microcontroller",
+    "sourceText": "The core elements that make up a microcontroller are the central processing unit (CPU), memory and I/O peripherals. The CPU interprets the data and carries out the program instructions, while I/O peripherals connect the chip to the outside world to send and receive signals.",
+    "sampleTranslation": "Các thành phần cốt lõi cấu tạo nên một vi điều khiển gồm bộ xử lý trung tâm (CPU), bộ nhớ và các thiết bị ngoại vi vào/ra. CPU giải mã dữ liệu và thực thi các lệnh chương trình, trong khi các ngoại vi vào/ra kết nối con chip với thế giới bên ngoài để gửi và nhận tín hiệu.",
+    "keyTerms": [
+      {
+        "en": "core elements",
+        "vi": "thành phần cốt lõi"
+      },
+      {
+        "en": "central processing unit",
+        "vi": "bộ xử lý trung tâm"
+      },
+      {
+        "en": "carries out",
+        "vi": "thực thi"
+      },
+      {
+        "en": "send and receive signals",
+        "vi": "gửi và nhận tín hiệu"
+      }
+    ],
+    "keyPhrases": [
+      "make up a microcontroller",
+      "connect the chip to the outside world"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "thành phần cốt lõi",
+        "alternatives": [
+          "cốt lõi"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "cpu",
+        "alternatives": [
+          "bộ xử lý trung tâm"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "bộ nhớ",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "ngoại vi",
+        "alternatives": [
+          "i/o"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "thực thi",
+        "alternatives": [
+          "thực hiện"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "tín hiệu",
+        "alternatives": [
+          "gửi và nhận"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "'carries out' trong ngữ cảnh CPU nghĩa là 'thực thi (lệnh)'.",
+    "importantNotes": "Trích từ CN159E-5.2 Reading (Page 9)."
+  },
+  {
+    "id": "tr_ch52_en_05",
+    "chapterId": "ch5_2",
+    "direction": "en_vi",
+    "title": "8-bit, 16-bit, and 32-bit Microcontrollers",
+    "sourceText": "Microcontrollers can be classified according to data size and architecture. An 8-bit microcontroller transmits 8 bits of data at a time and consumes the least power. A 16-bit microcontroller has higher clock speeds and more memory, while a 32-bit microcontroller is the fastest with the most processing capacity, but the highest power consumption.",
+    "sampleTranslation": "Vi điều khiển có thể được phân loại theo kích thước dữ liệu và kiến trúc. Vi điều khiển 8-bit truyền 8 bit dữ liệu tại một thời điểm và tiêu thụ ít điện năng nhất. Vi điều khiển 16-bit có tốc độ xung nhịp cao hơn và nhiều bộ nhớ hơn, trong khi vi điều khiển 32-bit là loại nhanh nhất với năng lực xử lý lớn nhất, nhưng mức tiêu thụ điện năng cao nhất.",
+    "keyTerms": [
+      {
+        "en": "data size and architecture",
+        "vi": "kích thước dữ liệu và kiến trúc"
+      },
+      {
+        "en": "clock speeds",
+        "vi": "tốc độ xung nhịp"
+      },
+      {
+        "en": "processing capacity",
+        "vi": "năng lực xử lý"
+      },
+      {
+        "en": "power consumption",
+        "vi": "mức tiêu thụ điện năng"
+      }
+    ],
+    "keyPhrases": [
+      "classified according to",
+      "at a time"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "kích thước dữ liệu",
+        "alternatives": [
+          "kiến trúc"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "8-bit",
+        "alternatives": [
+          "8 bit"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "ít điện năng nhất",
+        "alternatives": [
+          "tiêu thụ ít"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "xung nhịp",
+        "alternatives": [
+          "16-bit",
+          "16 bit"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "32-bit",
+        "alternatives": [
+          "32 bit"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "năng lực xử lý",
+        "alternatives": [
+          "nhanh nhất"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "tiêu thụ điện năng cao nhất",
+        "alternatives": [
+          "tiêu thụ điện"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "grammarOrTranslationHints": "Chú ý các cấu trúc so sánh nhất: 'the least power', 'the fastest', 'the most processing capacity', 'the highest power consumption'.",
+    "importantNotes": "Trích từ CN159E-5.2 Reading (Page 10)."
+  },
+  {
+    "id": "tr_ch52_vi_01",
+    "chapterId": "ch5_2",
+    "direction": "vi_en",
+    "title": "Tổng quan về vi điều khiển",
+    "sourceText": "Vi điều khiển là một mạch tích hợp nhỏ gọn được thiết kế để điều khiển một hoạt động cụ thể trong hệ thống nhúng. Chúng được ứng dụng trong robot, thiết bị y tế và đồ gia dụng mà không cần hệ điều hành phức tạp.",
+    "sampleTranslation": "A microcontroller is a compact integrated circuit designed to govern a specific operation in an embedded system. They are applied in robots, medical devices, and home appliances without a complex operating system.",
+    "keyTerms": [
+      {
+        "en": "microcontroller",
+        "vi": "vi điều khiển"
+      },
+      {
+        "en": "compact integrated circuit",
+        "vi": "mạch tích hợp nhỏ gọn"
+      },
+      {
+        "en": "embedded system",
+        "vi": "hệ thống nhúng"
+      },
+      {
+        "en": "medical devices",
+        "vi": "thiết bị y tế"
+      },
+      {
+        "en": "home appliances",
+        "vi": "đồ gia dụng"
+      },
+      {
+        "en": "operating system",
+        "vi": "hệ điều hành"
+      }
+    ],
+    "keyPhrases": [
+      "designed to govern",
+      "without a complex operating system"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "microcontroller",
+        "alternatives": [
+          "mcu"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "integrated circuit",
+        "alternatives": [
+          "compact"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "embedded system",
+        "alternatives": [
+          "embedded"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "robots",
+        "alternatives": [
+          "medical devices"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "home appliances",
+        "alternatives": [
+          "appliances"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "operating system",
+        "alternatives": [],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng 'without a complex operating system' cho 'mà không cần hệ điều hành phức tạp'.",
+    "importantNotes": "Dựa trên CN159E-5.2 Reading (Page 6)."
+  },
+  {
+    "id": "tr_ch52_vi_02",
+    "chapterId": "ch5_2",
+    "direction": "vi_en",
+    "title": "Chu trình xử lý dữ liệu của MCU",
+    "sourceText": "Thông tin nhận từ thiết bị ngoại vi vào/ra được lưu trữ tạm thời trong bộ nhớ dữ liệu. Bộ xử lý truy cập dữ liệu đó và sử dụng các lệnh trong bộ nhớ chương trình để xử lý và thực hiện hành động phù hợp.",
+    "sampleTranslation": "Information received from I/O peripherals is temporarily stored in data memory. The processor accesses that data and uses instructions in program memory to process it and take the appropriate action.",
+    "keyTerms": [
+      {
+        "en": "I/O peripherals",
+        "vi": "thiết bị ngoại vi vào/ra"
+      },
+      {
+        "en": "data memory",
+        "vi": "bộ nhớ dữ liệu"
+      },
+      {
+        "en": "processor",
+        "vi": "bộ xử lý"
+      },
+      {
+        "en": "program memory",
+        "vi": "bộ nhớ chương trình"
+      },
+      {
+        "en": "appropriate action",
+        "vi": "hành động phù hợp"
+      }
+    ],
+    "keyPhrases": [
+      "temporarily stored in",
+      "take the appropriate action"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "peripherals",
+        "alternatives": [
+          "i/o"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "temporarily",
+        "alternatives": [
+          "stored"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "data memory",
+        "alternatives": [],
+        "weight": 2.0
+      },
+      {
+        "term": "processor",
+        "alternatives": [
+          "cpu"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "instructions",
+        "alternatives": [
+          "program memory"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "action",
+        "alternatives": [
+          "appropriate"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Chú ý cụm 'take the appropriate action' (thực hiện hành động phù hợp).",
+    "importantNotes": "Dựa trên CN159E-5.2 Reading (Page 7)."
+  },
+  {
+    "id": "tr_ch52_vi_03",
+    "chapterId": "ch5_2",
+    "direction": "vi_en",
+    "title": "Vi điều khiển trên ô tô",
+    "sourceText": "Một chiếc ô tô sử dụng nhiều vi điều khiển để điều khiển các hệ thống riêng lẻ như hệ thống chống bó cứng phanh, kiểm soát lực kéo và phun nhiên liệu. Chúng gửi và nhận dữ liệu qua các ngoại vi vào/ra.",
+    "sampleTranslation": "A car uses multiple microcontrollers to control various individual systems such as the antilock braking system, traction control, and fuel injection. They send and receive data using their I/O peripherals.",
+    "keyTerms": [
+      {
+        "en": "individual systems",
+        "vi": "các hệ thống riêng lẻ"
+      },
+      {
+        "en": "antilock braking system",
+        "vi": "hệ thống chống bó cứng phanh"
+      },
+      {
+        "en": "traction control",
+        "vi": "kiểm soát lực kéo"
+      },
+      {
+        "en": "fuel injection",
+        "vi": "phun nhiên liệu"
+      }
+    ],
+    "keyPhrases": [
+      "send and receive data",
+      "using their I/O peripherals"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "microcontrollers",
+        "alternatives": [
+          "microcontroller"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "antilock braking",
+        "alternatives": [
+          "braking system"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "traction control",
+        "alternatives": [
+          "traction"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "fuel injection",
+        "alternatives": [
+          "fuel"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "send and receive",
+        "alternatives": [
+          "data"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "peripherals",
+        "alternatives": [
+          "i/o"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng 'such as' để liệt kê các hệ thống.",
+    "importantNotes": "Dựa trên CN159E-5.2 Reading (Page 8)."
+  },
+  {
+    "id": "tr_ch52_vi_04",
+    "chapterId": "ch5_2",
+    "direction": "vi_en",
+    "title": "So sánh 8-bit và 32-bit",
+    "sourceText": "Vi điều khiển 8-bit tiêu thụ ít điện năng nhất, trong khi vi điều khiển 16-bit nhanh hơn khoảng gấp đôi với bộ nhớ lớn hơn. Vi điều khiển 32-bit có năng lực xử lý lớn nhất nhưng tiêu thụ điện năng cao nhất.",
+    "sampleTranslation": "An 8-bit microcontroller consumes the least power, while a 16-bit microcontroller is about twice as fast with more memory. A 32-bit microcontroller has the most processing capacity but the highest power consumption.",
+    "keyTerms": [
+      {
+        "en": "consumes the least power",
+        "vi": "tiêu thụ ít điện năng nhất"
+      },
+      {
+        "en": "twice as fast",
+        "vi": "nhanh gấp đôi"
+      },
+      {
+        "en": "processing capacity",
+        "vi": "năng lực xử lý"
+      },
+      {
+        "en": "power consumption",
+        "vi": "tiêu thụ điện năng"
+      }
+    ],
+    "keyPhrases": [
+      "about twice as fast",
+      "the highest power consumption"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "8-bit",
+        "alternatives": [
+          "8 bit",
+          "least power"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "16-bit",
+        "alternatives": [
+          "16 bit",
+          "twice as fast"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "memory",
+        "alternatives": [],
+        "weight": 1.0
+      },
+      {
+        "term": "32-bit",
+        "alternatives": [
+          "32 bit"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "processing capacity",
+        "alternatives": [
+          "capacity"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "power consumption",
+        "alternatives": [
+          "highest"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng 'while' để nối hai vế so sánh.",
+    "importantNotes": "Dựa trên CN159E-5.2 Reading (Page 10)."
+  },
+  {
+    "id": "tr_ch52_vi_05",
+    "chapterId": "ch5_2",
+    "direction": "vi_en",
+    "title": "Các thành phần trên bo mạch Arduino Uno",
+    "sourceText": "Bo mạch Arduino Uno sử dụng vi điều khiển ATmega328, bộ dao động thạch anh và bộ ổn áp. Nó cung cấp các chân vào/ra số, chân tương tự và giắc cắm nguồn một chiều từ 7 đến 12V.",
+    "sampleTranslation": "The Arduino Uno board uses an ATmega328 microcontroller, a crystal oscillator, and a voltage regulator. It provides digital I/O pins, analog pins, and a 7-12V DC power jack.",
+    "keyTerms": [
+      {
+        "en": "crystal oscillator",
+        "vi": "bộ dao động thạch anh"
+      },
+      {
+        "en": "voltage regulator",
+        "vi": "bộ ổn áp"
+      },
+      {
+        "en": "digital I/O pins",
+        "vi": "chân vào/ra số"
+      },
+      {
+        "en": "analog pins",
+        "vi": "chân tương tự"
+      },
+      {
+        "en": "power jack",
+        "vi": "giắc cắm nguồn"
+      }
+    ],
+    "keyPhrases": [
+      "provides digital I/O pins",
+      "7-12V DC"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "atmega328",
+        "alternatives": [
+          "microcontroller"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "crystal oscillator",
+        "alternatives": [
+          "oscillator"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "voltage regulator",
+        "alternatives": [
+          "regulator"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "digital",
+        "alternatives": [
+          "pins"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "analog",
+        "alternatives": [
+          "pins"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "power jack",
+        "alternatives": [
+          "7-12v",
+          "dc"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Dựa trực tiếp vào nhãn linh kiện trên sơ đồ trang 4.",
+    "importantNotes": "Dựa trên CN159E-5.2 Diagram (Page 4)."
+  },
+  {
+    "id": "tr_ch6_en_01",
+    "chapterId": "ch6",
+    "direction": "en_vi",
+    "title": "What is the Internet of Things?",
+    "sourceText": "The Internet of Things (IoT) describes devices with sensors, processing ability, software and other technologies that connect and exchange data with other devices and systems over the Internet or other communications networks. Internet of Things has been considered a misnomer because devices do not need to be connected to the public internet, they only need to be connected to a network and be individually addressable.",
+    "sampleTranslation": "Internet vạn vật (IoT) mô tả các thiết bị có cảm biến, khả năng xử lý, phần mềm và các công nghệ khác để kết nối và trao đổi dữ liệu với các thiết bị và hệ thống khác qua Internet hoặc các mạng truyền thông khác. Tên gọi Internet vạn vật từng bị xem là chưa chính xác vì các thiết bị không cần phải kết nối với Internet công cộng; chúng chỉ cần được kết nối vào một mạng và có thể định địa chỉ riêng biệt.",
+    "keyTerms": [
+      {
+        "en": "processing ability",
+        "vi": "khả năng xử lý"
+      },
+      {
+        "en": "communications networks",
+        "vi": "mạng truyền thông"
+      },
+      {
+        "en": "misnomer",
+        "vi": "tên gọi chưa chính xác"
+      },
+      {
+        "en": "public internet",
+        "vi": "Internet công cộng"
+      },
+      {
+        "en": "individually addressable",
+        "vi": "có thể định địa chỉ riêng biệt"
+      }
+    ],
+    "keyPhrases": [
+      "connect and exchange data",
+      "considered a misnomer"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "cảm biến",
+        "alternatives": [
+          "khả năng xử lý"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "trao đổi dữ liệu",
+        "alternatives": [
+          "kết nối"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "mạng truyền thông",
+        "alternatives": [
+          "internet"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "chưa chính xác",
+        "alternatives": [
+          "hiểu nhầm",
+          "tên gọi"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "internet công cộng",
+        "alternatives": [
+          "công cộng"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "định địa chỉ riêng",
+        "alternatives": [
+          "địa chỉ riêng biệt"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "'has been considered a misnomer' dịch là 'từng/được coi là một tên gọi chưa chính xác'.",
+    "importantNotes": "Trích từ CN159E-6 Reading (Page 5)."
+  },
+  {
+    "id": "tr_ch6_en_02",
+    "chapterId": "ch6",
+    "direction": "en_vi",
+    "title": "IoT Architecture & Perception Layer",
+    "sourceText": "IoT architecture is an organised network of interconnected devices, sensors, actuators and cloud services that enable the flow of data. It consists of four key layers: Perception/sensing, Connectivity/network, Data processing and User interface/application. The perception layer is the physical layer, which has sensors for gathering information about the environment and actuators that act on their environment.",
+    "sampleTranslation": "Kiến trúc IoT là một mạng lưới có tổ chức gồm các thiết bị kết nối liên thông, cảm biến, cơ cấu chấp hành và dịch vụ đám mây giúp cho phép luồng dữ liệu lưu chuyển. Nó bao gồm bốn tầng chính: Cảm nhận/cảm biến, Kết nối/mạng, Xử lý dữ liệu và Giao diện người dùng/ứng dụng. Tầng cảm nhận là tầng vật lý, có các cảm biến để thu thập thông tin về môi trường và các cơ cấu chấp hành tác động lên môi trường.",
+    "keyTerms": [
+      {
+        "en": "interconnected devices",
+        "vi": "các thiết bị kết nối liên thông"
+      },
+      {
+        "en": "cloud services",
+        "vi": "dịch vụ đám mây"
+      },
+      {
+        "en": "perception layer",
+        "vi": "tầng cảm nhận"
+      },
+      {
+        "en": "physical layer",
+        "vi": "tầng vật lý"
+      }
+    ],
+    "keyPhrases": [
+      "enable the flow of data",
+      "consists of four key layers"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "kiến trúc iot",
+        "alternatives": [
+          "mạng lưới"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "cảm biến",
+        "alternatives": [
+          "cơ cấu chấp hành"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "dịch vụ đám mây",
+        "alternatives": [
+          "đám mây"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "bốn tầng",
+        "alternatives": [
+          "4 tầng"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "tầng cảm nhận",
+        "alternatives": [
+          "tầng vật lý"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "môi trường",
+        "alternatives": [
+          "thu thập thông tin"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "Giữ đúng tên 4 tầng kiến trúc IoT.",
+    "importantNotes": "Trích từ CN159E-6 Reading (Page 7)."
+  },
+  {
+    "id": "tr_ch6_en_03",
+    "chapterId": "ch6",
+    "direction": "en_vi",
+    "title": "Connectivity / Network Layer",
+    "sourceText": "The network layer, also known as the transport or device layer, allows digital data to move between all elements of an IoT structure. It uses technologies such as HTTP, MQTT and AMQP, and includes components like internet gateways, network gateways connecting multiple devices through bridging functions, and Data Acquisition Systems (DAS).",
+    "sampleTranslation": "Tầng mạng, còn được gọi là tầng truyền tải hoặc tầng thiết bị, cho phép dữ liệu số di chuyển giữa tất cả các thành phần trong một cấu trúc IoT. Nó sử dụng các công nghệ như HTTP, MQTT và AMQP, đồng thời bao gồm các thành phần như cổng kết nối Internet, cổng mạng kết nối nhiều thiết bị thông qua chức năng cầu nối và Hệ thống thu thập dữ liệu (DAS).",
+    "keyTerms": [
+      {
+        "en": "network layer",
+        "vi": "tầng mạng"
+      },
+      {
+        "en": "transport or device layer",
+        "vi": "tầng truyền tải hoặc tầng thiết bị"
+      },
+      {
+        "en": "internet gateways",
+        "vi": "cổng kết nối Internet"
+      },
+      {
+        "en": "bridging functions",
+        "vi": "chức năng cầu nối"
+      },
+      {
+        "en": "Data Acquisition Systems (DAS)",
+        "vi": "Hệ thống thu thập dữ liệu (DAS)"
+      }
+    ],
+    "keyPhrases": [
+      "also known as",
+      "move between all elements"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "tầng mạng",
+        "alternatives": [
+          "lớp mạng"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "truyền tải",
+        "alternatives": [
+          "thiết bị"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "dữ liệu số",
+        "alternatives": [
+          "dữ liệu"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "mqtt",
+        "alternatives": [
+          "http",
+          "amqp"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "cổng mạng",
+        "alternatives": [
+          "cổng internet",
+          "gateway"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "cầu nối",
+        "alternatives": [
+          "thu thập dữ liệu",
+          "das"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "Giữ nguyên tên các giao thức HTTP, MQTT, AMQP và viết tắt DAS.",
+    "importantNotes": "Trích từ CN159E-6 Reading (Page 8)."
+  },
+  {
+    "id": "tr_ch6_en_04",
+    "chapterId": "ch6",
+    "direction": "en_vi",
+    "title": "Data Processing Layer",
+    "sourceText": "At the data processing layer, collected data is processed and analysed to help businesses make decisions and streamline their operations. It processes raw information through machine learning algorithms for automated decision-making, while edge analytics alongside AI techniques help filter out irrelevant device info before analysis.",
+    "sampleTranslation": "Tại tầng xử lý dữ liệu, dữ liệu thu thập được xử lý và phân tích để giúp các doanh nghiệp ra quyết định và tối ưu hóa hoạt động vận hành. Tầng này xử lý thông tin thô thông qua các thuật toán học máy để ra quyết định tự động, trong khi phân tích tại biên cùng các kỹ thuật AI giúp lọc bỏ thông tin thiết bị không liên quan trước khi phân tích.",
+    "keyTerms": [
+      {
+        "en": "data processing layer",
+        "vi": "tầng xử lý dữ liệu"
+      },
+      {
+        "en": "streamline their operations",
+        "vi": "tối ưu hóa hoạt động"
+      },
+      {
+        "en": "raw information",
+        "vi": "thông tin thô"
+      },
+      {
+        "en": "machine learning algorithms",
+        "vi": "thuật toán học máy"
+      },
+      {
+        "en": "automated decision-making",
+        "vi": "ra quyết định tự động"
+      },
+      {
+        "en": "edge analytics",
+        "vi": "phân tích tại biên"
+      }
+    ],
+    "keyPhrases": [
+      "filter out irrelevant",
+      "make decisions"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "tầng xử lý dữ liệu",
+        "alternatives": [
+          "xử lý dữ liệu"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "phân tích",
+        "alternatives": [
+          "ra quyết định"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "thông tin thô",
+        "alternatives": [
+          "dữ liệu thô"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "thuật toán học máy",
+        "alternatives": [
+          "học máy"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "tự động",
+        "alternatives": [
+          "quyết định tự động"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "phân tích tại biên",
+        "alternatives": [
+          "lọc bỏ"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "'filter out' dịch là 'lọc bỏ'.",
+    "importantNotes": "Trích từ CN159E-6 Reading (Page 9)."
+  },
+  {
+    "id": "tr_ch6_en_05",
+    "chapterId": "ch6",
+    "direction": "en_vi",
+    "title": "User Interface / Application Layer",
+    "sourceText": "The user interface/application layer in an IoT architecture serves as a vital platform for humans to interact with the system and access specific services. Users can control their devices conveniently via mobile apps or centralised dashboards, such as activating coffee makers in smart homes.",
+    "sampleTranslation": "Tầng giao diện người dùng/ứng dụng trong kiến trúc IoT đóng vai trò là nền tảng thiết yếu để con người tương tác với hệ thống và truy cập các dịch vụ cụ thể. Người dùng có thể điều khiển thiết bị một cách thuận tiện qua ứng dụng di động hoặc bảng điều khiển tập trung, chẳng hạn như bật máy pha cà phê trong nhà thông minh.",
+    "keyTerms": [
+      {
+        "en": "user interface/application layer",
+        "vi": "tầng giao diện người dùng/ứng dụng"
+      },
+      {
+        "en": "vital platform",
+        "vi": "nền tảng thiết yếu"
+      },
+      {
+        "en": "mobile apps",
+        "vi": "ứng dụng di động"
+      },
+      {
+        "en": "centralised dashboards",
+        "vi": "bảng điều khiển tập trung"
+      },
+      {
+        "en": "smart homes",
+        "vi": "nhà thông minh"
+      }
+    ],
+    "keyPhrases": [
+      "serves as a vital platform",
+      "interact with the system"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "giao diện người dùng",
+        "alternatives": [
+          "tầng ứng dụng"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "tương tác",
+        "alternatives": [
+          "nền tảng"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "dịch vụ",
+        "alternatives": [
+          "điều khiển"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "ứng dụng di động",
+        "alternatives": [
+          "app"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "bảng điều khiển",
+        "alternatives": [
+          "dashboard"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "nhà thông minh",
+        "alternatives": [
+          "máy pha cà phê"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "'serves as' dịch là 'đóng vai trò là'.",
+    "importantNotes": "Trích từ CN159E-6 Reading (Page 10)."
+  },
+  {
+    "id": "tr_ch6_vi_01",
+    "chapterId": "ch6",
+    "direction": "vi_en",
+    "title": "Khái niệm Internet vạn vật",
+    "sourceText": "Internet vạn vật mô tả các thiết bị có cảm biến, khả năng xử lý và phần mềm để kết nối và trao đổi dữ liệu qua mạng truyền thông. Thiết bị không cần kết nối Internet công cộng mà chỉ cần có thể định địa chỉ riêng biệt trong mạng.",
+    "sampleTranslation": "The Internet of Things describes devices with sensors, processing ability, and software that connect and exchange data over communications networks. Devices do not need to connect to the public internet; they only need to be individually addressable on a network.",
+    "keyTerms": [
+      {
+        "en": "Internet of Things",
+        "vi": "Internet vạn vật"
+      },
+      {
+        "en": "sensors",
+        "vi": "cảm biến"
+      },
+      {
+        "en": "processing ability",
+        "vi": "khả năng xử lý"
+      },
+      {
+        "en": "exchange data",
+        "vi": "trao đổi dữ liệu"
+      },
+      {
+        "en": "individually addressable",
+        "vi": "định địa chỉ riêng biệt"
+      }
+    ],
+    "keyPhrases": [
+      "over communications networks",
+      "public internet"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "internet of things",
+        "alternatives": [
+          "iot"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "sensors",
+        "alternatives": [
+          "processing"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "exchange data",
+        "alternatives": [
+          "connect"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "network",
+        "alternatives": [
+          "networks"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "public internet",
+        "alternatives": [
+          "internet"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "addressable",
+        "alternatives": [
+          "individually"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng 'do not need to' cho 'không cần phải'.",
+    "importantNotes": "Dựa trên CN159E-6 Reading (Page 5)."
+  },
+  {
+    "id": "tr_ch6_vi_02",
+    "chapterId": "ch6",
+    "direction": "vi_en",
+    "title": "Tầng cảm nhận trong kiến trúc IoT",
+    "sourceText": "Kiến trúc IoT bao gồm bốn tầng chính, bắt đầu từ tầng cảm nhận. Tầng cảm nhận là tầng vật lý chứa các cảm biến để thu thập thông tin môi trường và các cơ cấu chấp hành để tác động lên môi trường.",
+    "sampleTranslation": "IoT architecture consists of four key layers, starting with the perception layer. The perception layer is the physical layer that contains sensors for gathering environmental information and actuators to act on the environment.",
+    "keyTerms": [
+      {
+        "en": "IoT architecture",
+        "vi": "kiến trúc IoT"
+      },
+      {
+        "en": "four key layers",
+        "vi": "bốn tầng chính"
+      },
+      {
+        "en": "perception layer",
+        "vi": "tầng cảm nhận"
+      },
+      {
+        "en": "physical layer",
+        "vi": "tầng vật lý"
+      },
+      {
+        "en": "sensors and actuators",
+        "vi": "cảm biến và cơ cấu chấp hành"
+      }
+    ],
+    "keyPhrases": [
+      "consists of",
+      "act on the environment"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "iot architecture",
+        "alternatives": [
+          "architecture"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "four",
+        "alternatives": [
+          "layers"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "perception layer",
+        "alternatives": [
+          "perception"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "physical layer",
+        "alternatives": [
+          "physical"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "sensors",
+        "alternatives": [
+          "actuators"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "environment",
+        "alternatives": [
+          "gathering"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Chú ý giới từ 'act on the environment' (tác động lên môi trường).",
+    "importantNotes": "Dựa trên CN159E-6 Reading (Page 7)."
+  },
+  {
+    "id": "tr_ch6_vi_03",
+    "chapterId": "ch6",
+    "direction": "vi_en",
+    "title": "Tầng mạng và Hệ thống thu thập dữ liệu",
+    "sourceText": "Tầng mạng sử dụng các giao thức như HTTP, MQTT và AMQP để truyền dữ liệu số giữa các thành phần IoT. Ngoài ra, hệ thống thu thập dữ liệu (DAS) cho phép thu thập các giá trị đo cảm biến trên nhiều ứng dụng.",
+    "sampleTranslation": "The network layer uses protocols such as HTTP, MQTT, and AMQP to transmit digital data between IoT elements. In addition, Data Acquisition Systems (DAS) enable collecting sensor readings across applications.",
+    "keyTerms": [
+      {
+        "en": "network layer",
+        "vi": "tầng mạng"
+      },
+      {
+        "en": "digital data",
+        "vi": "dữ liệu số"
+      },
+      {
+        "en": "Data Acquisition Systems (DAS)",
+        "vi": "hệ thống thu thập dữ liệu (DAS)"
+      },
+      {
+        "en": "sensor readings",
+        "vi": "giá trị đo cảm biến"
+      }
+    ],
+    "keyPhrases": [
+      "transmit digital data",
+      "enable collecting"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "network layer",
+        "alternatives": [
+          "network"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "mqtt",
+        "alternatives": [
+          "http",
+          "amqp"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "digital data",
+        "alternatives": [
+          "data"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "data acquisition",
+        "alternatives": [
+          "das"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "sensor readings",
+        "alternatives": [
+          "sensor"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng 'enable + V-ing' cho 'cho phép làm gì'.",
+    "importantNotes": "Dựa trên CN159E-6 Reading (Page 8)."
+  },
+  {
+    "id": "tr_ch6_vi_04",
+    "chapterId": "ch6",
+    "direction": "vi_en",
+    "title": "Xử lý dữ liệu và phân tích tại biên",
+    "sourceText": "Tại tầng xử lý dữ liệu, thông tin thô được xử lý bằng thuật toán học máy để hỗ trợ ra quyết định tự động. Phân tích tại biên kết hợp với AI giúp lọc bỏ dữ liệu không liên quan nhằm nâng cao hiệu quả hành động.",
+    "sampleTranslation": "At the data processing layer, raw information is processed using machine learning algorithms to support automated decision-making. Edge analytics combined with AI helps filter out irrelevant data to improve effective actions.",
+    "keyTerms": [
+      {
+        "en": "data processing layer",
+        "vi": "tầng xử lý dữ liệu"
+      },
+      {
+        "en": "raw information",
+        "vi": "thông tin thô"
+      },
+      {
+        "en": "machine learning algorithms",
+        "vi": "thuật toán học máy"
+      },
+      {
+        "en": "automated decision-making",
+        "vi": "ra quyết định tự động"
+      },
+      {
+        "en": "edge analytics",
+        "vi": "phân tích tại biên"
+      }
+    ],
+    "keyPhrases": [
+      "filter out irrelevant",
+      "automated decision-making"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "data processing",
+        "alternatives": [
+          "processing layer"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "raw information",
+        "alternatives": [
+          "raw data"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "machine learning",
+        "alternatives": [
+          "algorithms"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "automated decision",
+        "alternatives": [
+          "decision-making"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "edge analytics",
+        "alternatives": [
+          "ai"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "filter out",
+        "alternatives": [
+          "irrelevant"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "grammarOrTranslationHints": "'filter out' là cụm động từ nghĩa là 'lọc bỏ'.",
+    "importantNotes": "Dựa trên CN159E-6 Reading (Page 9)."
+  },
+  {
+    "id": "tr_ch6_vi_05",
+    "chapterId": "ch6",
+    "direction": "vi_en",
+    "title": "Tầng giao diện người dùng trong nhà thông minh",
+    "sourceText": "Tầng giao diện người dùng giúp con người tương tác thuận tiện với hệ thống IoT thông qua ứng dụng di động hoặc bảng điều khiển tập trung. Ví dụ, trong nhà thông minh, người dùng có thể bật máy pha cà phê chỉ bằng một nút nhấn trên ứng dụng.",
+    "sampleTranslation": "The user interface layer helps humans interact conveniently with the IoT system via mobile apps or centralised dashboards. For example, in smart homes, users can activate coffee makers simply via a button-tapping function on the app.",
+    "keyTerms": [
+      {
+        "en": "user interface layer",
+        "vi": "tầng giao diện người dùng"
+      },
+      {
+        "en": "mobile apps",
+        "vi": "ứng dụng di động"
+      },
+      {
+        "en": "centralised dashboards",
+        "vi": "bảng điều khiển tập trung"
+      },
+      {
+        "en": "smart homes",
+        "vi": "nhà thông minh"
+      },
+      {
+        "en": "coffee makers",
+        "vi": "máy pha cà phê"
+      }
+    ],
+    "keyPhrases": [
+      "interact conveniently with",
+      "via mobile apps"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "user interface",
+        "alternatives": [
+          "interface layer"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "interact",
+        "alternatives": [
+          "iot"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "mobile app",
+        "alternatives": [
+          "mobile apps",
+          "apps"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "dashboard",
+        "alternatives": [
+          "dashboards"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "smart home",
+        "alternatives": [
+          "smart homes"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "coffee maker",
+        "alternatives": [
+          "coffee makers"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng 'via' để diễn tả phương tiện ('thông qua').",
+    "importantNotes": "Dựa trên CN159E-6 Reading (Page 10)."
+  },
+  {
+    "id": "tr_ch4_en_06",
+    "chapterId": "ch4",
+    "direction": "en_vi",
+    "title": "Actuator Classification by Motion",
+    "sourceText": "Actuators can be classified based on their source of energy into electric, pneumatic, and hydraulic actuators. Based on motion, they are divided into rotary actuators, which produce circular movement, and linear actuators, which move in a straight line.",
+    "sampleTranslation": "Cơ cấu chấp hành có thể được phân loại dựa trên nguồn năng lượng thành cơ cấu chấp hành điện, khí nén và thủy lực. Dựa trên chuyển động, chúng được chia thành cơ cấu chấp hành quay tạo ra chuyển động tròn và cơ cấu chấp hành thẳng di chuyển theo đường thẳng.",
+    "keyTerms": [
+      {
+        "en": "source of energy",
+        "vi": "nguồn năng lượng"
+      },
+      {
+        "en": "rotary actuators",
+        "vi": "cơ cấu chấp hành quay"
+      },
+      {
+        "en": "linear actuators",
+        "vi": "cơ cấu chấp hành thẳng"
+      }
+    ],
+    "keyPhrases": [
+      "classified based on",
+      "based on motion",
+      "in a straight line"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "nguồn năng lượng",
+        "alternatives": [
+          "năng lượng"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "điện",
+        "alternatives": [
+          "khí nén",
+          "thủy lực"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "chuyển động",
+        "alternatives": [],
+        "weight": 1.0
+      },
+      {
+        "term": "cơ cấu chấp hành quay",
+        "alternatives": [
+          "quay"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "cơ cấu chấp hành thẳng",
+        "alternatives": [
+          "thẳng",
+          "đường thẳng"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "Chú ý hai tiêu chí phân loại: 'based on their source of energy' và 'based on motion'.",
+    "importantNotes": "Tổng hợp từ sơ đồ CN159E-4 (Pages 3, 4)."
+  },
+  {
+    "id": "tr_ch4_en_07",
+    "chapterId": "ch4",
+    "direction": "en_vi",
+    "title": "Direct-Acting Pneumatic Actuators",
+    "sourceText": "A direct-acting diaphragm actuator uses air entering above a flexible diaphragm against a return spring, while a direct-acting piston actuator uses air pressure acting on a rigid piston inside a cylinder with a vent port.",
+    "sampleTranslation": "Cơ cấu chấp hành màng tác động trực tiếp sử dụng khí đi vào phía trên màng ngăn đàn hồi chống lại lò xo hồi vị, trong khi cơ cấu chấp hành pít-tông tác động trực tiếp sử dụng áp suất khí tác động lên pít-tông cứng bên trong xi-lanh có lỗ thông hơi.",
+    "keyTerms": [
+      {
+        "en": "direct-acting diaphragm actuator",
+        "vi": "cơ cấu chấp hành màng tác động trực tiếp"
+      },
+      {
+        "en": "direct-acting piston actuator",
+        "vi": "cơ cấu chấp hành pít-tông tác động trực tiếp"
+      },
+      {
+        "en": "vent",
+        "vi": "lỗ thông hơi / cửa xả"
+      }
+    ],
+    "keyPhrases": [
+      "acting on",
+      "flexible diaphragm"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "tác động trực tiếp",
+        "alternatives": [
+          "trực tiếp"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "màng",
+        "alternatives": [
+          "màng ngăn"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "lò xo",
+        "alternatives": [],
+        "weight": 1.0
+      },
+      {
+        "term": "pít-tông",
+        "alternatives": [
+          "piston"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "áp suất khí",
+        "alternatives": [
+          "khí"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "thông hơi",
+        "alternatives": [
+          "xả",
+          "vent"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng 'while' để đối chiếu hai cấu tạo trong sơ đồ trang 9.",
+    "importantNotes": "Dựa trên sơ đồ CN159E-4 (Page 9)."
+  },
+  {
+    "id": "tr_ch4_en_08",
+    "chapterId": "ch4",
+    "direction": "en_vi",
+    "title": "Hydraulic Fluid Control & Applications",
+    "sourceText": "In hydraulic actuators, pressure applied to the fluid moves a piston or rotary vane. Hydraulic systems are controlled by regulating the flow of fluid using valves, pumps, and other control units, and hydraulic cylinders are used in heavy machinery like excavators and presses.",
+    "sampleTranslation": "Trong cơ cấu chấp hành thủy lực, áp suất tác dụng lên chất lỏng làm di chuyển pít-tông hoặc cánh gạt quay. Hệ thống thủy lực được điều khiển bằng cách điều tiết dòng chất lỏng nhờ các van, bơm và bộ điều khiển khác, và xi-lanh thủy lực được dùng trong máy móc hạng nặng như máy xúc và máy ép.",
+    "keyTerms": [
+      {
+        "en": "rotary vane",
+        "vi": "cánh gạt quay"
+      },
+      {
+        "en": "valves, pumps",
+        "vi": "van, bơm"
+      },
+      {
+        "en": "hydraulic cylinders",
+        "vi": "xi-lanh thủy lực"
+      },
+      {
+        "en": "excavators and presses",
+        "vi": "máy xúc và máy ép"
+      }
+    ],
+    "keyPhrases": [
+      "regulating the flow of fluid",
+      "heavy machinery"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "chất lỏng",
+        "alternatives": [
+          "áp suất"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "pít-tông",
+        "alternatives": [
+          "cánh gạt quay"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "van",
+        "alternatives": [
+          "bơm"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "xi-lanh thủy lực",
+        "alternatives": [
+          "xi-lanh"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "máy xúc",
+        "alternatives": [
+          "máy ép",
+          "hạng nặng"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "'regulating the flow of fluid' dịch là 'điều tiết dòng chảy của chất lỏng'.",
+    "importantNotes": "Trích từ CN159E-4 Reading & Questions (Pages 10, 15)."
+  },
+  {
+    "id": "tr_ch4_en_09",
+    "chapterId": "ch4",
+    "direction": "en_vi",
+    "title": "Electric Motor Core Components",
+    "sourceText": "An electric motor converts electrical energy into mechanical motion through its core parts: rotor coils, stator magnets, commutator, brushes, and output shaft. When current flows through the rotor coils, electromagnetic torque turns the shaft.",
+    "sampleTranslation": "Động cơ điện chuyển đổi điện năng thành chuyển động cơ học thông qua các bộ phận cốt lõi: cuộn dây rô-to, nam châm sta-to, cổ góp, chổi than và trục đầu ra. Khi dòng điện chạy qua các cuộn dây rô-to, mô-men xoắn điện từ làm quay trục.",
+    "keyTerms": [
+      {
+        "en": "rotor coils",
+        "vi": "cuộn dây rô-to"
+      },
+      {
+        "en": "stator magnets",
+        "vi": "nam châm sta-to"
+      },
+      {
+        "en": "commutator",
+        "vi": "cổ góp"
+      },
+      {
+        "en": "brushes",
+        "vi": "chổi than"
+      },
+      {
+        "en": "shaft",
+        "vi": "trục"
+      }
+    ],
+    "keyPhrases": [
+      "converts electrical energy into",
+      "turns the shaft"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "điện năng",
+        "alternatives": [
+          "chuyển động cơ học"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "rô-to",
+        "alternatives": [
+          "cuộn dây"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "sta-to",
+        "alternatives": [
+          "nam châm"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "cổ góp",
+        "alternatives": [
+          "chổi than"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "trục",
+        "alternatives": [
+          "mô-men xoắn"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "Dựa trên sơ đồ động cơ điện trang 12 và đoạn đọc trang 11.",
+    "importantNotes": "CN159E-4 (Pages 11, 12)."
+  },
+  {
+    "id": "tr_ch4_en_10",
+    "chapterId": "ch4",
+    "direction": "en_vi",
+    "title": "Diaphragm Actuators in Process Industries",
+    "sourceText": "Pneumatic systems control speed and force using regulators and valves. In process industries, a diaphragm actuator is often used in control valves because it responds smoothly to air pressure changes without requiring hydraulic fluid.",
+    "sampleTranslation": "Hệ thống khí nén điều khiển tốc độ và lực bằng các bộ điều chỉnh và van. Trong các ngành công nghiệp chế biến, cơ cấu chấp hành dạng màng thường được sử dụng trong các van điều khiển vì nó phản ứng mượt mà với sự thay đổi áp suất khí mà không cần chất lỏng thủy lực.",
+    "keyTerms": [
+      {
+        "en": "regulators and valves",
+        "vi": "bộ điều chỉnh và van"
+      },
+      {
+        "en": "process industries",
+        "vi": "ngành công nghiệp chế biến"
+      },
+      {
+        "en": "diaphragm actuator",
+        "vi": "cơ cấu chấp hành dạng màng"
+      },
+      {
+        "en": "control valves",
+        "vi": "van điều khiển"
+      }
+    ],
+    "keyPhrases": [
+      "without requiring",
+      "responds smoothly to"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "tốc độ và lực",
+        "alternatives": [
+          "bộ điều chỉnh",
+          "van"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "công nghiệp chế biến",
+        "alternatives": [
+          "chế biến"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "màng",
+        "alternatives": [
+          "cơ cấu chấp hành"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "van điều khiển",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "áp suất khí",
+        "alternatives": [
+          "thủy lực"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "'without requiring' dịch là 'mà không cần / không đòi hỏi'.",
+    "importantNotes": "CN159E-4 Reading Questions (Pages 14, 15)."
+  },
+  {
+    "id": "tr_ch4_vi_06",
+    "chapterId": "ch4",
+    "direction": "vi_en",
+    "title": "Phân loại cơ cấu chấp hành theo chuyển động",
+    "sourceText": "Dựa vào chuyển động, cơ cấu chấp hành được chia thành cơ cấu chấp hành quay và cơ cấu chấp hành thẳng. Cơ cấu chấp hành khí nén thường tạo ra chuyển động thẳng bằng cách đẩy pít-tông.",
+    "sampleTranslation": "Based on motion, actuators are divided into rotary actuators and linear actuators. Pneumatic actuators usually generate linear motion by moving a piston.",
+    "keyTerms": [
+      {
+        "en": "rotary actuators",
+        "vi": "cơ cấu chấp hành quay"
+      },
+      {
+        "en": "linear actuators",
+        "vi": "cơ cấu chấp hành thẳng"
+      },
+      {
+        "en": "linear motion",
+        "vi": "chuyển động thẳng"
+      }
+    ],
+    "keyPhrases": [
+      "based on motion",
+      "are divided into"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "motion",
+        "alternatives": [
+          "based on"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "rotary",
+        "alternatives": [],
+        "weight": 2.0
+      },
+      {
+        "term": "linear",
+        "alternatives": [
+          "linear motion"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "pneumatic",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "piston",
+        "alternatives": [],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng 'are divided into A and B'.",
+    "importantNotes": "CN159E-4 (Pages 4, 8)."
+  },
+  {
+    "id": "tr_ch4_vi_07",
+    "chapterId": "ch4",
+    "direction": "vi_en",
+    "title": "Điều khiển tốc độ và lực trong hệ khí nén",
+    "sourceText": "Tốc độ và lực của cơ cấu chấp hành khí nén có thể được điều khiển chính xác bằng cách điều chỉnh áp suất khí và lưu lượng thông qua bộ điều áp, van và thiết bị điều khiển lưu lượng.",
+    "sampleTranslation": "The speed and force of a pneumatic actuator can be finely controlled by adjusting the air pressure and flow rate using regulators, valves, and flow control devices.",
+    "keyTerms": [
+      {
+        "en": "speed and force",
+        "vi": "tốc độ và lực"
+      },
+      {
+        "en": "air pressure and flow rate",
+        "vi": "áp suất khí và lưu lượng"
+      },
+      {
+        "en": "regulators",
+        "vi": "bộ điều áp"
+      },
+      {
+        "en": "flow control devices",
+        "vi": "thiết bị điều khiển lưu lượng"
+      }
+    ],
+    "keyPhrases": [
+      "finely controlled by adjusting",
+      "using regulators"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "speed",
+        "alternatives": [
+          "force"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "pneumatic",
+        "alternatives": [
+          "actuator"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "air pressure",
+        "alternatives": [
+          "pressure"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "flow rate",
+        "alternatives": [
+          "flow"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "regulators",
+        "alternatives": [
+          "valves"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "Cấu trúc bị động với động từ khuyết thiếu: 'can be finely controlled by V-ing'.",
+    "importantNotes": "CN159E-4 Reading (Page 8)."
+  },
+  {
+    "id": "tr_ch4_vi_08",
+    "chapterId": "ch4",
+    "direction": "vi_en",
+    "title": "Định luật Pascal trong thủy lực",
+    "sourceText": "Cơ cấu chấp hành thủy lực hoạt động dựa trên định luật Pascal. Định luật này phát biểu rằng áp suất tác dụng lên một chất lỏng trong không gian kín được truyền đi nguyên vẹn theo mọi hướng.",
+    "sampleTranslation": "Hydraulic actuators operate based on Pascal's law. This law states that pressure applied to a confined fluid is transmitted undiminished in all directions.",
+    "keyTerms": [
+      {
+        "en": "Pascal's law",
+        "vi": "định luật Pascal"
+      },
+      {
+        "en": "confined fluid",
+        "vi": "chất lỏng trong không gian kín"
+      },
+      {
+        "en": "transmitted undiminished",
+        "vi": "truyền đi nguyên vẹn"
+      }
+    ],
+    "keyPhrases": [
+      "based on Pascal's law",
+      "in all directions"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "hydraulic",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "pascal",
+        "alternatives": [
+          "pascal's law"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "pressure",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "confined fluid",
+        "alternatives": [
+          "fluid"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "undiminished",
+        "alternatives": [
+          "all directions",
+          "transmitted"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "'applied to a confined fluid' là mệnh đề rút gọn bổ nghĩa cho 'pressure'.",
+    "importantNotes": "CN159E-4 Reading (Page 10)."
+  },
+  {
+    "id": "tr_ch4_vi_09",
+    "chapterId": "ch4",
+    "direction": "vi_en",
+    "title": "Cấu tạo cốt lõi của cơ cấu chấp hành điện",
+    "sourceText": "Cơ cấu chấp hành điện hoạt động dựa trên nguyên lý điện từ để chuyển đổi điện năng thành chuyển động cơ học. Các thành phần cốt lõi bao gồm rô-to, sta-to và hệ thống cổ góp.",
+    "sampleTranslation": "Electric actuators operate on electromagnetic principles to convert electrical energy into mechanical motion. The core components include a rotor, stator, and commutation system.",
+    "keyTerms": [
+      {
+        "en": "electromagnetic principles",
+        "vi": "nguyên lý điện từ"
+      },
+      {
+        "en": "electrical energy",
+        "vi": "điện năng"
+      },
+      {
+        "en": "rotor, stator, and commutation system",
+        "vi": "rô-to, sta-to và hệ thống cổ góp"
+      }
+    ],
+    "keyPhrases": [
+      "operate on",
+      "core components include"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "electric",
+        "alternatives": [
+          "actuators"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "electromagnetic",
+        "alternatives": [
+          "principles"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "electrical energy",
+        "alternatives": [
+          "mechanical motion"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "rotor",
+        "alternatives": [
+          "stator"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "commutation",
+        "alternatives": [
+          "commutator"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng giới từ 'on' trong 'operate on electromagnetic principles'.",
+    "importantNotes": "CN159E-4 Reading (Page 11)."
+  },
+  {
+    "id": "tr_ch4_vi_10",
+    "chapterId": "ch4",
+    "direction": "vi_en",
+    "title": "Cơ cấu chấp hành màng trong van điều khiển",
+    "sourceText": "Cơ cấu chấp hành dạng màng thường được sử dụng trong các van điều khiển ở ngành công nghiệp chế biến. Khác với cơ cấu chấp hành khí nén, cơ cấu chấp hành điện không cần nguồn khí hay chất lỏng liên tục.",
+    "sampleTranslation": "A diaphragm actuator is often used in control valves in process industries. Unlike pneumatic actuators, electric actuators do not require a constant air or fluid supply.",
+    "keyTerms": [
+      {
+        "en": "diaphragm actuator",
+        "vi": "cơ cấu chấp hành dạng màng"
+      },
+      {
+        "en": "control valves",
+        "vi": "van điều khiển"
+      },
+      {
+        "en": "process industries",
+        "vi": "ngành công nghiệp chế biến"
+      },
+      {
+        "en": "constant air or fluid supply",
+        "vi": "nguồn khí hay chất lỏng liên tục"
+      }
+    ],
+    "keyPhrases": [
+      "unlike pneumatic actuators",
+      "do not require"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "diaphragm",
+        "alternatives": [
+          "actuator"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "control valves",
+        "alternatives": [
+          "valves"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "process industries",
+        "alternatives": [
+          "process"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "electric",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "air",
+        "alternatives": [
+          "fluid",
+          "supply"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng 'Unlike + danh từ' để diễn tả sự khác biệt.",
+    "importantNotes": "CN159E-4 Reading Questions (Pages 14, 15)."
+  },
+  {
+    "id": "tr_ch51_en_06",
+    "chapterId": "ch5_1",
+    "direction": "en_vi",
+    "title": "Open-Loop vs Closed-Loop Block Diagrams",
+    "sourceText": "In an open-loop control system, the controller sends an actuating signal directly to the plant to produce an output. In a closed-loop control system, feedback elements measure the output and send a feedback signal to the error detector, which compares it with the input to generate an error signal.",
+    "sampleTranslation": "Trong hệ thống điều khiển vòng hở, bộ điều khiển gửi tín hiệu tác động trực tiếp đến đối tượng điều khiển để tạo ra đầu ra. Trong hệ thống điều khiển vòng kín, các phần tử hồi tiếp đo đầu ra và gửi tín hiệu hồi tiếp về bộ phát hiện sai lệch, nơi so sánh nó với đầu vào để tạo ra tín hiệu sai lệch.",
+    "keyTerms": [
+      {
+        "en": "open-loop control system",
+        "vi": "hệ thống điều khiển vòng hở"
+      },
+      {
+        "en": "actuating signal",
+        "vi": "tín hiệu tác động"
+      },
+      {
+        "en": "plant",
+        "vi": "đối tượng điều khiển"
+      },
+      {
+        "en": "feedback elements",
+        "vi": "phần tử hồi tiếp"
+      },
+      {
+        "en": "error detector",
+        "vi": "bộ phát hiện sai lệch"
+      }
+    ],
+    "keyPhrases": [
+      "compares it with",
+      "generate an error signal"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "vòng hở",
+        "alternatives": [
+          "bộ điều khiển"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "tín hiệu tác động",
+        "alternatives": [
+          "đối tượng điều khiển"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "vòng kín",
+        "alternatives": [
+          "hồi tiếp"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "bộ phát hiện sai lệch",
+        "alternatives": [
+          "sai lệch"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "đầu vào",
+        "alternatives": [
+          "đầu ra"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "grammarOrTranslationHints": "Mệnh đề quan hệ ', which compares it with...' bổ nghĩa cho 'the error detector'.",
+    "importantNotes": "Dựa trên sơ đồ CN159E-5 (Pages 3, 4)."
+  },
+  {
+    "id": "tr_ch51_en_07",
+    "chapterId": "ch5_1",
+    "direction": "en_vi",
+    "title": "Classification of Controlled Systems",
+    "sourceText": "Depending on their resulting dynamic behavior, controlled systems can be classified into P controlled systems with proportional control action, I controlled systems with integral control action, controlled systems with dead time, and controlled systems with energy storing components of first, second, or higher order.",
+    "sampleTranslation": "Tùy thuộc vào đặc tính động thu được, các hệ thống được điều khiển có thể được phân loại thành hệ thống điều khiển P có tác động điều khiển tỷ lệ, hệ thống điều khiển I có tác động điều khiển tích phân, hệ thống có thời gian trễ và hệ thống có các phần tử tích trữ năng lượng bậc nhất, bậc hai hoặc bậc cao hơn.",
+    "keyTerms": [
+      {
+        "en": "proportional control action",
+        "vi": "tác động điều khiển tỷ lệ"
+      },
+      {
+        "en": "integral control action",
+        "vi": "tác động điều khiển tích phân"
+      },
+      {
+        "en": "dead time",
+        "vi": "thời gian trễ"
+      },
+      {
+        "en": "energy storing components",
+        "vi": "phần tử tích trữ năng lượng"
+      }
+    ],
+    "keyPhrases": [
+      "depending on",
+      "first, second, or higher order"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "đặc tính động",
+        "alternatives": [
+          "phân loại"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "tỷ lệ",
+        "alternatives": [
+          "hệ p",
+          "điều khiển p"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "tích phân",
+        "alternatives": [
+          "hệ i",
+          "điều khiển i"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "thời gian trễ",
+        "alternatives": [
+          "thời gian chết"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "tích trữ năng lượng",
+        "alternatives": [
+          "bậc nhất",
+          "bậc hai"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "'Depending on...' ở đầu câu dịch là 'Tùy thuộc vào...'.",
+    "importantNotes": "Trích từ CN159E-5 Reading (Page 7)."
+  },
+  {
+    "id": "tr_ch51_en_08",
+    "chapterId": "ch5_1",
+    "direction": "en_vi",
+    "title": "Importance of Adapted Controllers",
+    "sourceText": "Only by means of closed-loop feedback control can equilibrium be reached at the right point of time and to the proper extent. Therefore, a properly adapted controller is more important in the case of systems without self-regulation.",
+    "sampleTranslation": "Chỉ bằng phương pháp điều khiển hồi tiếp vòng kín mới có thể đạt được trạng thái cân bằng đúng thời điểm và ở mức độ phù hợp. Do đó, một bộ điều khiển được hiệu chỉnh phù hợp đóng vai trò quan trọng hơn đối với các hệ thống không có tự điều chỉnh.",
+    "keyTerms": [
+      {
+        "en": "closed-loop feedback control",
+        "vi": "điều khiển hồi tiếp vòng kín"
+      },
+      {
+        "en": "equilibrium",
+        "vi": "trạng thái cân bằng"
+      },
+      {
+        "en": "properly adapted controller",
+        "vi": "bộ điều khiển được hiệu chỉnh phù hợp"
+      }
+    ],
+    "keyPhrases": [
+      "only by means of",
+      "at the right point of time",
+      "to the proper extent"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "hồi tiếp vòng kín",
+        "alternatives": [
+          "vòng kín"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "cân bằng",
+        "alternatives": [
+          "trạng thái cân bằng"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "đúng thời điểm",
+        "alternatives": [
+          "mức độ phù hợp"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "bộ điều khiển",
+        "alternatives": [
+          "hiệu chỉnh"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "không có tự điều chỉnh",
+        "alternatives": [
+          "tự điều chỉnh"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Chú ý cấu trúc đảo ngữ với 'Only by means of... can equilibrium be reached'.",
+    "importantNotes": "Trích từ CN159E-5 Reading (Page 9)."
+  },
+  {
+    "id": "tr_ch51_en_09",
+    "chapterId": "ch5_1",
+    "direction": "en_vi",
+    "title": "Negligible Time Lag in P Control",
+    "sourceText": "In ideal P controlled systems, the controlled variable follows the manipulated variable without any lag. When the time lag between the manipulated and controlled variable is so small that it does not have any effect on the system, this behavior is called proportional control action.",
+    "sampleTranslation": "Trong các hệ thống điều khiển P lý tưởng, biến được điều khiển bám theo biến tác động mà không có bất kỳ độ trễ nào. Khi độ trễ thời gian giữa biến tác động và biến được điều khiển nhỏ đến mức không gây ảnh hưởng đến hệ thống, hành vi này được gọi là tác động điều khiển tỷ lệ.",
+    "keyTerms": [
+      {
+        "en": "time lag",
+        "vi": "độ trễ thời gian"
+      },
+      {
+        "en": "proportional control action",
+        "vi": "tác động điều khiển tỷ lệ"
+      },
+      {
+        "en": "follows",
+        "vi": "bám theo / đi theo"
+      }
+    ],
+    "keyPhrases": [
+      "without any lag",
+      "so small that"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "điều khiển p",
+        "alternatives": [
+          "tỷ lệ"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "biến được điều khiển",
+        "alternatives": [
+          "biến tác động"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "độ trễ",
+        "alternatives": [
+          "trễ thời gian"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "không ảnh hưởng",
+        "alternatives": [
+          "không gây ảnh hưởng"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "tác động điều khiển tỷ lệ",
+        "alternatives": [],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Cấu trúc 'so small that...' dịch là 'nhỏ đến mức mà...'.",
+    "importantNotes": "Trích từ CN159E-5 Reading (Page 10)."
+  },
+  {
+    "id": "tr_ch51_en_10",
+    "chapterId": "ch5_1",
+    "direction": "en_vi",
+    "title": "Energy Storage & Time-Delayed Discharge",
+    "sourceText": "Any controlled system usually consists of several components that are characterized by the capacity to store energy. Due to these components and their energetic state which changes only gradually, energy consumption or discharge occurs time delayed.",
+    "sampleTranslation": "Bất kỳ hệ thống được điều khiển nào thường bao gồm nhiều thành phần được đặc trưng bởi khả năng tích trữ năng lượng. Do các thành phần này và trạng thái năng lượng của chúng chỉ thay đổi dần dần, việc tiêu thụ hoặc giải phóng năng lượng diễn ra bị trễ theo thời gian.",
+    "keyTerms": [
+      {
+        "en": "capacity to store energy",
+        "vi": "khả năng tích trữ năng lượng"
+      },
+      {
+        "en": "energetic state",
+        "vi": "trạng thái năng lượng"
+      },
+      {
+        "en": "energy consumption or discharge",
+        "vi": "tiêu thụ hoặc giải phóng năng lượng"
+      }
+    ],
+    "keyPhrases": [
+      "characterized by",
+      "changes only gradually"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "tích trữ năng lượng",
+        "alternatives": [
+          "lưu trữ năng lượng"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "trạng thái năng lượng",
+        "alternatives": [],
+        "weight": 2.0
+      },
+      {
+        "term": "dần dần",
+        "alternatives": [
+          "từ từ"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "tiêu thụ",
+        "alternatives": [
+          "giải phóng",
+          "xả"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "trễ theo thời gian",
+        "alternatives": [
+          "bị trễ"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "'Due to + N' dịch là 'Do / Bởi vì'.",
+    "importantNotes": "Trích từ CN159E-5 Reading (Page 13)."
+  },
+  {
+    "id": "tr_ch51_vi_06",
+    "chapterId": "ch5_1",
+    "direction": "vi_en",
+    "title": "Đặc tính động và nhiệm vụ điều khiển",
+    "sourceText": "Trong kỹ thuật điều khiển, hệ thống được điều khiển chủ yếu được đặc trưng bởi đặc tính động, yếu tố quyết định phạm vi và chất lượng cần thiết để giải quyết một nhiệm vụ điều khiển.",
+    "sampleTranslation": "In control engineering, a controlled system is primarily characterized by its dynamic behavior, which determines the scope and quality required to solve a control task.",
+    "keyTerms": [
+      {
+        "en": "control engineering",
+        "vi": "kỹ thuật điều khiển"
+      },
+      {
+        "en": "dynamic behavior",
+        "vi": "đặc tính động"
+      },
+      {
+        "en": "scope and quality",
+        "vi": "phạm vi và chất lượng"
+      },
+      {
+        "en": "control task",
+        "vi": "nhiệm vụ điều khiển"
+      }
+    ],
+    "keyPhrases": [
+      "primarily characterized by",
+      "solve a control task"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "control engineering",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "controlled system",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "dynamic behavior",
+        "alternatives": [
+          "dynamic"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "scope",
+        "alternatives": [
+          "quality"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "control task",
+        "alternatives": [
+          "task"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng mệnh đề quan hệ ', which determines...'.",
+    "importantNotes": "CN159E-5 Reading (Page 6)."
+  },
+  {
+    "id": "tr_ch51_vi_07",
+    "chapterId": "ch5_1",
+    "direction": "vi_en",
+    "title": "Phân loại 4 dạng hệ thống điều khiển",
+    "sourceText": "Dựa vào đặc tính động, các hệ thống được điều khiển có thể được phân loại thành hệ thống điều khiển P, hệ thống điều khiển I, hệ thống có thời gian trễ và hệ thống có phần tử tích trữ năng lượng.",
+    "sampleTranslation": "Depending on dynamic behavior, controlled systems can be classified into P controlled systems, I controlled systems, controlled systems with dead time, and controlled systems with energy storing components.",
+    "keyTerms": [
+      {
+        "en": "P controlled systems",
+        "vi": "hệ thống điều khiển P"
+      },
+      {
+        "en": "I controlled systems",
+        "vi": "hệ thống điều khiển I"
+      },
+      {
+        "en": "dead time",
+        "vi": "thời gian trễ"
+      },
+      {
+        "en": "energy storing components",
+        "vi": "phần tử tích trữ năng lượng"
+      }
+    ],
+    "keyPhrases": [
+      "classified into"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "dynamic behavior",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "p controlled",
+        "alternatives": [
+          "proportional"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "i controlled",
+        "alternatives": [
+          "integral"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "dead time",
+        "alternatives": [],
+        "weight": 2.0
+      },
+      {
+        "term": "energy storing",
+        "alternatives": [
+          "storing components"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng cấu trúc 'can be classified into...'.",
+    "importantNotes": "CN159E-5 Reading (Page 7)."
+  },
+  {
+    "id": "tr_ch51_vi_08",
+    "chapterId": "ch5_1",
+    "direction": "vi_en",
+    "title": "Điều khiển vòng kín cho hệ không tự điều chỉnh",
+    "sourceText": "Các hệ thống không có tự điều chỉnh đòi hỏi điều khiển vòng kín vì biến tác động phải trở về bằng không ngay khi biến được điều khiển đạt đến trạng thái cân bằng yêu cầu.",
+    "sampleTranslation": "Systems without self-regulation require closed-loop control because the manipulated variable must become zero as soon as the controlled variable reaches the required equilibrium.",
+    "keyTerms": [
+      {
+        "en": "without self-regulation",
+        "vi": "không có tự điều chỉnh"
+      },
+      {
+        "en": "closed-loop control",
+        "vi": "điều khiển vòng kín"
+      },
+      {
+        "en": "manipulated variable",
+        "vi": "biến tác động"
+      },
+      {
+        "en": "equilibrium",
+        "vi": "trạng thái cân bằng"
+      }
+    ],
+    "keyPhrases": [
+      "as soon as",
+      "become zero"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "self-regulation",
+        "alternatives": [
+          "without self-regulation"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "closed-loop",
+        "alternatives": [
+          "closed loop"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "manipulated variable",
+        "alternatives": [
+          "zero"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "controlled variable",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "equilibrium",
+        "alternatives": [],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "'ngay khi' dịch là 'as soon as'.",
+    "importantNotes": "CN159E-5 Reading (Page 9)."
+  },
+  {
+    "id": "tr_ch51_vi_09",
+    "chapterId": "ch5_1",
+    "direction": "vi_en",
+    "title": "Tác động tỷ lệ và độ trễ thực tế",
+    "sourceText": "Trong hệ thống có tác động tỷ lệ, biến được điều khiển x thay đổi tỷ lệ với biến tác động y. Tuy nhiên, điều khiển P không có bất kỳ độ trễ nào không xảy ra trong thực tế vì mọi sự truyền năng lượng đều cần thời gian hữu hạn.",
+    "sampleTranslation": "In systems with proportional action, the controlled variable x changes proportional to the manipulated variable y. However, P control without any lag does not occur in practice because any energy transfer requires a finite amount of time.",
+    "keyTerms": [
+      {
+        "en": "proportional action",
+        "vi": "tác động tỷ lệ"
+      },
+      {
+        "en": "lag",
+        "vi": "độ trễ"
+      },
+      {
+        "en": "energy transfer",
+        "vi": "truyền năng lượng"
+      },
+      {
+        "en": "finite amount of time",
+        "vi": "thời gian hữu hạn"
+      }
+    ],
+    "keyPhrases": [
+      "in practice",
+      "proportional to"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "proportional",
+        "alternatives": [],
+        "weight": 2.0
+      },
+      {
+        "term": "controlled variable",
+        "alternatives": [
+          "manipulated variable"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "lag",
+        "alternatives": [
+          "in practice"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "energy transfer",
+        "alternatives": [
+          "transfer"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "finite",
+        "alternatives": [
+          "time"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng 'However,' để chuyển ý.",
+    "importantNotes": "CN159E-5 Reading (Page 10)."
+  },
+  {
+    "id": "tr_ch51_vi_10",
+    "chapterId": "ch5_1",
+    "direction": "vi_en",
+    "title": "Hệ thống có thời gian chết",
+    "sourceText": "Trong các hệ thống có thời gian chết, không có đáp ứng động nào cho đến khi một khoảng thời gian nhất định trôi qua. Hằng số thời gian TL đóng vai trò là thước đo cho thời gian chết hoặc độ trễ.",
+    "sampleTranslation": "In systems with dead time, there is no dynamic response until a certain amount of time has elapsed. The time constant TL serves as a measure for the dead time or lag.",
+    "keyTerms": [
+      {
+        "en": "dead time",
+        "vi": "thời gian chết"
+      },
+      {
+        "en": "dynamic response",
+        "vi": "đáp ứng động"
+      },
+      {
+        "en": "time constant",
+        "vi": "hằng số thời gian"
+      }
+    ],
+    "keyPhrases": [
+      "has elapsed",
+      "serves as a measure for"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "dead time",
+        "alternatives": [],
+        "weight": 2.0
+      },
+      {
+        "term": "dynamic response",
+        "alternatives": [
+          "response"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "elapsed",
+        "alternatives": [
+          "certain amount of time"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "time constant",
+        "alternatives": [
+          "tl"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "lag",
+        "alternatives": [
+          "measure"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "'serves as a measure for' dịch là 'đóng vai trò thước đo cho'.",
+    "importantNotes": "CN159E-5 Reading (Page 12)."
+  },
+  {
+    "id": "tr_ch52_en_06",
+    "chapterId": "ch5_2",
+    "direction": "en_vi",
+    "title": "Microcontrollers as Miniature PCs",
+    "sourceText": "Sometimes referred to as an embedded controller or microcontroller unit (MCU), microcontrollers are found in automobile engine control systems, robots, office machines, medical devices, vending machines and home appliances. They are simple miniature PCs designed to control small features of a larger component without a complex front-end operating system.",
+    "sampleTranslation": "Đôi khi được gọi là bộ điều khiển nhúng hoặc đơn vị vi điều khiển (MCU), vi điều khiển được tìm thấy trong hệ thống điều khiển động cơ ô tô, robot, máy văn phòng, thiết bị y tế, máy bán hàng tự động và thiết bị gia dụng. Chúng là những máy tính thu nhỏ đơn giản được thiết kế để điều khiển các tính năng nhỏ của một thành phần lớn hơn mà không cần hệ điều hành giao diện phức tạp.",
+    "keyTerms": [
+      {
+        "en": "embedded controller",
+        "vi": "bộ điều khiển nhúng"
+      },
+      {
+        "en": "medical devices",
+        "vi": "thiết bị y tế"
+      },
+      {
+        "en": "vending machines",
+        "vi": "máy bán hàng tự động"
+      },
+      {
+        "en": "miniature PCs",
+        "vi": "máy tính thu nhỏ"
+      },
+      {
+        "en": "front-end operating system",
+        "vi": "hệ điều hành giao diện"
+      }
+    ],
+    "keyPhrases": [
+      "referred to as",
+      "small features of a larger component"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "bộ điều khiển nhúng",
+        "alternatives": [
+          "mcu"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "ô tô",
+        "alternatives": [
+          "robot",
+          "thiết bị y tế"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "máy bán hàng tự động",
+        "alternatives": [
+          "gia dụng"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "máy tính thu nhỏ",
+        "alternatives": [
+          "máy tính"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "hệ điều hành",
+        "alternatives": [
+          "phức tạp"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "'Sometimes referred to as...' là cụm phân từ bị động đầu câu: 'Đôi khi được gọi là...'.",
+    "importantNotes": "Trích từ CN159E-5.2 Reading (Page 6)."
+  },
+  {
+    "id": "tr_ch52_en_07",
+    "chapterId": "ch5_2",
+    "direction": "en_vi",
+    "title": "Single Function Control & Action",
+    "sourceText": "A microcontroller is embedded inside a system to control a single function in a device. After the processor accesses the temporary data and deciphers it using program memory instructions, the microcontroller uses its I/O peripherals to communicate and take the appropriate action.",
+    "sampleTranslation": "Vi điều khiển được nhúng bên trong một hệ thống để điều khiển một chức năng đơn lẻ trong thiết bị. Sau khi bộ xử lý truy cập dữ liệu tạm thời và giải mã nó bằng các lệnh trong bộ nhớ chương trình, vi điều khiển sử dụng các thiết bị ngoại vi vào/ra để giao tiếp và thực hiện hành động phù hợp.",
+    "keyTerms": [
+      {
+        "en": "single function",
+        "vi": "một chức năng đơn lẻ"
+      },
+      {
+        "en": "deciphers",
+        "vi": "giải mã"
+      },
+      {
+        "en": "program memory instructions",
+        "vi": "lệnh trong bộ nhớ chương trình"
+      },
+      {
+        "en": "appropriate action",
+        "vi": "hành động phù hợp"
+      }
+    ],
+    "keyPhrases": [
+      "embedded inside",
+      "take the appropriate action"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "nhúng",
+        "alternatives": [
+          "chức năng"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "bộ xử lý",
+        "alternatives": [
+          "tạm thời"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "giải mã",
+        "alternatives": [
+          "bộ nhớ chương trình"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "ngoại vi",
+        "alternatives": [
+          "i/o"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "hành động phù hợp",
+        "alternatives": [
+          "giao tiếp"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "Chú ý trình tự xử lý: nhận dữ liệu -> lưu tạm -> giải mã -> ngoại vi thực hiện hành động.",
+    "importantNotes": "Trích từ CN159E-5.2 Reading (Page 7)."
+  },
+  {
+    "id": "tr_ch52_en_08",
+    "chapterId": "ch5_2",
+    "direction": "en_vi",
+    "title": "Communication Between Multiple MCUs",
+    "sourceText": "In complex devices, each microcontroller communicates with the others to inform them of the correct actions. Some might communicate with a more complex central computer, while others communicate only with other microcontrollers using their I/O peripherals.",
+    "sampleTranslation": "Trong các thiết bị phức tạp, mỗi vi điều khiển giao tiếp với các vi điều khiển khác để thông báo cho chúng về các hành động chính xác. Một số có thể giao tiếp với một máy tính trung tâm phức tạp hơn, trong khi những vi điều khiển khác chỉ giao tiếp với các vi điều khiển khác thông qua thiết bị ngoại vi vào/ra của chúng.",
+    "keyTerms": [
+      {
+        "en": "correct actions",
+        "vi": "hành động chính xác"
+      },
+      {
+        "en": "central computer",
+        "vi": "máy tính trung tâm"
+      },
+      {
+        "en": "I/O peripherals",
+        "vi": "thiết bị ngoại vi vào/ra"
+      }
+    ],
+    "keyPhrases": [
+      "inform them of",
+      "while others"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "vi điều khiển",
+        "alternatives": [
+          "giao tiếp"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "hành động",
+        "alternatives": [
+          "chính xác"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "máy tính trung tâm",
+        "alternatives": [
+          "trung tâm"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "ngoại vi",
+        "alternatives": [
+          "i/o"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "'inform someone of something' dịch là 'thông báo cho ai về điều gì'.",
+    "importantNotes": "Trích từ CN159E-5.2 Reading (Page 8)."
+  },
+  {
+    "id": "tr_ch52_en_09",
+    "chapterId": "ch5_2",
+    "direction": "en_vi",
+    "title": "Memory & Applications of Microcontrollers",
+    "sourceText": "Inside a microcontroller, memory temporarily stores incoming data in data memory and holds the instructions in program memory. Today, microcontrollers are widely used in automotive, robotics, home and industrial automation, smart energy, and IoT applications.",
+    "sampleTranslation": "Bên trong vi điều khiển, bộ nhớ lưu trữ tạm thời dữ liệu đầu vào trong bộ nhớ dữ liệu và lưu giữ các lệnh trong bộ nhớ chương trình. Ngày nay, vi điều khiển được sử dụng rộng rãi trong các ứng dụng ô tô, robot, tự động hóa gia đình và công nghiệp, năng lượng thông minh và IoT.",
+    "keyTerms": [
+      {
+        "en": "data memory",
+        "vi": "bộ nhớ dữ liệu"
+      },
+      {
+        "en": "program memory",
+        "vi": "bộ nhớ chương trình"
+      },
+      {
+        "en": "smart energy",
+        "vi": "năng lượng thông minh"
+      },
+      {
+        "en": "home and industrial automation",
+        "vi": "tự động hóa gia đình và công nghiệp"
+      }
+    ],
+    "keyPhrases": [
+      "temporarily stores",
+      "widely used in"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "bộ nhớ dữ liệu",
+        "alternatives": [
+          "tạm thời"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "bộ nhớ chương trình",
+        "alternatives": [
+          "lệnh"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "ô tô",
+        "alternatives": [
+          "robot"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "tự động hóa",
+        "alternatives": [
+          "năng lượng thông minh"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "iot",
+        "alternatives": [],
+        "weight": 1.0
+      }
+    ],
+    "grammarOrTranslationHints": "Liệt kê đầy đủ các lĩnh vực ứng dụng trong trang 10.",
+    "importantNotes": "Trích từ CN159E-5.2 Reading (Pages 9, 10)."
+  },
+  {
+    "id": "tr_ch52_en_10",
+    "chapterId": "ch5_2",
+    "direction": "en_vi",
+    "title": "Arduino Uno Hardware Overview",
+    "sourceText": "The Arduino Uno board features an ATmega328 microcontroller, an ATmega16u2 USB controller, a crystal oscillator, and a voltage regulator. It also includes a reset button, digital I/O pins with TX and RX serial lines, analog input pins A0 to A5, and a 7-12V DC power jack.",
+    "sampleTranslation": "Bo mạch Arduino Uno được trang bị vi điều khiển ATmega328, bộ điều khiển USB ATmega16u2, bộ dao động thạch anh và bộ ổn áp. Nó cũng bao gồm nút đặt lại, các chân vào/ra số với đường truyền nối tiếp TX và RX, các chân đầu vào tương tự A0 đến A5 và giắc cắm nguồn DC 7-12V.",
+    "keyTerms": [
+      {
+        "en": "USB controller",
+        "vi": "bộ điều khiển USB"
+      },
+      {
+        "en": "crystal oscillator",
+        "vi": "bộ dao động thạch anh"
+      },
+      {
+        "en": "voltage regulator",
+        "vi": "bộ ổn áp"
+      },
+      {
+        "en": "reset button",
+        "vi": "nút đặt lại"
+      },
+      {
+        "en": "power jack",
+        "vi": "giắc cắm nguồn"
+      }
+    ],
+    "keyPhrases": [
+      "features an",
+      "serial lines"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "atmega328",
+        "alternatives": [
+          "atmega16u2"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "dao động thạch anh",
+        "alternatives": [
+          "thạch anh"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "ổn áp",
+        "alternatives": [
+          "bộ ổn áp"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "tx",
+        "alternatives": [
+          "rx",
+          "nối tiếp"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "tương tự",
+        "alternatives": [
+          "analog",
+          "a0"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "giắc cắm nguồn",
+        "alternatives": [
+          "7-12v"
+        ],
+        "weight": 1.0
+      }
+    ],
+    "grammarOrTranslationHints": "Giữ nguyên các ký hiệu chân phần cứng như TX, RX, A0–A5, 7-12V DC.",
+    "importantNotes": "Dựa trên sơ đồ CN159E-5.2 (Page 4)."
+  },
+  {
+    "id": "tr_ch52_vi_06",
+    "chapterId": "ch5_2",
+    "direction": "vi_en",
+    "title": "Các thành phần cốt lõi của vi điều khiển",
+    "sourceText": "Một vi điều khiển điển hình bao gồm bộ xử lý trung tâm, bộ nhớ và các thiết bị ngoại vi vào/ra trên một con chip đơn. CPU giải mã dữ liệu và thực thi các lệnh của chương trình.",
+    "sampleTranslation": "A typical microcontroller includes a central processing unit, memory, and input/output peripherals on a single chip. The CPU interprets the data and carries out the program instructions.",
+    "keyTerms": [
+      {
+        "en": "central processing unit",
+        "vi": "bộ xử lý trung tâm"
+      },
+      {
+        "en": "input/output peripherals",
+        "vi": "thiết bị ngoại vi vào/ra"
+      },
+      {
+        "en": "single chip",
+        "vi": "một con chip đơn"
+      },
+      {
+        "en": "carries out",
+        "vi": "thực thi"
+      }
+    ],
+    "keyPhrases": [
+      "on a single chip",
+      "carries out the program instructions"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "microcontroller",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "cpu",
+        "alternatives": [
+          "central processing unit",
+          "processor"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "memory",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "peripherals",
+        "alternatives": [
+          "i/o"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "single chip",
+        "alternatives": [
+          "chip"
+        ],
+        "weight": 1.0
+      },
+      {
+        "term": "instructions",
+        "alternatives": [
+          "interprets",
+          "carries out"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng 'carries out' hoặc 'executes' cho 'thực thi'.",
+    "importantNotes": "CN159E-5.2 Reading (Pages 6, 9)."
+  },
+  {
+    "id": "tr_ch52_vi_07",
+    "chapterId": "ch5_2",
+    "direction": "vi_en",
+    "title": "Vai trò của ngoại vi vào/ra",
+    "sourceText": "Các thiết bị ngoại vi vào/ra kết nối con chip với thế giới bên ngoài để gửi và nhận tín hiệu. Trong một thiết bị, các vi điều khiển có thể giao tiếp với nhau hoặc với máy tính trung tâm.",
+    "sampleTranslation": "Input/output peripherals connect the chip to the outside world to send and receive signals. In a device, microcontrollers can communicate with each other or with a central computer.",
+    "keyTerms": [
+      {
+        "en": "outside world",
+        "vi": "thế giới bên ngoài"
+      },
+      {
+        "en": "send and receive signals",
+        "vi": "gửi và nhận tín hiệu"
+      },
+      {
+        "en": "central computer",
+        "vi": "máy tính trung tâm"
+      }
+    ],
+    "keyPhrases": [
+      "connect the chip to",
+      "communicate with each other"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "peripherals",
+        "alternatives": [
+          "i/o"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "outside world",
+        "alternatives": [
+          "connect"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "signals",
+        "alternatives": [
+          "send and receive"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "communicate",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "central computer",
+        "alternatives": [
+          "computer"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng 'to + V' để chỉ mục đích ('để gửi và nhận').",
+    "importantNotes": "CN159E-5.2 Reading (Pages 8, 9)."
+  },
+  {
+    "id": "tr_ch52_vi_08",
+    "chapterId": "ch5_2",
+    "direction": "vi_en",
+    "title": "Phân loại theo kích thước dữ liệu",
+    "sourceText": "Vi điều khiển có thể được phân loại theo kích thước dữ liệu và kiến trúc. Vi điều khiển 8-bit truyền 8 bit dữ liệu mỗi lần, trong khi vi điều khiển 16-bit có tốc độ xung nhịp cao hơn và nhiều bộ nhớ hơn.",
+    "sampleTranslation": "Microcontrollers can be classified according to data size and architecture. An 8-bit microcontroller transmits 8 bits of data at a time, whereas a 16-bit microcontroller has higher clock speeds and more memory.",
+    "keyTerms": [
+      {
+        "en": "data size and architecture",
+        "vi": "kích thước dữ liệu và kiến trúc"
+      },
+      {
+        "en": "transmits",
+        "vi": "truyền"
+      },
+      {
+        "en": "clock speeds",
+        "vi": "tốc độ xung nhịp"
+      }
+    ],
+    "keyPhrases": [
+      "classified according to",
+      "at a time"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "data size",
+        "alternatives": [
+          "architecture"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "8-bit",
+        "alternatives": [
+          "8 bit"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "transmits",
+        "alternatives": [
+          "data"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "16-bit",
+        "alternatives": [
+          "16 bit"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "clock speed",
+        "alternatives": [
+          "clock speeds",
+          "memory"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "'tại một thời điểm / mỗi lần' dịch là 'at a time'.",
+    "importantNotes": "CN159E-5.2 Reading (Page 10)."
+  },
+  {
+    "id": "tr_ch52_vi_09",
+    "chapterId": "ch5_2",
+    "direction": "vi_en",
+    "title": "Ứng dụng của vi điều khiển trong công nghiệp và đời sống",
+    "sourceText": "Vi điều khiển được ứng dụng rộng rãi trong lĩnh vực ô tô, robot, tự động hóa gia đình và công nghiệp, năng lượng thông minh và Internet vạn vật.",
+    "sampleTranslation": "Microcontrollers are widely applied in automotive, robotics, home and industrial automation, smart energy, and the Internet of Things.",
+    "keyTerms": [
+      {
+        "en": "automotive",
+        "vi": "ô tô"
+      },
+      {
+        "en": "robotics",
+        "vi": "robot"
+      },
+      {
+        "en": "home and industrial automation",
+        "vi": "tự động hóa gia đình và công nghiệp"
+      },
+      {
+        "en": "smart energy",
+        "vi": "năng lượng thông minh"
+      }
+    ],
+    "keyPhrases": [
+      "widely applied in"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "microcontrollers",
+        "alternatives": [
+          "microcontroller"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "automotive",
+        "alternatives": [
+          "robotics"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "automation",
+        "alternatives": [
+          "industrial"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "smart energy",
+        "alternatives": [
+          "energy"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "internet of things",
+        "alternatives": [
+          "iot"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng danh từ lĩnh vực: 'automotive, robotics, ...'.",
+    "importantNotes": "CN159E-5.2 Reading (Page 10)."
+  },
+  {
+    "id": "tr_ch52_vi_10",
+    "chapterId": "ch5_2",
+    "direction": "vi_en",
+    "title": "Chân nguồn và giao tiếp nối tiếp trên Arduino Uno",
+    "sourceText": "Trên bo mạch Arduino Uno, các chân vào/ra số bao gồm chân truyền nối tiếp TX và chân nhận nối tiếp RX. Ngoài ra, bo mạch còn có chân 3.3V, chân 5V, chân nối đất và nút đặt lại.",
+    "sampleTranslation": "On the Arduino Uno board, digital I/O pins include the Serial Out (TX) pin and Serial In (RX) pin. In addition, the board has a 3.3V pin, a 5V pin, a ground pin, and a reset button.",
+    "keyTerms": [
+      {
+        "en": "digital I/O pins",
+        "vi": "các chân vào/ra số"
+      },
+      {
+        "en": "Serial Out (TX)",
+        "vi": "truyền nối tiếp TX"
+      },
+      {
+        "en": "Serial In (RX)",
+        "vi": "nhận nối tiếp RX"
+      },
+      {
+        "en": "ground pin",
+        "vi": "chân nối đất"
+      },
+      {
+        "en": "reset button",
+        "vi": "nút đặt lại"
+      }
+    ],
+    "keyPhrases": [
+      "on the Arduino Uno board",
+      "in addition"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "digital",
+        "alternatives": [
+          "i/o"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "tx",
+        "alternatives": [
+          "serial out"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "rx",
+        "alternatives": [
+          "serial in"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "ground",
+        "alternatives": [
+          "3.3v",
+          "5v"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "reset",
+        "alternatives": [
+          "reset button"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Dựa trực tiếp vào nhãn tiếng Anh trên sơ đồ trang 4.",
+    "importantNotes": "CN159E-5.2 Diagram (Page 4)."
+  },
+  {
+    "id": "tr_ch6_en_06",
+    "chapterId": "ch6",
+    "direction": "en_vi",
+    "title": "IoT Infrastructures in Everyday Life",
+    "sourceText": "Information, sensor, and network technology are becoming increasingly small, more powerful, and more frequently used. People no longer only encounter information technology in offices or at desks, because it is also embedded in objects and environments in everyday life.",
+    "sampleTranslation": "Công nghệ thông tin, cảm biến và mạng đang ngày càng trở nên nhỏ gọn hơn, mạnh mẽ hơn và được sử dụng thường xuyên hơn. Con người không còn chỉ bắt gặp công nghệ thông tin ở văn phòng hay bàn làm việc nữa, bởi vì nó còn được nhúng vào các đồ vật và môi trường trong đời sống hàng ngày.",
+    "keyTerms": [
+      {
+        "en": "sensor and network technology",
+        "vi": "công nghệ cảm biến và mạng"
+      },
+      {
+        "en": "embedded in objects",
+        "vi": "được nhúng vào các đồ vật"
+      },
+      {
+        "en": "everyday life",
+        "vi": "đời sống hàng ngày"
+      }
+    ],
+    "keyPhrases": [
+      "increasingly small",
+      "no longer only"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "cảm biến",
+        "alternatives": [
+          "công nghệ thông tin"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "nhỏ",
+        "alternatives": [
+          "mạnh mẽ"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "văn phòng",
+        "alternatives": [
+          "bàn làm việc"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "nhúng",
+        "alternatives": [
+          "đồ vật",
+          "môi trường"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "đời sống",
+        "alternatives": [
+          "hàng ngày"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "'no longer only' dịch là 'không còn chỉ... nữa'.",
+    "importantNotes": "Trích từ CN159E-6 Reading (Page 6)."
+  },
+  {
+    "id": "tr_ch6_en_07",
+    "chapterId": "ch6",
+    "direction": "en_vi",
+    "title": "Security & Gateways in the Network Layer",
+    "sourceText": "The connectivity layer can provide a secure environment with features like private 5G mobile networks granting full control over information transfer. It also includes internet gateways for communication outside local systems and intranet ports providing access points on local systems.",
+    "sampleTranslation": "Tầng kết nối có thể cung cấp một môi trường bảo mật với các tính năng như mạng di động 5G dùng riêng cho phép kiểm soát hoàn toàn việc truyền tải thông tin. Tầng này cũng bao gồm các cổng kết nối Internet để giao tiếp ra ngoài hệ thống cục bộ và các cổng mạng nội bộ cung cấp điểm truy cập trên hệ thống cục bộ.",
+    "keyTerms": [
+      {
+        "en": "private 5G mobile networks",
+        "vi": "mạng di động 5G dùng riêng"
+      },
+      {
+        "en": "information transfer",
+        "vi": "truyền tải thông tin"
+      },
+      {
+        "en": "internet gateways",
+        "vi": "cổng kết nối Internet"
+      },
+      {
+        "en": "intranet ports",
+        "vi": "cổng mạng nội bộ"
+      },
+      {
+        "en": "access points",
+        "vi": "điểm truy cập"
+      }
+    ],
+    "keyPhrases": [
+      "secure environment",
+      "granting full control over"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "bảo mật",
+        "alternatives": [
+          "môi trường bảo mật"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "5g",
+        "alternatives": [
+          "dùng riêng"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "truyền tải thông tin",
+        "alternatives": [
+          "kiểm soát"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "cổng internet",
+        "alternatives": [
+          "gateway",
+          "cổng kết nối"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "mạng nội bộ",
+        "alternatives": [
+          "điểm truy cập"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "'granting full control over' dịch là 'cho phép kiểm soát hoàn toàn đối với'.",
+    "importantNotes": "Trích từ CN159E-6 Reading (Page 8)."
+  },
+  {
+    "id": "tr_ch6_en_08",
+    "chapterId": "ch6",
+    "direction": "en_vi",
+    "title": "Optimised Outcomes from Edge Analytics",
+    "sourceText": "The successful implementation of edge analytics alongside AI techniques brings efficient real-world results. It boosts quality insights gathered from raw data into effective actions according to what is needed at hand, leading to more optimised outcomes for IoT systems.",
+    "sampleTranslation": "Việc triển khai thành công phân tích tại biên cùng các kỹ thuật AI mang lại những kết quả thực tế hiệu quả. Nó nâng cao các thông tin chi tiết có giá trị thu thập từ dữ liệu thô thành các hành động hiệu quả tùy theo nhu cầu hiện tại, dẫn đến kết quả tối ưu hơn cho các hệ thống IoT.",
+    "keyTerms": [
+      {
+        "en": "edge analytics",
+        "vi": "phân tích tại biên"
+      },
+      {
+        "en": "quality insights",
+        "vi": "thông tin chi tiết có giá trị"
+      },
+      {
+        "en": "effective actions",
+        "vi": "hành động hiệu quả"
+      },
+      {
+        "en": "optimised outcomes",
+        "vi": "kết quả tối ưu"
+      }
+    ],
+    "keyPhrases": [
+      "real-world results",
+      "what is needed at hand"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "phân tích tại biên",
+        "alternatives": [
+          "ai"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "kết quả thực tế",
+        "alternatives": [
+          "hiệu quả"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "dữ liệu thô",
+        "alternatives": [
+          "thông tin"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "hành động",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "tối ưu",
+        "alternatives": [
+          "kết quả tối ưu"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "'according to what is needed at hand' dịch là 'tùy theo nhu cầu trước mắt / hiện tại'.",
+    "importantNotes": "Trích từ CN159E-6 Reading (Page 9)."
+  },
+  {
+    "id": "tr_ch6_en_09",
+    "chapterId": "ch6",
+    "direction": "en_vi",
+    "title": "IoT Ecosystem Diagram Overview",
+    "sourceText": "In the IoT ecosystem, sensors, microcontrollers, and actuators interact directly with the physical environment such as people, cars, and houses. Through the Internet, data is exchanged with data repositories, communication interfaces, web applications, and user interfaces.",
+    "sampleTranslation": "Trong hệ sinh thái IoT, cảm biến, vi điều khiển và cơ cấu chấp hành tương tác trực tiếp với môi trường vật lý như con người, ô tô và nhà ở. Thông qua Internet, dữ liệu được trao đổi với các kho lưu trữ dữ liệu, giao diện truyền thông, ứng dụng web và giao diện người dùng.",
+    "keyTerms": [
+      {
+        "en": "microcontrollers",
+        "vi": "vi điều khiển"
+      },
+      {
+        "en": "data repositories",
+        "vi": "kho lưu trữ dữ liệu"
+      },
+      {
+        "en": "communication interfaces",
+        "vi": "giao diện truyền thông"
+      },
+      {
+        "en": "web applications",
+        "vi": "ứng dụng web"
+      }
+    ],
+    "keyPhrases": [
+      "interact directly with",
+      "through the Internet"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "cảm biến",
+        "alternatives": [
+          "vi điều khiển",
+          "cơ cấu chấp hành"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "môi trường",
+        "alternatives": [
+          "con người",
+          "ô tô"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "kho lưu trữ dữ liệu",
+        "alternatives": [
+          "kho dữ liệu"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "giao diện truyền thông",
+        "alternatives": [
+          "ứng dụng web"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "giao diện người dùng",
+        "alternatives": [],
+        "weight": 1.0
+      }
+    ],
+    "grammarOrTranslationHints": "Dựa trực tiếp vào sơ đồ hệ sinh thái IoT trang 3.",
+    "importantNotes": "CN159E-6 Diagram (Page 3)."
+  },
+  {
+    "id": "tr_ch6_en_10",
+    "chapterId": "ch6",
+    "direction": "en_vi",
+    "title": "Smooth User Experience in Smart Homes",
+    "sourceText": "An example of the application layer is when someone uses an application specifically designed for smart homes. They can activate coffee makers simply via the app's button-tapping function, ensuring smooth experiences so users get maximum value out of their IoT systems.",
+    "sampleTranslation": "Một ví dụ về tầng ứng dụng là khi ai đó sử dụng một ứng dụng được thiết kế riêng cho nhà thông minh. Họ có thể bật máy pha cà phê chỉ thông qua chức năng nhấn nút của ứng dụng, đảm bảo trải nghiệm mượt mà để người dùng nhận được giá trị tối đa từ hệ thống IoT của mình.",
+    "keyTerms": [
+      {
+        "en": "application layer",
+        "vi": "tầng ứng dụng"
+      },
+      {
+        "en": "smart homes",
+        "vi": "nhà thông minh"
+      },
+      {
+        "en": "coffee makers",
+        "vi": "máy pha cà phê"
+      },
+      {
+        "en": "smooth experiences",
+        "vi": "trải nghiệm mượt mà"
+      }
+    ],
+    "keyPhrases": [
+      "specifically designed for",
+      "get maximum value out of"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "tầng ứng dụng",
+        "alternatives": [
+          "ứng dụng"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "nhà thông minh",
+        "alternatives": [],
+        "weight": 2.0
+      },
+      {
+        "term": "máy pha cà phê",
+        "alternatives": [],
+        "weight": 2.0
+      },
+      {
+        "term": "nhấn nút",
+        "alternatives": [
+          "nút bấm"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "mượt mà",
+        "alternatives": [
+          "giá trị tối đa"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "'get maximum value out of' dịch là 'khai thác / nhận được giá trị tối đa từ'.",
+    "importantNotes": "Trích từ CN159E-6 Reading (Page 10)."
+  },
+  {
+    "id": "tr_ch6_vi_06",
+    "chapterId": "ch6",
+    "direction": "vi_en",
+    "title": "Các lĩnh vực kỹ thuật của IoT",
+    "sourceText": "Internet vạn vật bao gồm kỹ thuật điện tử, truyền thông và khoa học máy tính. Ngày nay, công nghệ thông tin và truyền thông được nhúng vào các đồ vật và môi trường trong đời sống hàng ngày.",
+    "sampleTranslation": "The Internet of Things encompasses electronics, communication, and computer science engineering. Today, information and communication technology is embedded in objects and environments in everyday life.",
+    "keyTerms": [
+      {
+        "en": "electronics",
+        "vi": "điện tử"
+      },
+      {
+        "en": "computer science engineering",
+        "vi": "kỹ thuật khoa học máy tính"
+      },
+      {
+        "en": "embedded in objects",
+        "vi": "nhúng vào các đồ vật"
+      }
+    ],
+    "keyPhrases": [
+      "encompasses electronics",
+      "in everyday life"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "internet of things",
+        "alternatives": [
+          "iot"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "electronics",
+        "alternatives": [
+          "communication"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "computer science",
+        "alternatives": [
+          "engineering"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "embedded",
+        "alternatives": [
+          "objects",
+          "environments"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "everyday life",
+        "alternatives": [],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Động từ 'encompasses' nghĩa là 'bao gồm / bao hàm'.",
+    "importantNotes": "CN159E-6 Reading (Pages 5, 6)."
+  },
+  {
+    "id": "tr_ch6_vi_07",
+    "chapterId": "ch6",
+    "direction": "vi_en",
+    "title": "Cổng mạng và chức năng cầu nối",
+    "sourceText": "Trong tầng mạng, cổng kết nối Internet cho phép giao tiếp ra ngoài hệ thống cục bộ, trong khi cổng mạng kết nối nhiều thiết bị cùng lúc thông qua các chức năng cầu nối.",
+    "sampleTranslation": "In the network layer, internet gateways allow communication outside local systems, while network gateways connect multiple devices at once through bridging functions.",
+    "keyTerms": [
+      {
+        "en": "internet gateways",
+        "vi": "cổng kết nối Internet"
+      },
+      {
+        "en": "local systems",
+        "vi": "hệ thống cục bộ"
+      },
+      {
+        "en": "network gateways",
+        "vi": "cổng mạng"
+      },
+      {
+        "en": "bridging functions",
+        "vi": "chức năng cầu nối"
+      }
+    ],
+    "keyPhrases": [
+      "at once",
+      "through bridging functions"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "network layer",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "internet gateways",
+        "alternatives": [
+          "gateways"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "local systems",
+        "alternatives": [
+          "outside"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "network gateways",
+        "alternatives": [
+          "multiple devices"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "bridging functions",
+        "alternatives": [
+          "bridging"
+        ],
+        "weight": 2.0
+      }
+    ],
+    "grammarOrTranslationHints": "'cùng lúc' dịch là 'at once' hoặc 'simultaneously'.",
+    "importantNotes": "CN159E-6 Reading (Page 8)."
+  },
+  {
+    "id": "tr_ch6_vi_08",
+    "chapterId": "ch6",
+    "direction": "vi_en",
+    "title": "Mạng 5G dùng riêng trong IoT",
+    "sourceText": "Mạng di động 5G dùng riêng có thể cung cấp một môi trường bảo mật và toàn quyền kiểm soát việc truyền tải thông tin giữa các thiết bị trong cấu trúc IoT.",
+    "sampleTranslation": "Private 5G mobile networks can provide a secure environment and full control over information transfer between devices in an IoT structure.",
+    "keyTerms": [
+      {
+        "en": "private 5G mobile networks",
+        "vi": "mạng di động 5G dùng riêng"
+      },
+      {
+        "en": "secure environment",
+        "vi": "môi trường bảo mật"
+      },
+      {
+        "en": "information transfer",
+        "vi": "truyền tải thông tin"
+      }
+    ],
+    "keyPhrases": [
+      "full control over",
+      "in an IoT structure"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "private 5g",
+        "alternatives": [
+          "5g"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "secure",
+        "alternatives": [
+          "environment"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "control",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "information transfer",
+        "alternatives": [
+          "transfer"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "iot",
+        "alternatives": [
+          "structure"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Dùng 'full control over...' (toàn quyền kiểm soát đối với...).",
+    "importantNotes": "CN159E-6 Reading (Page 8)."
+  },
+  {
+    "id": "tr_ch6_vi_09",
+    "chapterId": "ch6",
+    "direction": "vi_en",
+    "title": "Tối ưu hóa quyết định ở tầng xử lý dữ liệu",
+    "sourceText": "Tại tầng xử lý dữ liệu, dữ liệu thu thập được phân tích để giúp doanh nghiệp ra quyết định và tinh gọn hoạt động vận hành, mang lại kết quả tối ưu hơn.",
+    "sampleTranslation": "At the data processing layer, collected data is analysed to help businesses make decisions and streamline their operations, leading to more optimised outcomes.",
+    "keyTerms": [
+      {
+        "en": "data processing layer",
+        "vi": "tầng xử lý dữ liệu"
+      },
+      {
+        "en": "make decisions",
+        "vi": "ra quyết định"
+      },
+      {
+        "en": "streamline their operations",
+        "vi": "tinh gọn hoạt động vận hành"
+      },
+      {
+        "en": "optimised outcomes",
+        "vi": "kết quả tối ưu"
+      }
+    ],
+    "keyPhrases": [
+      "collected data is analysed",
+      "leading to"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "data processing",
+        "alternatives": [],
+        "weight": 2.0
+      },
+      {
+        "term": "analysed",
+        "alternatives": [
+          "analyzed",
+          "collected data"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "decisions",
+        "alternatives": [
+          "businesses"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "streamline",
+        "alternatives": [
+          "operations"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "optimised",
+        "alternatives": [
+          "optimized",
+          "outcomes"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Cụm phân từ ', leading to...' diễn tả kết quả.",
+    "importantNotes": "CN159E-6 Reading (Page 9)."
+  },
+  {
+    "id": "tr_ch6_vi_10",
+    "chapterId": "ch6",
+    "direction": "vi_en",
+    "title": "Hệ sinh thái IoT và giao diện người dùng",
+    "sourceText": "Trong hệ sinh thái IoT, cảm biến, vi điều khiển và cơ cấu chấp hành trao đổi dữ liệu qua Internet với kho lưu trữ dữ liệu và ứng dụng web. Tầng giao diện người dùng đảm bảo trải nghiệm mượt mà cho người dùng.",
+    "sampleTranslation": "In the IoT ecosystem, sensors, microcontrollers, and actuators exchange data over the Internet with data repositories and web applications. The user interface layer ensures smooth experiences for users.",
+    "keyTerms": [
+      {
+        "en": "microcontrollers",
+        "vi": "vi điều khiển"
+      },
+      {
+        "en": "data repositories",
+        "vi": "kho lưu trữ dữ liệu"
+      },
+      {
+        "en": "web applications",
+        "vi": "ứng dụng web"
+      },
+      {
+        "en": "smooth experiences",
+        "vi": "trải nghiệm mượt mà"
+      }
+    ],
+    "keyPhrases": [
+      "over the Internet",
+      "ensures smooth experiences"
+    ],
+    "keywordsForScoring": [
+      {
+        "term": "sensors",
+        "alternatives": [
+          "microcontrollers",
+          "actuators"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "exchange data",
+        "alternatives": [
+          "internet"
+        ],
+        "weight": 1.5
+      },
+      {
+        "term": "repositories",
+        "alternatives": [
+          "web applications"
+        ],
+        "weight": 2.0
+      },
+      {
+        "term": "user interface",
+        "alternatives": [],
+        "weight": 1.5
+      },
+      {
+        "term": "smooth",
+        "alternatives": [
+          "experiences"
+        ],
+        "weight": 1.5
+      }
+    ],
+    "grammarOrTranslationHints": "Kết hợp từ vựng sơ đồ trang 3 và bài đọc trang 10.",
+    "importantNotes": "CN159E-6 (Pages 3, 10)."
+  }
+]

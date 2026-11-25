@@ -1,0 +1,1770 @@
+[
+  {
+    "id": "q_ch4_001",
+    "chapterId": "ch4",
+    "category": "Definition",
+    "difficulty": "easy",
+    "format": "en_en",
+    "question": "What is an actuator?",
+    "options": [
+      "A device that only measures ambient temperature",
+      "An electromechanical device that converts energy into mechanical work or motion",
+      "A memory chip used to store digital data permanently",
+      "A software program that filters network packets"
+    ],
+    "correctIndex": 1,
+    "explanation": "According to Chapter 4 Reading, an actuator is an electromechanical device that converts energy into mechanical work or motion.",
+    "readingReference": "CN159E-4 Reading (Page 7): 'An actuator is an electromechanical device that converts energy into mechanical work or motion.'"
+  },
+  {
+    "id": "q_ch4_002",
+    "chapterId": "ch4",
+    "category": "Types",
+    "difficulty": "easy",
+    "format": "en_en",
+    "question": "Which are the three types of robot actuators classified by energy source in the reading?",
+    "options": [
+      "Solar, nuclear, and thermal actuators",
+      "Pneumatic, hydraulic, and electric actuators",
+      "Optical, acoustic, and magnetic actuators",
+      "Mechanical, chemical, and manual actuators"
+    ],
+    "correctIndex": 1,
+    "explanation": "The three types of robot actuators mentioned in Chapter 4 are pneumatic actuators, hydraulic actuators, and electric actuators.",
+    "readingReference": "CN159E-4 Reading (Page 7): 'There are three different types of robot actuators: pneumatic actuators, hydraulic actuators, electric actuators.'"
+  },
+  {
+    "id": "q_ch4_003",
+    "chapterId": "ch4",
+    "category": "Types",
+    "difficulty": "easy",
+    "format": "vi_en",
+    "question": "Dựa vào dạng chuyển động trong tài liệu, cơ cấu chấp hành được chia thành hai loại nào?",
+    "options": [
+      "Rotary Actuators and Linear Actuators",
+      "Analog Actuators and Digital Actuators",
+      "Open-loop Actuators and Closed-loop Actuators",
+      "Static Actuators and Dynamic Actuators"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sơ đồ 'Types of Actuators Based on Motion' phân loại cơ cấu chấp hành thành Rotary Actuators (quay) và Linear Actuators (thẳng).",
+    "readingReference": "CN159E-4 Diagram (Page 4): 'Types of Actuators Based on Motion: Rotary Actuators, Linear Actuators.'"
+  },
+  {
+    "id": "q_ch4_004",
+    "chapterId": "ch4",
+    "category": "Operating principles",
+    "difficulty": "easy",
+    "format": "en_vi",
+    "question": "What energy source do pneumatic actuators use to generate mechanical motion?",
+    "options": [
+      "Chất lỏng có áp suất",
+      "Khí nén (compressed air)",
+      "Dòng điện xoay chiều",
+      "Năng lượng mặt trời"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cơ cấu chấp hành khí nén tạo ra chuyển động cơ học bằng khí nén (compressed air).",
+    "readingReference": "CN159E-4 Reading (Page 8): 'Pneumatic actuators generate mechanical motion using compressed air...'"
+  },
+  {
+    "id": "q_ch4_005",
+    "chapterId": "ch4",
+    "category": "Characteristics",
+    "difficulty": "easy",
+    "format": "vi_vi",
+    "question": "Vì sao cơ cấu chấp hành khí nén được ứng dụng rộng rãi trong tự động hóa công nghiệp?",
+    "options": [
+      "Vì chúng tạo ra lực lớn nhất trong mọi loại cơ cấu chấp hành",
+      "Vì tính đơn giản và độ tin cậy của chúng",
+      "Vì chúng không cần bất kỳ van điều khiển nào",
+      "Vì chúng hoạt động dựa trên định luật Pascal"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tài liệu nêu rõ cơ cấu chấp hành khí nén được ứng dụng rộng rãi nhờ tính đơn giản (simplicity) và độ tin cậy (reliability).",
+    "readingReference": "CN159E-4 Reading (Page 8): '...a principle widely applied in industrial automation for its simplicity and reliability.'"
+  },
+  {
+    "id": "q_ch4_006",
+    "chapterId": "ch4",
+    "category": "Operating principles",
+    "difficulty": "medium",
+    "format": "en_en",
+    "question": "How do pneumatic actuators operate?",
+    "options": [
+      "By creating a magnetic field between stator and rotor",
+      "By creating a pressure differential across a diaphragm or piston",
+      "By heating a confined fluid until it evaporates",
+      "By sending digital packets over an HTTP network"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pneumatic actuators operate by creating a pressure differential across a diaphragm or piston.",
+    "readingReference": "CN159E-4 Reading (Page 8): 'These actuators operate by creating a pressure differential across a diaphragm or piston.'"
+  },
+  {
+    "id": "q_ch4_007",
+    "chapterId": "ch4",
+    "category": "Operating principles",
+    "difficulty": "medium",
+    "format": "en_vi",
+    "question": "When compressed air is supplied to the pneumatic actuator chamber, what happens?",
+    "options": [
+      "Nó làm quay rô-to nhờ mô-men xoắn từ trường",
+      "Nó làm dịch chuyển pít-tông, chuyển đổi áp suất khí thành chuyển động thẳng",
+      "Nó làm mát các cuộn dây động cơ",
+      "Nó tạo ra tín hiệu điện tử gửi về vi điều khiển"
+    ],
+    "correctIndex": 1,
+    "explanation": "Khí nén đi vào buồng chấp hành sẽ đẩy pít-tông, chuyển đổi áp suất khí thành chuyển động thẳng (linear motion).",
+    "readingReference": "CN159E-4 Reading (Page 8): 'When compressed air is supplied to the actuator chamber, it moves the piston, converting air pressure into linear motion.'"
+  },
+  {
+    "id": "q_ch4_008",
+    "chapterId": "ch4",
+    "category": "Components",
+    "difficulty": "medium",
+    "format": "en_en",
+    "question": "How are the speed and force of a pneumatic actuator finely controlled?",
+    "options": [
+      "By changing the number of stator magnets",
+      "By adjusting the air pressure and flow rate using regulators, valves, and flow control devices",
+      "By replacing the hydraulic pump with a larger reservoir",
+      "By increasing the crystal oscillator frequency"
+    ],
+    "correctIndex": 1,
+    "explanation": "Speed and force are controlled by adjusting air pressure and flow rate using regulators, valves, and flow control devices.",
+    "readingReference": "CN159E-4 Reading (Page 8): 'The speed and force of this motion can be finely controlled by adjusting the air pressure and flow rate using regulators, valves, and flow control devices...'"
+  },
+  {
+    "id": "q_ch4_009",
+    "chapterId": "ch4",
+    "category": "Components",
+    "difficulty": "easy",
+    "format": "vi_en",
+    "question": "Thiết bị nào thường được sử dụng để định hướng và điều khiển dòng khí trong hệ thống khí nén?",
+    "options": [
+      "Solenoid valves",
+      "Crystal oscillators",
+      "Encoders",
+      "Commutators"
+    ],
+    "correctIndex": 0,
+    "explanation": "Van điện từ (solenoid valves) thường được dùng để định hướng và điều khiển dòng khí (airflow).",
+    "readingReference": "CN159E-4 Reading (Page 8): '...with solenoid valves commonly employed to direct and control airflow.'"
+  },
+  {
+    "id": "q_ch4_010",
+    "chapterId": "ch4",
+    "category": "Applications",
+    "difficulty": "medium",
+    "format": "vi_vi",
+    "question": "Loại cơ cấu chấp hành nào thường được sử dụng trong các van điều khiển ở ngành công nghiệp chế biến?",
+    "options": [
+      "Cơ cấu chấp hành dạng màng (diaphragm actuator)",
+      "Cơ cấu chấp hành bánh răng",
+      "Cơ cấu chấp hành nhiệt",
+      "Cơ cấu chấp hành quang học"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bài tập Reading chương 4 xác nhận: 'A diaphragm actuator is often used in control valves in process industries.'",
+    "readingReference": "CN159E-4 Reading Questions (Page 15): 'A diaphragm actuator is often used in control valves in process industries.'"
+  },
+  {
+    "id": "q_ch4_011",
+    "chapterId": "ch4",
+    "category": "Operating principles",
+    "difficulty": "easy",
+    "format": "en_vi",
+    "question": "Hydraulic actuators utilize pressurized fluid based on which scientific law?",
+    "options": [
+      "Định luật Ohm",
+      "Định luật Pascal",
+      "Định luật Faraday",
+      "Định luật Newton thứ hai"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cơ cấu chấp hành thủy lực sử dụng chất lỏng có áp suất dựa trên định luật Pascal (Pascal's law).",
+    "readingReference": "CN159E-4 Reading (Page 10): 'Hydraulic actuators utilize pressurized fluid to create mechanical motion, based on Pascal's law...'"
+  },
+  {
+    "id": "q_ch4_012",
+    "chapterId": "ch4",
+    "category": "Operating principles",
+    "difficulty": "medium",
+    "format": "en_en",
+    "question": "What does Pascal's law state according to the reading?",
+    "options": [
+      "Current flowing through windings creates a magnetic field",
+      "Pressure applied to a confined fluid is transmitted undiminished in all directions",
+      "Energy transfer always occurs without any time lag",
+      "Compressed air pressure is inversely proportional to temperature"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pascal's law states that pressure applied to a confined fluid is transmitted undiminished in all directions.",
+    "readingReference": "CN159E-4 Reading (Page 10): '...Pascal's law, which states that pressure applied to a confined fluid is transmitted undiminished in all directions.'"
+  },
+  {
+    "id": "q_ch4_013",
+    "chapterId": "ch4",
+    "category": "Mechanisms",
+    "difficulty": "medium",
+    "format": "en_en",
+    "question": "In a hydraulic actuator, what mechanical parts are moved by the pressurized fluid?",
+    "options": [
+      "A commutator or brush",
+      "A piston or rotary vane",
+      "A stator or rotor coil",
+      "An encoder or crystal"
+    ],
+    "correctIndex": 1,
+    "explanation": "Applying pressure to the fluid moves a piston or rotary vane.",
+    "readingReference": "CN159E-4 Reading (Page 10): '...applying pressure to the fluid, which then moves a piston or rotary vane.'"
+  },
+  {
+    "id": "q_ch4_014",
+    "chapterId": "ch4",
+    "category": "Applications",
+    "difficulty": "easy",
+    "format": "vi_vi",
+    "question": "Vì sao cơ cấu chấp hành thủy lực phù hợp với các ứng dụng tải trọng nặng (heavy-duty applications)?",
+    "options": [
+      "Vì chúng có khả năng tạo ra lực rất lớn (significant/high force)",
+      "Vì chúng nhẹ hơn cơ cấu chấp hành điện",
+      "Vì chúng không cần sử dụng bơm hay van",
+      "Vì chúng chỉ dùng không khí nén"
+    ],
+    "correctIndex": 0,
+    "explanation": "Khả năng tạo ra lực lớn (high force) giúp cơ cấu chấp hành thủy lực phù hợp với các ứng dụng tải trọng nặng cần điều khiển chính xác tốc độ và vị trí.",
+    "readingReference": "CN159E-4 Reading (Page 10): 'This ability to produce high force makes hydraulic actuators suitable for heavy-duty applications...'"
+  },
+  {
+    "id": "q_ch4_015",
+    "chapterId": "ch4",
+    "category": "Applications",
+    "difficulty": "easy",
+    "format": "en_vi",
+    "question": "Hydraulic cylinders are commonly used in heavy machinery such as:",
+    "options": [
+      "Máy bán hàng tự động và đồng hồ đeo tay",
+      "Máy xúc (excavators) và máy ép (presses)",
+      "Máy pha cà phê và điện thoại thông minh",
+      "Bo mạch vi điều khiển 8-bit"
+    ],
+    "correctIndex": 1,
+    "explanation": "Xi-lanh thủy lực được dùng trong các máy móc hạng nặng như máy xúc (excavators) và máy ép (presses).",
+    "readingReference": "CN159E-4 Reading Questions (Page 15): 'Hydraulic cylinders are used [in] heavy machinery like excavators and presses.'"
+  },
+  {
+    "id": "q_ch4_016",
+    "chapterId": "ch4",
+    "category": "Components",
+    "difficulty": "medium",
+    "format": "en_en",
+    "question": "How are hydraulic systems controlled?",
+    "options": [
+      "By regulating the flow of fluid using valves, pumps, and other control units",
+      "By adjusting the airflow with solenoid valves only",
+      "By changing the brushes and commutator",
+      "By connecting directly to a cloud dashboard"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hydraulic systems are controlled by regulating the flow of fluid using valves, pumps, and other control units.",
+    "readingReference": "CN159E-4 Reading (Page 10): 'Hydraulic systems are controlled by regulating the flow of fluid using valves, pumps, and other control units.'"
+  },
+  {
+    "id": "q_ch4_017",
+    "chapterId": "ch4",
+    "category": "Operating principles",
+    "difficulty": "easy",
+    "format": "vi_vi",
+    "question": "Cơ cấu chấp hành điện (electric actuators) hoạt động dựa trên nguyên lý nào?",
+    "options": [
+      "Nguyên lý điện từ (electromagnetic principles)",
+      "Định luật Pascal về chất lỏng",
+      "Sự giãn nở nhiệt của khí nén",
+      "Nguyên lý truyền thông không dây"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cơ cấu chấp hành điện hoạt động trên nguyên lý điện từ, sử dụng động cơ điện để chuyển điện năng thành chuyển động cơ học.",
+    "readingReference": "CN159E-4 Reading (Page 11): 'Electric actuators operate on electromagnetic principles, using electric motors to convert electrical energy into mechanical motion.'"
+  },
+  {
+    "id": "q_ch4_018",
+    "chapterId": "ch4",
+    "category": "Components",
+    "difficulty": "easy",
+    "format": "en_en",
+    "question": "What are the core components of an electric actuator mentioned in Chapter 4?",
+    "options": [
+      "Diaphragm, piston, and vent",
+      "Rotor, stator, and commutation system",
+      "Pump, reservoir, and hydraulic cylinder",
+      "Gateway, sensor, and dashboard"
+    ],
+    "correctIndex": 1,
+    "explanation": "The core components include a rotor, stator, and a commutation system.",
+    "readingReference": "CN159E-4 Reading (Page 11): 'The core components include a rotor, stator, and a commutation system.'"
+  },
+  {
+    "id": "q_ch4_019",
+    "chapterId": "ch4",
+    "category": "Operating principles",
+    "difficulty": "medium",
+    "format": "en_vi",
+    "question": "In an electric actuator, what produces the torque that turns the rotor?",
+    "options": [
+      "Áp suất khí nén tác dụng lên màng ngăn",
+      "Sự tương tác giữa từ trường do dòng điện trong cuộn dây động cơ tạo ra với từ trường của sta-to",
+      "Chất lỏng có áp suất đẩy cánh gạt quay",
+      "Sự thay đổi nhiệt độ trong buồng chấp hành"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dòng điện qua cuộn dây động cơ tạo từ trường tương tác với từ trường của sta-to, sinh ra mô-men xoắn làm quay rô-to.",
+    "readingReference": "CN159E-4 Reading (Page 11): 'When electric current flows through the motor windings, it creates a magnetic field that interacts with the magnetic field of the stator, producing a torque that turns the rotor.'"
+  },
+  {
+    "id": "q_ch4_020",
+    "chapterId": "ch4",
+    "category": "Components",
+    "difficulty": "medium",
+    "format": "vi_en",
+    "question": "Trong sơ đồ động cơ điện (Page 12), thành phần nào tiếp xúc với cổ góp (commutator) để dẫn điện?",
+    "options": [
+      "Brushes (chổi than)",
+      "Diaphragm (màng ngăn)",
+      "Rotary vane (cánh gạt quay)",
+      "Solenoid valve (van điện từ)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sơ đồ trang 12 minh họa rõ 5 bộ phận: Rotor Coils, Commutator, Shaft, Brushes, và Stator Magnets.",
+    "readingReference": "CN159E-4 Diagram (Page 12): 'Rotor Coils, Commutator, Shaft, Brushes, Stator Magnets.'"
+  },
+  {
+    "id": "q_ch4_021",
+    "chapterId": "ch4",
+    "category": "Components",
+    "difficulty": "medium",
+    "format": "en_en",
+    "question": "Which sensors are specifically mentioned as being used in feedback loops of electric actuators?",
+    "options": [
+      "Thermocouples",
+      "Encoders",
+      "Barometers",
+      "Ultrasonic level sensors"
+    ],
+    "correctIndex": 1,
+    "explanation": "Control systems often incorporate feedback loops with sensors like encoders to regulate current for precise movement and positioning.",
+    "readingReference": "CN159E-4 Reading (Page 11): 'Control systems, often incorporating feedback loops with sensors like encoders, regulate the current to achieve precise movement and positioning...'"
+  },
+  {
+    "id": "q_ch4_022",
+    "chapterId": "ch4",
+    "category": "Applications",
+    "difficulty": "easy",
+    "format": "en_vi",
+    "question": "Electric actuators are especially suitable for high-precision applications such as:",
+    "options": [
+      "Máy xúc và máy ép thủy lực",
+      "Robot (robotics) và máy móc CNC",
+      "Hệ thống thoát nước công nghiệp",
+      "Lò hơi áp suất cao"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cơ cấu chấp hành điện phù hợp với các ứng dụng đòi hỏi độ chính xác cao như robotics và máy móc CNC.",
+    "readingReference": "CN159E-4 Reading (Page 11): '...making electric actuators suitable for applications requiring high precision, such as robotics and CNC machinery.'"
+  },
+  {
+    "id": "q_ch4_023",
+    "chapterId": "ch4",
+    "category": "Characteristics",
+    "difficulty": "medium",
+    "format": "en_en",
+    "question": "Which statement about electric actuators is FALSE according to Chapter 4?",
+    "options": [
+      "They convert electrical energy into mechanical motion.",
+      "They require a constant air or fluid supply to operate.",
+      "They are suitable for robotics and CNC machinery.",
+      "They use control systems to regulate electric current."
+    ],
+    "correctIndex": 1,
+    "explanation": "In the Right/Wrong exercise (Page 14), 'Electric actuators require constant air or fluid supply to operate' is FALSE.",
+    "readingReference": "CN159E-4 Reading Questions (Page 14): '3. Electric actuators require constant air or fluid supply to operate. (Wrong)'"
+  },
+  {
+    "id": "q_ch4_024",
+    "chapterId": "ch4",
+    "category": "Diagrams",
+    "difficulty": "medium",
+    "format": "vi_vi",
+    "question": "Theo sơ đồ trang 9 của tài liệu, hai loại cơ cấu chấp hành tác động trực tiếp (direct-acting) là gì?",
+    "options": [
+      "Cơ cấu chấp hành màng và cơ cấu chấp hành pít-tông",
+      "Cơ cấu chấp hành điện và cơ cấu chấp hành từ",
+      "Cơ cấu chấp hành quay và cơ cấu chấp hành bánh răng",
+      "Cơ cấu chấp hành thủy lực và cơ cấu chấp hành nhiệt"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hình trang 9 thể hiện 'Direct-acting diaphragm actuator' và 'Direct-acting piston actuator'.",
+    "readingReference": "CN159E-4 Diagram (Page 9): 'Direct-acting diaphragm actuator' and 'Direct-acting piston actuator'."
+  },
+  {
+    "id": "q_ch4_025",
+    "chapterId": "ch4",
+    "category": "Technical terminology",
+    "difficulty": "hard",
+    "format": "vi_en",
+    "question": "Thuật ngữ tiếng Anh nào có nghĩa là 'chênh lệch áp suất qua màng ngăn hoặc pít-tông'?",
+    "options": [
+      "Flow rate across a regulator",
+      "Pressure differential across a diaphragm or piston",
+      "Torque across a commutation system",
+      "Dynamic behavior of a confined fluid"
+    ],
+    "correctIndex": 1,
+    "explanation": "Trong bài đọc trang 8: 'creating a pressure differential across a diaphragm or piston'.",
+    "readingReference": "CN159E-4 Reading (Page 8): '...creating a pressure differential across a diaphragm or piston.'"
+  },
+  {
+    "id": "q_ch4_026",
+    "chapterId": "ch4",
+    "category": "Technical terminology",
+    "difficulty": "medium",
+    "format": "en_vi",
+    "question": "What does the phrase 'precise control of speed and position' mean in Vietnamese?",
+    "options": [
+      "Điều chỉnh lưu lượng khí nén tự động",
+      "Điều khiển chính xác tốc độ và vị trí",
+      "Đo đạc áp suất trong không gian kín",
+      "Chuyển đổi năng lượng cơ học thành điện năng"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Precise control of speed and position' nghĩa là điều khiển chính xác tốc độ và vị trí.",
+    "readingReference": "CN159E-4 Reading (Page 10): '...where precise control of speed and position is crucial.'"
+  },
+  {
+    "id": "q_ch51_001",
+    "chapterId": "ch5_1",
+    "category": "System characteristics",
+    "difficulty": "easy",
+    "format": "en_en",
+    "question": "In control engineering, what primarily characterizes a controlled system?",
+    "options": [
+      "Its physical weight and color",
+      "Its dynamic behavior",
+      "Its internet connection speed",
+      "Its battery capacity"
+    ],
+    "correctIndex": 1,
+    "explanation": "A controlled system is primarily characterized by its dynamic behavior, which determines the scope and quality required to solve a control task.",
+    "readingReference": "CN159E-5 Reading (Page 6): 'In control engineering, a controlled system is primarily characterized by its dynamic behavior...'"
+  },
+  {
+    "id": "q_ch51_002",
+    "chapterId": "ch5_1",
+    "category": "Control process",
+    "difficulty": "easy",
+    "format": "en_vi",
+    "question": "What is frequently used to reflect the dynamic behavior of a controlled system?",
+    "options": [
+      "Tần số dao động thạch anh",
+      "Đáp ứng bậc thang (step response)",
+      "Cổng mạng nội bộ",
+      "Van điện từ"
+    ],
+    "correctIndex": 1,
+    "explanation": "Đáp ứng bậc thang (step response) thường được sử dụng để phản ánh đặc tính động của hệ thống được điều khiển.",
+    "readingReference": "CN159E-5 Reading (Page 6): 'Frequently, the so-called step response of the controlled system is used to reflect this dynamic behavior.'"
+  },
+  {
+    "id": "q_ch51_003",
+    "chapterId": "ch5_1",
+    "category": "Control process",
+    "difficulty": "medium",
+    "format": "en_en",
+    "question": "What does the step response reveal?",
+    "options": [
+      "How the controlled variable reacts to a change in the manipulated variable",
+      "How fast a microcontroller processes 32-bit instructions",
+      "How much compressed air is stored in a chamber",
+      "How many devices can connect to an IoT gateway"
+    ],
+    "correctIndex": 0,
+    "explanation": "The step response reveals how the controlled variable reacts to a change in the manipulated variable.",
+    "readingReference": "CN159E-5 Reading (Page 6): 'The step response reveals how the controlled variable reacts to a change in the manipulated variable.'"
+  },
+  {
+    "id": "q_ch51_004",
+    "chapterId": "ch5_1",
+    "category": "Control process",
+    "difficulty": "medium",
+    "format": "vi_vi",
+    "question": "Đáp ứng bậc thang được xác định bằng cách nào?",
+    "options": [
+      "Đo biến được điều khiển sau một thay đổi bậc thang ở biến tác động",
+      "Ngắt hoàn toàn nguồn điện của bộ điều khiển",
+      "Thay đổi hằng số thời gian TL về bằng 0",
+      "Đo lưu lượng chất lỏng qua bơm thủy lực"
+    ],
+    "correctIndex": 0,
+    "explanation": "Đáp ứng bậc thang được xác định bằng cách đo biến được điều khiển (controlled variable) sau một thay đổi bậc thang ở biến tác động (manipulated variable).",
+    "readingReference": "CN159E-5 Reading (Page 6): 'This is determined by measuring the controlled variable after a step change in the manipulated variable.'"
+  },
+  {
+    "id": "q_ch51_005",
+    "chapterId": "ch5_1",
+    "category": "Open-loop system",
+    "difficulty": "easy",
+    "format": "en_en",
+    "question": "According to the Open-loop control system diagram (Page 3), what are the main blocks between Input and Output?",
+    "options": [
+      "Error Detector and Feedback Elements",
+      "Controller and Plant",
+      "Sensor and Cloud Server",
+      "Memory and I/O Peripherals"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Open-loop control system diagram shows: Input -> Controller -> (Actuating Signal) -> Plant -> Output.",
+    "readingReference": "CN159E-5 Diagram (Page 3): 'Input -> Controller -> Actuating Signal -> Plant -> Output.'"
+  },
+  {
+    "id": "q_ch51_006",
+    "chapterId": "ch5_1",
+    "category": "Closed-loop system",
+    "difficulty": "easy",
+    "format": "vi_en",
+    "question": "Trong sơ đồ hệ thống điều khiển vòng kín (Page 4), khối nào so sánh tín hiệu đầu vào với tín hiệu hồi tiếp?",
+    "options": [
+      "Error Detector",
+      "Plant",
+      "Actuating Signal",
+      "Power Jack"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trong sơ đồ Closed-loop control system, Error Detector nhận Input (+) và Feedback Signal (-) để tạo ra Error Signal.",
+    "readingReference": "CN159E-5 Diagram (Page 4): 'Closed-loop control system: Error Detector compares Input (+) and Feedback Signal (-).'"
+  },
+  {
+    "id": "q_ch51_007",
+    "chapterId": "ch5_1",
+    "category": "Feedback",
+    "difficulty": "medium",
+    "format": "en_vi",
+    "question": "In a closed-loop control system, what is the role of Feedback Elements?",
+    "options": [
+      "Tạo ra tín hiệu tác động trực tiếp đến đối tượng điều khiển",
+      "Đo đầu ra và gửi tín hiệu hồi tiếp về bộ phát hiện sai lệch",
+      "Tích trữ năng lượng để làm trễ tín hiệu",
+      "Loại bỏ hoàn toàn biến tác động"
+    ],
+    "correctIndex": 1,
+    "explanation": "Feedback Elements lấy tín hiệu từ Output và tạo ra Feedback Signal đưa về Error Detector.",
+    "readingReference": "CN159E-5 Diagram (Page 4): 'Output -> Feedback Elements -> Feedback Signal -> Error Detector.'"
+  },
+  {
+    "id": "q_ch51_008",
+    "chapterId": "ch5_1",
+    "category": "Control system",
+    "difficulty": "medium",
+    "format": "en_en",
+    "question": "Which of the following is NOT one of the four classifications of controlled systems based on dynamic behavior?",
+    "options": [
+      "P controlled systems (proportional control action)",
+      "I controlled systems (integral control action)",
+      "Controlled systems with dead time",
+      "Wireless network controlled systems"
+    ],
+    "correctIndex": 3,
+    "explanation": "The four classifications in Chapter 5.1 are: P controlled systems, I controlled systems, controlled systems with dead time, and controlled systems with energy storing components.",
+    "readingReference": "CN159E-5 Reading (Page 7): Classification list of controlled systems."
+  },
+  {
+    "id": "q_ch51_009",
+    "chapterId": "ch5_1",
+    "category": "System characteristics",
+    "difficulty": "easy",
+    "format": "vi_vi",
+    "question": "Hệ thống có tự điều chỉnh (systems with self-regulation) có đặc điểm gì?",
+    "options": [
+      "Chỉ thay đổi cho đến khi đạt được một giá trị đầu ra ổn định mới",
+      "Biến được điều khiển tăng hoặc giảm liên tục không ngừng",
+      "Luôn dao động mất ổn định khi có nhiễu",
+      "Không bao giờ đạt được trạng thái cân bằng"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hệ thống có tự điều chỉnh chỉ thay đổi cho đến khi đạt một giá trị đầu ra ổn định mới (trạng thái cân bằng).",
+    "readingReference": "CN159E-5 Reading (Page 8): 'Systems with self-regulation only change until a new stable output value is reached.'"
+  },
+  {
+    "id": "q_ch51_010",
+    "chapterId": "ch5_1",
+    "category": "System characteristics",
+    "difficulty": "easy",
+    "format": "en_en",
+    "question": "What characterizes systems without self-regulation?",
+    "options": [
+      "They always reach equilibrium immediately",
+      "They do not reach a new state of equilibrium",
+      "They never require a controller",
+      "They have zero time lag in practice"
+    ],
+    "correctIndex": 1,
+    "explanation": "Systems without self-regulation do not reach a new state of equilibrium; their controlled variable changes continuously.",
+    "readingReference": "CN159E-5 Reading (Page 8): 'Systems without self-regulation do not reach a new state of equilibrium.'"
+  },
+  {
+    "id": "q_ch51_011",
+    "chapterId": "ch5_1",
+    "category": "Closed-loop system",
+    "difficulty": "medium",
+    "format": "en_vi",
+    "question": "Why do systems without self-regulation require closed-loop control?",
+    "options": [
+      "Vì biến tác động phải trở về 0 ngay khi biến được điều khiển đạt trạng thái cân bằng yêu cầu",
+      "Vì hệ thống vòng hở tiêu thụ quá nhiều điện năng",
+      "Vì chúng không có đối tượng điều khiển",
+      "Vì chúng chỉ hoạt động với khí nén"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hệ thống không tự điều chỉnh cần điều khiển vòng kín vì biến tác động phải trở về 0 ngay khi biến được điều khiển đạt đến trạng thái cân bằng mong muốn.",
+    "readingReference": "CN159E-5 Reading (Page 9): 'Systems without self-regulation require closed loop control, because the manipulated variable must become zero as soon as the controlled variable reaches the required equilibrium.'"
+  },
+  {
+    "id": "q_ch51_012",
+    "chapterId": "ch5_1",
+    "category": "System characteristics",
+    "difficulty": "medium",
+    "format": "vi_vi",
+    "question": "Theo kinh nghiệm thực tế trong tài liệu, tại sao hệ thống có tự điều chỉnh thường dễ điều khiển hơn?",
+    "options": [
+      "Vì hệ thống không tự điều chỉnh có xu hướng dao động (oscillate) và kém ổn định hơn",
+      "Vì hệ thống có tự điều chỉnh không cần cảm biến",
+      "Vì hệ thống không tự điều chỉnh có thời gian trễ bằng 0",
+      "Vì hệ thống có tự điều chỉnh không bị ảnh hưởng bởi nhiễu"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hệ thống không tự điều chỉnh có xu hướng dao động (tức là kém ổn định hơn), nên hệ thống có tự điều chỉnh dễ điều khiển hơn nhiều.",
+    "readingReference": "CN159E-5 Reading (Page 9): '...systems with self-regulation are often much easier to control than systems without self-regulation, because the latter have a tendency to oscillate, that is, they tend to be more unstable.'"
+  },
+  {
+    "id": "q_ch51_013",
+    "chapterId": "ch5_1",
+    "category": "Controller",
+    "difficulty": "medium",
+    "format": "en_en",
+    "question": "For which type of system is a properly adapted controller more important?",
+    "options": [
+      "Systems without self-regulation",
+      "Systems with zero energy transfer",
+      "Ideal P controlled systems without lag",
+      "Open-loop systems without disturbance"
+    ],
+    "correctIndex": 0,
+    "explanation": "Because systems without self-regulation tend to oscillate and be unstable, a properly adapted controller is more important.",
+    "readingReference": "CN159E-5 Reading (Page 9): 'Therefore, a properly adapted controller is more important in the case of systems without self-regulation.'"
+  },
+  {
+    "id": "q_ch51_014",
+    "chapterId": "ch5_1",
+    "category": "Operating principles",
+    "difficulty": "easy",
+    "format": "en_vi",
+    "question": "In a P controlled system, how does the controlled variable x change?",
+    "options": [
+      "Tỷ lệ thuận với biến tác động y (proportional to the manipulated variable y)",
+      "Tăng liên tục ngay cả khi biến tác động bằng 0",
+      "Không có bất kỳ phản ứng nào trong suốt thời gian hoạt động",
+      "Thay đổi ngẫu nhiên theo nhiệt độ môi trường"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trong hệ thống điều khiển tỷ lệ (P), biến được điều khiển x thay đổi tỷ lệ với biến tác động y.",
+    "readingReference": "CN159E-5 Reading (Page 10): 'In controlled systems with proportional action, the controlled variable x changes proportional to the manipulated variable y.'"
+  },
+  {
+    "id": "q_ch51_015",
+    "chapterId": "ch5_1",
+    "category": "Operating principles",
+    "difficulty": "hard",
+    "format": "en_en",
+    "question": "Why does P control action without any lag NOT occur in practice?",
+    "options": [
+      "Because any energy transfer requires a finite amount of time",
+      "Because controllers cannot output an actuating signal",
+      "Because proportional systems are always unstable",
+      "Because dead time is always infinite"
+    ],
+    "correctIndex": 0,
+    "explanation": "Since any energy transfer requires a finite amount of time, P control action without any lag does not occur in practice.",
+    "readingReference": "CN159E-5 Reading (Page 10): 'Since any energy transfer requires a finite amount of time, P control action without any lag does not occur in practice.'"
+  },
+  {
+    "id": "q_ch51_016",
+    "chapterId": "ch5_1",
+    "category": "Operating principles",
+    "difficulty": "medium",
+    "format": "vi_vi",
+    "question": "Khi nào hành vi của một hệ thống thực tế được gọi là hệ thống điều khiển P?",
+    "options": [
+      "Khi độ trễ thời gian giữa biến tác động và biến được điều khiển nhỏ đến mức không ảnh hưởng đến hệ thống",
+      "Khi biến được điều khiển không bao giờ đạt trạng thái cân bằng",
+      "Khi hệ thống không có bất kỳ phần tử nào",
+      "Khi thời gian trễ lớn hơn hằng số thời gian TL"
+    ],
+    "correctIndex": 0,
+    "explanation": "Khi độ trễ thời gian (time lag) giữa biến tác động và biến được điều khiển rất nhỏ, không gây ảnh hưởng đến hệ thống, thì gọi là hệ thống điều khiển P.",
+    "readingReference": "CN159E-5 Reading (Page 10): 'When the time lag between manipulated and controlled variable is so small, however, that it does not have any effect on the system, this behavior is called proportional control action...'"
+  },
+  {
+    "id": "q_ch51_017",
+    "chapterId": "ch5_1",
+    "category": "Operating principles",
+    "difficulty": "easy",
+    "format": "en_en",
+    "question": "Integral (I) controlled systems belong to which category?",
+    "options": [
+      "Systems without self-regulation",
+      "Systems with self-regulation",
+      "Systems with zero lag",
+      "Open-loop systems only"
+    ],
+    "correctIndex": 0,
+    "explanation": "Integral controlled systems are systems without self-regulation.",
+    "readingReference": "CN159E-5 Reading (Page 11): 'Integral controlled systems are systems without self-regulation...'"
+  },
+  {
+    "id": "q_ch51_018",
+    "chapterId": "ch5_1",
+    "category": "Operating principles",
+    "difficulty": "medium",
+    "format": "en_vi",
+    "question": "In an I controlled system, what happens if the manipulated variable does not equal zero?",
+    "options": [
+      "Biến được điều khiển thay đổi liên tục (tăng hoặc giảm liên tục) và không đạt cân bằng mới",
+      "Biến được điều khiển ngay lập tức đứng yên tại giá trị 0",
+      "Hệ thống tự động chuyển sang chế độ P",
+      "Độ trễ thời gian biến mất hoàn toàn"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nếu biến tác động khác 0, hệ I phản ứng bằng sự thay đổi liên tục (tăng hoặc giảm liên tục) của biến được điều khiển và không đạt cân bằng mới.",
+    "readingReference": "CN159E-5 Reading (Page 11): '...if the manipulated variable does not equal zero, the integral controlled system responds with a continuous change - continuous increase or decrease - of the controlled variable. A new equilibrium is not reached.'"
+  },
+  {
+    "id": "q_ch51_019",
+    "chapterId": "ch5_1",
+    "category": "System characteristics",
+    "difficulty": "easy",
+    "format": "en_en",
+    "question": "What happens in a controlled system with dead time?",
+    "options": [
+      "There is no dynamic response until a certain amount of time has elapsed",
+      "The output oscillates infinitely before any input is applied",
+      "The controlled variable changes instantaneously without delay",
+      "Energy is stored without any time delay"
+    ],
+    "correctIndex": 0,
+    "explanation": "In systems with dead time there is no dynamic response until a certain amount of time has elapsed.",
+    "readingReference": "CN159E-5 Reading (Page 12): 'In systems with dead time there is no dynamic response until a certain amount of time has elapsed.'"
+  },
+  {
+    "id": "q_ch51_020",
+    "chapterId": "ch5_1",
+    "category": "Technical terminology",
+    "difficulty": "medium",
+    "format": "vi_en",
+    "question": "Trong hệ thống có thời gian trễ (dead time), ký hiệu nào đóng vai trò thước đo cho thời gian trễ hoặc độ trễ?",
+    "options": [
+      "Time constant TL",
+      "Controlled variable x",
+      "Manipulated variable y",
+      "Error signal e"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hằng số thời gian TL (time constant TL) đóng vai trò thước đo cho thời gian trễ (dead time) hoặc độ trễ (lag).",
+    "readingReference": "CN159E-5 Reading (Page 12): 'The time constant TL serves as a measure for the dead time or lag.'"
+  },
+  {
+    "id": "q_ch51_021",
+    "chapterId": "ch5_1",
+    "category": "System characteristics",
+    "difficulty": "medium",
+    "format": "en_en",
+    "question": "Why does energy consumption or discharge occur time delayed in systems with energy storing components?",
+    "options": [
+      "Because the components' energetic state changes only gradually",
+      "Because the controller turns off the power supply",
+      "Because dead time is always zero",
+      "Because the error detector blocks the feedback signal"
+    ],
+    "correctIndex": 0,
+    "explanation": "Due to energy storing components and their energetic state which changes only gradually, energy consumption or discharge occurs time delayed.",
+    "readingReference": "CN159E-5 Reading (Page 13): 'Due to these components and their energetic state which changes only gradually, energy consumption or discharge occurs time delayed.'"
+  },
+  {
+    "id": "q_ch51_022",
+    "chapterId": "ch5_1",
+    "category": "Control system",
+    "difficulty": "medium",
+    "format": "vi_en",
+    "question": "Hệ thống nào mà sự trễ được gây ra bởi các thành phần có khả năng tích trữ năng lượng?",
+    "options": [
+      "Systems with energy storing components",
+      "P controlled systems",
+      "I controlled systems",
+      "Open-loop systems without plant"
+    ],
+    "correctIndex": 0,
+    "explanation": "Theo bài tập trang 15: 'Systems where delays are caused by components that can store energy' -> Systems with energy storing components.",
+    "readingReference": "CN159E-5 Reading Questions (Page 15): Matching item 1 -> C. Systems with energy storing components."
+  },
+  {
+    "id": "q_ch51_023",
+    "chapterId": "ch5_1",
+    "category": "Technical terminology",
+    "difficulty": "easy",
+    "format": "en_vi",
+    "question": "What does 'oscillate' mean in the context of control systems?",
+    "options": [
+      "Cân bằng ổn định",
+      "Dao động",
+      "Tích trữ năng lượng",
+      "Ngắt mạch"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Oscillate' có nghĩa là dao động (lặp đi lặp lại quanh một điểm, khiến hệ thống kém ổn định).",
+    "readingReference": "CN159E-5 Reading (Page 9): '...have a tendency to oscillate, that is, they tend to be more unstable.'"
+  },
+  {
+    "id": "q_ch51_024",
+    "chapterId": "ch5_1",
+    "category": "Technical terminology",
+    "difficulty": "medium",
+    "format": "vi_vi",
+    "question": "Các hệ thống có thành phần tích trữ năng lượng có thể thuộc bậc mấy?",
+    "options": [
+      "Bậc nhất, bậc hai hoặc bậc cao hơn (first-, second- or higher-order)",
+      "Chỉ có bậc không",
+      "Chỉ có bậc âm",
+      "Không phân theo bậc"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trang 7 ghi rõ: 'Controlled systems with energy storing components (first-, second- or higher-order)'.",
+    "readingReference": "CN159E-5 Reading (Page 7): 'Controlled systems with energy storing components (first-, second- or higher-order)'."
+  },
+  {
+    "id": "q_ch51_025",
+    "chapterId": "ch5_1",
+    "category": "Feedback",
+    "difficulty": "medium",
+    "format": "en_vi",
+    "question": "In the closed-loop diagram, what signal goes from the Error Detector to the Controller?",
+    "options": [
+      "Tín hiệu hồi tiếp (Feedback Signal)",
+      "Tín hiệu sai lệch (Error Signal)",
+      "Tín hiệu tác động (Actuating Signal)",
+      "Đầu ra (Output)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Theo sơ đồ vòng kín trang 4: Error Detector xuất ra Error Signal đưa vào Controller.",
+    "readingReference": "CN159E-5 Diagram (Page 4): 'Error Detector -> Error Signal -> Controller.'"
+  },
+  {
+    "id": "q_ch51_026",
+    "chapterId": "ch5_1",
+    "category": "Technical terminology",
+    "difficulty": "hard",
+    "format": "en_vi",
+    "question": "What does 'manipulated variable' refer to in control engineering?",
+    "options": [
+      "Biến được điều khiển",
+      "Biến tác động (biến điều chỉnh)",
+      "Nhiễu loạn bên ngoài",
+      "Hằng số thời gian"
+    ],
+    "correctIndex": 1,
+    "explanation": "Manipulated variable (y) là biến tác động (biến điều chỉnh) dùng để tác động lên hệ thống nhằm thay đổi biến được điều khiển (x).",
+    "readingReference": "CN159E-5 Reading (Pages 6, 10)."
+  },
+  {
+    "id": "q_ch52_001",
+    "chapterId": "ch5_2",
+    "category": "Microcontroller",
+    "difficulty": "easy",
+    "format": "en_en",
+    "question": "What is a microcontroller primarily designed for?",
+    "options": [
+      "Storing large amounts of data permanently like a hard drive",
+      "Running a complex front-end operating system",
+      "Connecting multiple supercomputers together",
+      "Governing a specific operation in an embedded system"
+    ],
+    "correctIndex": 3,
+    "explanation": "A microcontroller is a compact integrated circuit designed to govern a specific operation (control a specific function) in an embedded system.",
+    "readingReference": "CN159E-5.2 Reading (Page 6) & Question 1 (Page 12)."
+  },
+  {
+    "id": "q_ch52_002",
+    "chapterId": "ch5_2",
+    "category": "Components",
+    "difficulty": "easy",
+    "format": "en_en",
+    "question": "Which of the following components is NOT part of a typical microcontroller on a single chip?",
+    "options": [
+      "Hard disk drive",
+      "Memory",
+      "Processor (CPU)",
+      "Input/output (I/O) peripherals"
+    ],
+    "correctIndex": 0,
+    "explanation": "A typical microcontroller includes a processor (CPU), memory, and I/O peripherals on a single chip—NOT a hard disk drive.",
+    "readingReference": "CN159E-5.2 Reading (Page 6) & Question 2 (Page 12)."
+  },
+  {
+    "id": "q_ch52_003",
+    "chapterId": "ch5_2",
+    "category": "Technical terminology",
+    "difficulty": "easy",
+    "format": "vi_en",
+    "question": "Vi điều khiển còn được gọi là gì trong tài liệu?",
+    "options": [
+      "Embedded controller or microcontroller unit (MCU)",
+      "Central database server",
+      "Optical network gateway",
+      "Pneumatic control unit"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trang 6 nêu: 'Sometimes referred to as an embedded controller or microcontroller unit (MCU)'.",
+    "readingReference": "CN159E-5.2 Reading (Page 6)."
+  },
+  {
+    "id": "q_ch52_004",
+    "chapterId": "ch5_2",
+    "category": "Applications",
+    "difficulty": "easy",
+    "format": "en_en",
+    "question": "Microcontrollers are commonly found in all of the following EXCEPT:",
+    "options": [
+      "Home appliances",
+      "Medical devices",
+      "Robots",
+      "Supercomputers"
+    ],
+    "correctIndex": 3,
+    "explanation": "Microcontrollers are found in automobile engine control systems, robots, office machines, medical devices, vending machines, and home appliances—not supercomputers.",
+    "readingReference": "CN159E-5.2 Reading (Page 6) & Question 3 (Page 13)."
+  },
+  {
+    "id": "q_ch52_005",
+    "chapterId": "ch5_2",
+    "category": "Microcontroller",
+    "difficulty": "medium",
+    "format": "vi_vi",
+    "question": "Vì sao tài liệu ví vi điều khiển như những máy tính thu nhỏ đơn giản (simple miniature PCs)?",
+    "options": [
+      "Vì chúng điều khiển các tính năng nhỏ của một thành phần lớn hơn mà không cần hệ điều hành giao diện phức tạp",
+      "Vì chúng có màn hình cảm ứng và bàn phím tích hợp sẵn",
+      "Vì chúng chạy các hệ điều hành máy tính để bàn nặng nề",
+      "Vì chúng chỉ dùng để kết nối mạng Internet công cộng"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chúng được thiết kế để điều khiển các tính năng nhỏ của một thành phần lớn hơn mà không cần hệ điều hành giao diện phức tạp (without a complex front-end operating system).",
+    "readingReference": "CN159E-5.2 Reading (Page 6): 'They are simple miniature PCs designed to control small features of a larger component without a complex front-end operating system.'"
+  },
+  {
+    "id": "q_ch52_006",
+    "chapterId": "ch5_2",
+    "category": "Functions",
+    "difficulty": "medium",
+    "format": "en_en",
+    "question": "How does a microcontroller process incoming data?",
+    "options": [
+      "It directly executes data without using any memory.",
+      "It receives data through I/O peripherals, stores it temporarily in data memory, processes it using instructions in program memory, and takes action via I/O peripherals.",
+      "It sends all raw data to external supercomputers for interpretation.",
+      "It stores incoming data permanently on a hard disk drive."
+    ],
+    "correctIndex": 1,
+    "explanation": "Data received from I/O peripherals is temporarily stored in data memory; the processor accesses it and uses instructions from program memory to decipher and apply it, then uses I/O peripherals to take action.",
+    "readingReference": "CN159E-5.2 Reading (Page 7) & Question 4 (Page 13)."
+  },
+  {
+    "id": "q_ch52_007",
+    "chapterId": "ch5_2",
+    "category": "Memory",
+    "difficulty": "easy",
+    "format": "en_vi",
+    "question": "In a microcontroller, what is the role of data memory?",
+    "options": [
+      "Lưu trữ tạm thời thông tin/dữ liệu đầu vào",
+      "Lưu trữ vĩnh viễn hệ điều hành phức tạp",
+      "Tạo ra xung nhịp dao động thạch anh",
+      "Chuyển đổi điện áp 12V xuống 5V"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bộ nhớ dữ liệu (data memory) lưu trữ tạm thời dữ liệu đầu vào để bộ xử lý truy cập.",
+    "readingReference": "CN159E-5.2 Reading (Pages 7, 9): 'Memory – temporarily stores incoming data (data memory) and holds the instructions (program memory).'"
+  },
+  {
+    "id": "q_ch52_008",
+    "chapterId": "ch5_2",
+    "category": "Memory",
+    "difficulty": "easy",
+    "format": "vi_en",
+    "question": "Loại bộ nhớ nào chứa các lệnh chương trình để bộ xử lý giải mã và áp dụng dữ liệu đến?",
+    "options": [
+      "Program memory",
+      "Data memory",
+      "Hard disk",
+      "Crystal oscillator"
+    ],
+    "correctIndex": 0,
+    "explanation": "Program memory (bộ nhớ chương trình) lưu giữ các lệnh (instructions) để CPU sử dụng.",
+    "readingReference": "CN159E-5.2 Reading (Pages 7, 9)."
+  },
+  {
+    "id": "q_ch52_009",
+    "chapterId": "ch5_2",
+    "category": "Processor",
+    "difficulty": "easy",
+    "format": "en_vi",
+    "question": "What is the function of the CPU (central processing unit) in a microcontroller?",
+    "options": [
+      "Kết nối chip với thế giới bên ngoài",
+      "Giải mã dữ liệu và thực thi các lệnh chương trình",
+      "Cấp nguồn 3.3V cho các chân tương tự",
+      "Lưu trữ dữ liệu đám mây"
+    ],
+    "correctIndex": 1,
+    "explanation": "CPU giải mã dữ liệu (interprets the data) và thực thi các lệnh chương trình (carries out the program instructions).",
+    "readingReference": "CN159E-5.2 Reading (Page 9): 'CPU – interprets the data and carries out the program instructions.'"
+  },
+  {
+    "id": "q_ch52_010",
+    "chapterId": "ch5_2",
+    "category": "Input/output",
+    "difficulty": "easy",
+    "format": "en_en",
+    "question": "What is the role of I/O peripherals in a microcontroller?",
+    "options": [
+      "Connect the chip to the outside world to send and receive signals",
+      "Store program instructions permanently",
+      "Generate electromagnetic torque",
+      "Regulate input DC voltage"
+    ],
+    "correctIndex": 0,
+    "explanation": "I/O peripherals connect the chip to the outside world to send and receive signals.",
+    "readingReference": "CN159E-5.2 Reading (Page 9): 'I/O peripherals – connect the chip to the outside world to send and receive signals.'"
+  },
+  {
+    "id": "q_ch52_011",
+    "chapterId": "ch5_2",
+    "category": "Applications",
+    "difficulty": "medium",
+    "format": "en_en",
+    "question": "In a car, what are multiple microcontrollers responsible for?",
+    "options": [
+      "Only controlling the engine temperature",
+      "Controlling various individual systems such as antilock braking, traction control, fuel injection, and suspension control",
+      "Running the car's entertainment system only",
+      "Replacing all mechanical wheels and axles"
+    ],
+    "correctIndex": 1,
+    "explanation": "A car has many microcontrollers that control individual systems such as antilock braking system, traction control, fuel injection, and suspension control.",
+    "readingReference": "CN159E-5.2 Reading (Page 8) & Question 5 (Page 14)."
+  },
+  {
+    "id": "q_ch52_012",
+    "chapterId": "ch5_2",
+    "category": "Input/output",
+    "difficulty": "medium",
+    "format": "vi_vi",
+    "question": "Các vi điều khiển trong một thiết bị giao tiếp với nhau hoặc với máy tính trung tâm thông qua bộ phận nào?",
+    "options": [
+      "Thông qua các thiết bị ngoại vi vào/ra (I/O peripherals)",
+      "Chỉ thông qua bộ ổn áp",
+      "Chỉ thông qua nút đặt lại (reset button)",
+      "Thông qua đĩa cứng gắn ngoài"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trang 8 nêu rõ: 'They send and receive data using their I/O peripherals and process that data to perform their designated tasks.'",
+    "readingReference": "CN159E-5.2 Reading (Page 8) & Question 8 (Page 15)."
+  },
+  {
+    "id": "q_ch52_013",
+    "chapterId": "ch5_2",
+    "category": "Architecture",
+    "difficulty": "medium",
+    "format": "en_en",
+    "question": "According to the reading, how can microcontrollers be classified?",
+    "options": [
+      "According to data size and architecture",
+      "According to color and weight",
+      "According to hydraulic pressure",
+      "According to internet bandwidth"
+    ],
+    "correctIndex": 0,
+    "explanation": "Microcontrollers can be classified according to data size and architecture (8-bit, 16-bit, 32-bit).",
+    "readingReference": "CN159E-5.2 Reading (Page 10): 'Microcontrollers can be classified according to data size and architecture...'"
+  },
+  {
+    "id": "q_ch52_014",
+    "chapterId": "ch5_2",
+    "category": "Architecture",
+    "difficulty": "easy",
+    "format": "en_vi",
+    "question": "Which type of microcontroller consumes the LEAST power?",
+    "options": [
+      "Vi điều khiển 8-bit",
+      "Vi điều khiển 16-bit",
+      "Vi điều khiển 32-bit",
+      "Tất cả tiêu thụ điện năng như nhau"
+    ],
+    "correctIndex": 0,
+    "explanation": "Vi điều khiển 8-bit truyền 8 bit dữ liệu mỗi lần và tiêu thụ ít điện năng nhất (consumes the least power).",
+    "readingReference": "CN159E-5.2 Reading (Page 10) & Question 10 (Page 16)."
+  },
+  {
+    "id": "q_ch52_015",
+    "chapterId": "ch5_2",
+    "category": "Architecture",
+    "difficulty": "easy",
+    "format": "en_en",
+    "question": "Which type of microcontroller is the fastest with the most processing capacity, but has the highest power consumption?",
+    "options": [
+      "8-bit microcontroller",
+      "16-bit microcontroller",
+      "32-bit microcontroller",
+      "4-bit microcontroller"
+    ],
+    "correctIndex": 2,
+    "explanation": "32-bit microcontroller is the fastest with the most processing capacity, but the highest power consumption.",
+    "readingReference": "CN159E-5.2 Reading (Page 10) & Question 7 (Page 15)."
+  },
+  {
+    "id": "q_ch52_016",
+    "chapterId": "ch5_2",
+    "category": "Architecture",
+    "difficulty": "medium",
+    "format": "vi_vi",
+    "question": "So với vi điều khiển 8-bit, vi điều khiển 16-bit có tốc độ xử lý như thế nào?",
+    "options": [
+      "Nhanh hơn khoảng gấp đôi (about twice as fast), tốc độ xung nhịp cao hơn và nhiều bộ nhớ hơn",
+      "Chậm hơn một nửa",
+      "Tốc độ tương đương nhau",
+      "Nhanh hơn gấp 100 lần"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trang 10: '16-bit microcontroller – higher clock speeds and more memory; about twice as fast as 8-bit.'",
+    "readingReference": "CN159E-5.2 Reading (Page 10)."
+  },
+  {
+    "id": "q_ch52_017",
+    "chapterId": "ch5_2",
+    "category": "Applications",
+    "difficulty": "easy",
+    "format": "vi_en",
+    "question": "Những lĩnh vực ứng dụng nào của vi điều khiển được liệt kê ở cuối phần Reading (Page 10)?",
+    "options": [
+      "Automotive, robotics, home and industrial automation, smart energy and IoT",
+      "Only desktop video editing",
+      "Heavy-duty hydraulic excavation only",
+      "Aircraft jet engine manufacturing only"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trang 10 liệt kê: 'Applications: automotive, robotics, home and industrial automation, smart energy and IoT.'",
+    "readingReference": "CN159E-5.2 Reading (Page 10) & Question 9 (Page 16)."
+  },
+  {
+    "id": "q_ch52_018",
+    "chapterId": "ch5_2",
+    "category": "Components",
+    "difficulty": "medium",
+    "format": "en_vi",
+    "question": "On the labeled Arduino Uno diagram (Page 4), what microcontroller chip is used?",
+    "options": [
+      "ATmega328 Microcontroller",
+      "Intel Core i7",
+      "ATmega16u2 Main CPU",
+      "Raspberry Pi RP2040"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sơ đồ Arduino Uno (Page 4) ghi chú rõ chip chính là 'ATmega328 Microcontroller' (còn ATmega16u2 là USB Controller).",
+    "readingReference": "CN159E-5.2 Diagram (Page 4): 'ATmega328 Microcontroller'."
+  },
+  {
+    "id": "q_ch52_019",
+    "chapterId": "ch5_2",
+    "category": "Components",
+    "difficulty": "medium",
+    "format": "vi_en",
+    "question": "Trên sơ đồ Arduino Uno (Page 4), hai chân nào dùng để truyền và nhận dữ liệu nối tiếp?",
+    "options": [
+      "Serial Out (TX) and Serial In (RX)",
+      "3.3V Pin and 5V Pin",
+      "Reset Pin and Ground Pin",
+      "Analog Reference Pin and Voltage In Pin"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sơ đồ trang 4 chỉ rõ Serial Out (TX) và Serial In (RX) thuộc nhóm Digital I/O Pins.",
+    "readingReference": "CN159E-5.2 Diagram (Page 4): 'Serial Out (TX), Serial In (RX)'."
+  },
+  {
+    "id": "q_ch52_020",
+    "chapterId": "ch5_2",
+    "category": "Components",
+    "difficulty": "medium",
+    "format": "en_vi",
+    "question": "According to the Arduino Uno diagram (Page 4), what is the DC input voltage range of the Power Jack?",
+    "options": [
+      "3.3V - 5V DC",
+      "7-12V DC Input",
+      "24V - 48V DC",
+      "110V - 220V AC"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chú thích trên sơ đồ Arduino Uno (Page 4): 'Power Jack 7-12V DC Input 2.1mm x 5.5mm'.",
+    "readingReference": "CN159E-5.2 Diagram (Page 4): 'Power Jack 7-12V DC Input'."
+  },
+  {
+    "id": "q_ch52_021",
+    "chapterId": "ch5_2",
+    "category": "Components",
+    "difficulty": "hard",
+    "format": "en_en",
+    "question": "In the Arduino Uno diagram (Page 4), what does ICSP stand for?",
+    "options": [
+      "Integrated Control Signal Processor",
+      "In Circuit Serial Programmer",
+      "Internal Clock Speed Pin",
+      "Input Current Supply Port"
+    ],
+    "correctIndex": 1,
+    "explanation": "The diagram labels the header as 'In Circuit Serial Programmer' (ICSP).",
+    "readingReference": "CN159E-5.2 Diagram (Page 4): 'In Circuit Serial Programmer'."
+  },
+  {
+    "id": "q_ch52_022",
+    "chapterId": "ch5_2",
+    "category": "Technical terminology",
+    "difficulty": "medium",
+    "format": "vi_vi",
+    "question": "Sự khác biệt chính giữa vi điều khiển 8-bit, 16-bit và 32-bit là gì?",
+    "options": [
+      "Lượng dữ liệu (số bit) chúng có thể xử lý tại một thời điểm, tốc độ xung nhịp, bộ nhớ và mức tiêu thụ điện năng",
+      "Số lượng nút reset trên bo mạch",
+      "Loại giắc cắm nguồn sử dụng",
+      "Màu sắc của mạch tích hợp"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chúng khác nhau về lượng dữ liệu xử lý mỗi lần (8, 16, 32 bit), tốc độ xung nhịp, dung lượng bộ nhớ và mức tiêu thụ điện năng.",
+    "readingReference": "CN159E-5.2 Reading (Page 10) & Question 6 (Page 14)."
+  },
+  {
+    "id": "q_ch52_023",
+    "chapterId": "ch5_2",
+    "category": "Components",
+    "difficulty": "medium",
+    "format": "en_vi",
+    "question": "Which component on the Arduino Uno board (Page 4) acts as the USB Controller?",
+    "options": [
+      "ATmega16u2 USB Controller",
+      "Voltage Regulator",
+      "Crystal Oscillator",
+      "Analog Pins A0-A5"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trên sơ đồ Arduino Uno (Page 4), chip nhỏ gần cổng USB được chú thích là 'ATmega16u2 USB Controller'.",
+    "readingReference": "CN159E-5.2 Diagram (Page 4): 'ATmega16u2 USB Controller'."
+  },
+  {
+    "id": "q_ch52_024",
+    "chapterId": "ch5_2",
+    "category": "Technical terminology",
+    "difficulty": "easy",
+    "format": "en_vi",
+    "question": "What does 'embedded system' mean in Vietnamese?",
+    "options": [
+      "Hệ thống nhúng",
+      "Hệ thống điều khiển vòng hở",
+      "Hệ thống thu thập dữ liệu",
+      "Hệ thống mạng dùng riêng"
+    ],
+    "correctIndex": 0,
+    "explanation": "Embedded system nghĩa là hệ thống nhúng.",
+    "readingReference": "CN159E-5.2 Reading (Page 6)."
+  },
+  {
+    "id": "q_ch52_025",
+    "chapterId": "ch5_2",
+    "category": "Functions",
+    "difficulty": "medium",
+    "format": "en_en",
+    "question": "When multiple microcontrollers are used in a device, what can they communicate with?",
+    "options": [
+      "Either with a more complex central computer or only with other microcontrollers",
+      "Only with external cloud servers via HTTP",
+      "Only with pneumatic valves",
+      "They cannot communicate with each other"
+    ],
+    "correctIndex": 0,
+    "explanation": "Some might communicate with a more complex central computer, while others communicate only with other microcontrollers.",
+    "readingReference": "CN159E-5.2 Reading (Page 8)."
+  },
+  {
+    "id": "q_ch52_026",
+    "chapterId": "ch5_2",
+    "category": "Components",
+    "difficulty": "easy",
+    "format": "vi_en",
+    "question": "Trên sơ đồ Arduino Uno (Page 4), các chân Analog In được đánh số từ đâu đến đâu?",
+    "options": [
+      "A0 to A5",
+      "0 to 13",
+      "TX to RX",
+      "3.3V to 5V"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trên bo mạch Arduino Uno (Page 4), hàng chân Analog In gồm A0, A1, A2, A3, A4, A5.",
+    "readingReference": "CN159E-5.2 Diagram (Page 4): 'ANALOG IN A0-A5'."
+  },
+  {
+    "id": "q_ch6_001",
+    "chapterId": "ch6",
+    "category": "IoT concepts",
+    "difficulty": "easy",
+    "format": "en_en",
+    "question": "What does the Internet of Things (IoT) describe?",
+    "options": [
+      "Devices with sensors, processing ability, software and other technologies that connect and exchange data over networks",
+      "Only desktop computers connected to an office printer",
+      "Hydraulic cylinders used in heavy machinery",
+      "A single-chip microcontroller without any network interface"
+    ],
+    "correctIndex": 0,
+    "explanation": "IoT describes devices with sensors, processing ability, software and other technologies that connect and exchange data with other devices and systems over the Internet or other communications networks.",
+    "readingReference": "CN159E-6 Reading (Page 5)."
+  },
+  {
+    "id": "q_ch6_002",
+    "chapterId": "ch6",
+    "category": "IoT concepts",
+    "difficulty": "medium",
+    "format": "en_vi",
+    "question": "Why has 'Internet of Things' been considered a misnomer?",
+    "options": [
+      "Vì thiết bị không cần kết nối Internet công cộng, chỉ cần kết nối vào một mạng và có thể định địa chỉ riêng biệt",
+      "Vì IoT không sử dụng bất kỳ cảm biến nào",
+      "Vì IoT chỉ bao gồm điện thoại thông minh",
+      "Vì IoT không thể tích hợp hệ thống nhúng"
+    ],
+    "correctIndex": 0,
+    "explanation": "Thiết bị IoT không nhất thiết phải kết nối Internet công cộng (public internet), chỉ cần kết nối vào một mạng và có thể định địa chỉ riêng biệt (individually addressable).",
+    "readingReference": "CN159E-6 Reading (Page 5) & Question 1 (Page 12)."
+  },
+  {
+    "id": "q_ch6_003",
+    "chapterId": "ch6",
+    "category": "IoT concepts",
+    "difficulty": "easy",
+    "format": "vi_en",
+    "question": "Internet of Things kết hợp những lĩnh vực kỹ thuật nào được nêu trong bài đọc?",
+    "options": [
+      "Electronics, communication, and computer science engineering",
+      "Civil, chemical, and mining engineering",
+      "Hydraulic, pneumatic, and thermal engineering",
+      "Architecture and industrial design only"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trang 5: 'The Internet of things encompasses electronics, communication and computer science engineering.'",
+    "readingReference": "CN159E-6 Reading (Page 5)."
+  },
+  {
+    "id": "q_ch6_004",
+    "chapterId": "ch6",
+    "category": "IoT concepts",
+    "difficulty": "medium",
+    "format": "vi_vi",
+    "question": "Theo mục IoT concepts (Page 6), hạ tầng thông tin và truyền thông hiện đại có đặc điểm gì mới?",
+    "options": [
+      "Công nghệ thông tin và truyền thông còn được nhúng vào các đồ vật và môi trường xung quanh trong đời sống hàng ngày",
+      "Chỉ xuất hiện tại bàn làm việc và văn phòng dưới dạng máy tính cá nhân",
+      "Ngày càng lớn hơn, cồng kềnh hơn và ít được sử dụng hơn",
+      "Hoàn toàn tách rời khỏi điện thoại di động"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hạ tầng này không chỉ gồm PC và điện thoại mà còn được nhúng vào các đồ vật và môi trường (embedded in objects and environments).",
+    "readingReference": "CN159E-6 Reading (Page 6)."
+  },
+  {
+    "id": "q_ch6_005",
+    "chapterId": "ch6",
+    "category": "IoT architecture",
+    "difficulty": "easy",
+    "format": "en_en",
+    "question": "How many key layers does the IoT architecture described in Chapter 6 consist of?",
+    "options": [
+      "Two layers",
+      "Three layers",
+      "Four layers",
+      "Seven layers"
+    ],
+    "correctIndex": 2,
+    "explanation": "IoT architecture consists of four key layers: Perception/sensing, Connectivity/network, Data processing, and User interface/application.",
+    "readingReference": "CN159E-6 Reading (Page 7)."
+  },
+  {
+    "id": "q_ch6_006",
+    "chapterId": "ch6",
+    "category": "IoT architecture",
+    "difficulty": "easy",
+    "format": "vi_en",
+    "question": "Bốn tầng chính của kiến trúc IoT theo tài liệu là gì?",
+    "options": [
+      "Perception/sensing, Connectivity/network, Data processing, and User interface/application",
+      "Physical, Data link, Session, and Presentation",
+      "Input, Controller, Plant, and Feedback",
+      "CPU, RAM, ROM, and I/O"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trang 7 nêu rõ 4 tầng: Perception/sensing, Connectivity/network, Data processing, và User interface/application.",
+    "readingReference": "CN159E-6 Reading (Page 7)."
+  },
+  {
+    "id": "q_ch6_007",
+    "chapterId": "ch6",
+    "category": "Sensors",
+    "difficulty": "easy",
+    "format": "en_en",
+    "question": "Which of the following is part of the perception (physical) layer?",
+    "options": [
+      "HTTP protocol",
+      "Mobile application",
+      "Sensors and actuators",
+      "Cloud storage"
+    ],
+    "correctIndex": 2,
+    "explanation": "The perception layer is the physical layer that has sensors for sensing/gathering information and actuators that act on the environment.",
+    "readingReference": "CN159E-6 Reading (Page 7) & Question 2 (Page 13)."
+  },
+  {
+    "id": "q_ch6_008",
+    "chapterId": "ch6",
+    "category": "Actuators",
+    "difficulty": "medium",
+    "format": "vi_vi",
+    "question": "Trong tầng cảm nhận (perception layer), vai trò của cơ cấu chấp hành (actuators) là gì?",
+    "options": [
+      "Tác động lên môi trường xung quanh (act on their environment)",
+      "Phân tích dữ liệu bằng thuật toán học máy",
+      "Cung cấp bảng điều khiển tập trung trên máy tính",
+      "Đóng vai trò cổng kết nối Internet"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cảm biến thu thập thông tin về môi trường, còn cơ cấu chấp hành tác động lên môi trường (act on their environment) ở tầng cảm nhận.",
+    "readingReference": "CN159E-6 Reading (Page 7): 'Actuators, which act on their environment, are also at this layer of the architecture.'"
+  },
+  {
+    "id": "q_ch6_009",
+    "chapterId": "ch6",
+    "category": "Network",
+    "difficulty": "easy",
+    "format": "en_vi",
+    "question": "What is the network layer also known as?",
+    "options": [
+      "Tầng vật lý (physical layer)",
+      "Tầng truyền tải hoặc tầng thiết bị (transport or device layer)",
+      "Tầng ứng dụng (application layer)",
+      "Tầng xử lý biên (edge layer)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tầng mạng (network layer) còn được gọi là tầng truyền tải hoặc tầng thiết bị (transport or device layer).",
+    "readingReference": "CN159E-6 Reading (Page 8): 'The network layer, also known as the transport or device layer...'"
+  },
+  {
+    "id": "q_ch6_010",
+    "chapterId": "ch6",
+    "category": "Network",
+    "difficulty": "easy",
+    "format": "en_en",
+    "question": "Which technologies are mentioned as being used in the network layer to facilitate data transmission?",
+    "options": [
+      "HTTP, MQTT, and AMQP",
+      "HTML, CSS, and SQL",
+      "PID, PWM, and ADC",
+      "Pascal, Newton, and Ohm"
+    ],
+    "correctIndex": 0,
+    "explanation": "The network layer uses technologies such as HTTP, MQTT, and AMQP to facilitate transmission from one application/device to another.",
+    "readingReference": "CN159E-6 Reading (Page 8) & Question 5 (Page 16)."
+  },
+  {
+    "id": "q_ch6_011",
+    "chapterId": "ch6",
+    "category": "Network",
+    "difficulty": "medium",
+    "format": "vi_en",
+    "question": "Tính năng nào được nhắc đến ở tầng mạng giúp cung cấp môi trường bảo mật và toàn quyền kiểm soát truyền thông tin?",
+    "options": [
+      "Private 5G mobile networks",
+      "Public Wi-Fi hotspots",
+      "Machine learning algorithms",
+      "Centralised dashboards"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trang 8: '...provide a secure environment when it comes with features like private 5G mobile networks granting full control over information transfer.'",
+    "readingReference": "CN159E-6 Reading (Page 8)."
+  },
+  {
+    "id": "q_ch6_012",
+    "chapterId": "ch6",
+    "category": "Network",
+    "difficulty": "easy",
+    "format": "en_en",
+    "question": "What is the function of the Data Acquisition System (DAS)?",
+    "options": [
+      "Collect sensor readings across applications within a system",
+      "Control the actuators directly without sensors",
+      "Provide user interface for mobile dashboards",
+      "Act as a crystal oscillator for microcontrollers"
+    ],
+    "correctIndex": 0,
+    "explanation": "Data Acquisition Systems (DAS) enable collecting sensor readings across applications within a system.",
+    "readingReference": "CN159E-6 Reading (Page 8) & Question 3 (Page 14)."
+  },
+  {
+    "id": "q_ch6_013",
+    "chapterId": "ch6",
+    "category": "Network",
+    "difficulty": "medium",
+    "format": "en_vi",
+    "question": "In the network layer, what is the difference between internet gateways and network gateways?",
+    "options": [
+      "Internet gateways cho phép giao tiếp ra ngoài hệ thống cục bộ; network gateways kết nối nhiều thiết bị cùng lúc qua chức năng cầu nối",
+      "Internet gateways chỉ dùng cho nhà thông minh; network gateways chỉ dùng cho ô tô",
+      "Cả hai đều dùng để phân tích dữ liệu thô bằng AI",
+      "Network gateways không thể kết nối nhiều thiết bị"
+    ],
+    "correctIndex": 0,
+    "explanation": "Internet gateways cho phép giao tiếp bên ngoài hệ thống cục bộ, còn network gateways kết nối nhiều thiết bị cùng lúc thông qua các chức năng cầu nối (bridging functions).",
+    "readingReference": "CN159E-6 Reading (Page 8)."
+  },
+  {
+    "id": "q_ch6_014",
+    "chapterId": "ch6",
+    "category": "Network",
+    "difficulty": "medium",
+    "format": "vi_vi",
+    "question": "Cổng mạng nội bộ (intranet ports) trong tầng mạng có chức năng gì?",
+    "options": [
+      "Cung cấp cổng kết nối Internet và các điểm truy cập trên các hệ thống cục bộ",
+      "Chạy thuật toán học máy để lọc dữ liệu",
+      "Kích hoạt máy pha cà phê qua ứng dụng",
+      "Đo áp suất chất lỏng trong xi-lanh thủy lực"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trang 8: 'intranet ports providing internet gateway and access points on these local systems'.",
+    "readingReference": "CN159E-6 Reading (Page 8)."
+  },
+  {
+    "id": "q_ch6_015",
+    "chapterId": "ch6",
+    "category": "Data processing",
+    "difficulty": "easy",
+    "format": "en_vi",
+    "question": "What happens at the data processing layer?",
+    "options": [
+      "Dữ liệu thu thập được xử lý và phân tích để hỗ trợ doanh nghiệp ra quyết định và tối ưu vận hành",
+      "Cảm biến vật lý đo nhiệt độ môi trường",
+      "Người dùng nhấn nút trên ứng dụng điện thoại",
+      "Dữ liệu thô bị xóa bỏ hoàn toàn trước khi truyền"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tại tầng xử lý dữ liệu, dữ liệu thu thập được xử lý và phân tích để giúp doanh nghiệp ra quyết định và tối ưu hóa hoạt động.",
+    "readingReference": "CN159E-6 Reading (Page 9)."
+  },
+  {
+    "id": "q_ch6_016",
+    "chapterId": "ch6",
+    "category": "Data processing",
+    "difficulty": "medium",
+    "format": "en_en",
+    "question": "How does the data processing layer retain useful details for automated decision-making?",
+    "options": [
+      "By processing raw information through machine learning algorithms",
+      "By using solenoid valves to direct airflow",
+      "By storing data in analog pins A0-A5",
+      "By connecting directly to intranet ports"
+    ],
+    "correctIndex": 0,
+    "explanation": "It can process raw information from IoT systems through machine learning algorithms in order to retain useful details used for automated decision-making.",
+    "readingReference": "CN159E-6 Reading (Page 9)."
+  },
+  {
+    "id": "q_ch6_017",
+    "chapterId": "ch6",
+    "category": "Data processing",
+    "difficulty": "medium",
+    "format": "vi_vi",
+    "question": "Vai trò của phân tích tại biên (edge analytics) kết hợp với các kỹ thuật AI là gì?",
+    "options": [
+      "Giúp lọc bỏ thông tin thiết bị không liên quan hoặc không sử dụng được trước khi phân tích",
+      "Thay thế hoàn toàn các cảm biến ở tầng vật lý",
+      "Cung cấp nguồn điện DC 7-12V cho vi điều khiển",
+      "Truyền áp suất đều theo mọi hướng trong chất lỏng"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trang 9: 'Edge analytics alongside AI techniques also form part of this stage which helps filter out irrelevant or unusable device info before Analysis.'",
+    "readingReference": "CN159E-6 Reading (Page 9)."
+  },
+  {
+    "id": "q_ch6_018",
+    "chapterId": "ch6",
+    "category": "User interface",
+    "difficulty": "easy",
+    "format": "en_en",
+    "question": "The user interface/application layer helps users:",
+    "options": [
+      "Write machine code for sensors",
+      "Perform network security encryption",
+      "Train machine learning models",
+      "Use mobile apps or centralised dashboards to interact with and control devices"
+    ],
+    "correctIndex": 3,
+    "explanation": "The UI/application layer serves as a platform for humans to interact with the system conveniently via mobile apps or centralised dashboards.",
+    "readingReference": "CN159E-6 Reading (Page 10) & Question 4 (Page 15)."
+  },
+  {
+    "id": "q_ch6_019",
+    "chapterId": "ch6",
+    "category": "Applications",
+    "difficulty": "easy",
+    "format": "en_vi",
+    "question": "What smart home example is given in Chapter 6 to illustrate the user interface layer?",
+    "options": [
+      "Điều khiển hệ thống chống bó cứng phanh trên ô tô",
+      "Kích hoạt máy pha cà phê thông qua nút bấm trên ứng dụng nhà thông minh",
+      "Điều chỉnh lưu lượng khí nén bằng van điện từ",
+      "Đo đáp ứng bậc thang của hệ thống điều khiển"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ví dụ trong bài đọc trang 10: người dùng có thể bật máy pha cà phê (activate coffee makers) chỉ qua thao tác nhấn nút trên ứng dụng nhà thông minh.",
+    "readingReference": "CN159E-6 Reading (Page 10): 'They can activate coffee makers simply via the app's button-tapping function.'"
+  },
+  {
+    "id": "q_ch6_020",
+    "chapterId": "ch6",
+    "category": "Diagrams",
+    "difficulty": "medium",
+    "format": "vi_en",
+    "question": "Theo sơ đồ hệ sinh thái IoT (Page 3), cụm thiết bị nào tương tác trực tiếp hai chiều với Environment (con người, ô tô, ngôi nhà)?",
+    "options": [
+      "Actuators, Microcontrollers, and Sensors",
+      "Web Applications and Data Repositories only",
+      "HTTP and MQTT protocols only",
+      "Centralised Dashboards only"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sơ đồ trang 3 cho thấy Environment kết nối hai chiều với cụm gồm Actuators, Microcontrollers, và Sensors.",
+    "readingReference": "CN159E-6 Diagram (Page 3): 'Environment <-> (Actuators, Microcontrollers, Sensors) <-> The Internet.'"
+  },
+  {
+    "id": "q_ch6_021",
+    "chapterId": "ch6",
+    "category": "Diagrams",
+    "difficulty": "medium",
+    "format": "en_vi",
+    "question": "In the IoT diagram on Page 3, what three blocks are connected below 'The Internet'?",
+    "options": [
+      "Data Management & Data Repositories, Communication Interfaces, and Web Applications",
+      "Rotor, Stator, and Commutator",
+      "Controller, Plant, and Error Detector",
+      "RAM, Flash Memory, and EEPROM"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ở phía dưới 'The Internet' trong sơ đồ trang 3 có 3 khối: Data Management & Data Repositories, Communication Interfaces, và Web Applications.",
+    "readingReference": "CN159E-6 Diagram (Page 3)."
+  },
+  {
+    "id": "q_ch6_022",
+    "chapterId": "ch6",
+    "category": "Technical terminology",
+    "difficulty": "medium",
+    "format": "en_vi",
+    "question": "What does 'streamline their operations' mean in the data processing layer reading?",
+    "options": [
+      "Tinh gọn và tối ưu hóa hoạt động vận hành",
+      "Ngắt kết nối mạng cục bộ",
+      "Giảm số lượng cảm biến vật lý",
+      "Tăng độ trễ truyền dữ liệu"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Streamline operations' nghĩa là tinh gọn, hợp lý hóa và tối ưu hóa quy trình vận hành.",
+    "readingReference": "CN159E-6 Reading (Page 9): '...help businesses make decisions as well as streamline their operations.'"
+  },
+  {
+    "id": "q_ch6_023",
+    "chapterId": "ch6",
+    "category": "Network",
+    "difficulty": "medium",
+    "format": "en_en",
+    "question": "What is the primary purpose of the network layer in an IoT structure?",
+    "options": [
+      "To allow digital data to move between all elements of an IoT structure",
+      "To physically sense temperature and humidity",
+      "To manufacture integrated circuits",
+      "To convert electrical energy into mechanical torque"
+    ],
+    "correctIndex": 0,
+    "explanation": "The network layer is essential for allowing digital data to move between all elements of an IoT structure.",
+    "readingReference": "CN159E-6 Reading (Page 8)."
+  },
+  {
+    "id": "q_ch6_024",
+    "chapterId": "ch6",
+    "category": "Data processing",
+    "difficulty": "hard",
+    "format": "vi_vi",
+    "question": "Kết quả của việc áp dụng thành công phân tích tại biên và AI ở tầng xử lý dữ liệu là gì?",
+    "options": [
+      "Biến thông tin chất lượng từ dữ liệu thô thành các hành động hiệu quả và kết quả tối ưu hơn",
+      "Loại bỏ hoàn toàn tầng cảm nhận khỏi kiến trúc IoT",
+      "Bắt buộc mọi thiết bị phải dùng mạng 3G công cộng",
+      "Tăng lượng dữ liệu rác chưa lọc"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trang 9: nâng cao chất lượng thông tin từ dữ liệu thô thành hành động hiệu quả, hướng tới kết quả tối ưu hơn (more optimised outcomes).",
+    "readingReference": "CN159E-6 Reading (Page 9)."
+  },
+  {
+    "id": "q_ch6_025",
+    "chapterId": "ch6",
+    "category": "User interface",
+    "difficulty": "easy",
+    "format": "vi_vi",
+    "question": "Tóm lại, các ứng dụng ở tầng giao diện người dùng (UI/Application layer) đảm bảo điều gì?",
+    "options": [
+      "Người dùng có trải nghiệm mượt mà khi sử dụng hệ thống IoT để nhận được giá trị tối đa",
+      "Cảm biến không cần kết nối mạng vẫn gửi được dữ liệu",
+      "Vi điều khiển chạy được hệ điều hành Windows",
+      "Hệ thống thủy lực hoạt động không cần chất lỏng"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trang 10: '...ensure that people have smooth experiences when utilising their IoT systems so they can get maximum value out of them.'",
+    "readingReference": "CN159E-6 Reading (Page 10)."
+  },
+  {
+    "id": "q_ch6_026",
+    "chapterId": "ch6",
+    "category": "IoT concepts",
+    "difficulty": "medium",
+    "format": "en_vi",
+    "question": "What does 'individually addressable' mean for an IoT device?",
+    "options": [
+      "Có thể được định địa chỉ riêng biệt trong mạng",
+      "Phải kết nối trực tiếp bằng dây cáp đồng",
+      "Chỉ hoạt động độc lập không kết nối mạng",
+      "Không cần phần mềm điều khiển"
+    ],
+    "correctIndex": 0,
+    "explanation": "Individually addressable nghĩa là có thể định địa chỉ riêng biệt để nhận diện và trao đổi dữ liệu trong mạng.",
+    "readingReference": "CN159E-6 Reading (Page 5): '...they only need to be connected to a network, and be individually addressable.'"
+  }
+]
